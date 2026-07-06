@@ -810,3 +810,39 @@ button { font-family: inherit; }
   .quiz-wide .quiz-shuffle-btn { margin-top: 12px; }
   .quiz-wide .quiz-nav-main { flex: 1; }
 }
+
+/* ---------- scroll-to-top button ---------- */
+
+.scroll-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 30;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: none;
+  background: var(--primary-grad);
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 22px -6px rgba(37, 99, 235, 0.6), var(--shadow);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(14px) scale(0.9);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease, filter 0.12s ease;
+}
+.scroll-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+.scroll-top:hover { filter: brightness(1.08); }
+.scroll-top:active { transform: scale(0.92); }
+.scroll-top svg { display: block; }
+
+@media (max-width: 470px) {
+  .scroll-top { right: 14px; bottom: 14px; width: 44px; height: 44px; }
+}

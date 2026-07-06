@@ -123,10 +123,26 @@
 
   function navigate(hash) { location.hash = hash; }
 
+  // ---------------- scroll-to-top ----------------
+  function initScrollTop() {
+    var btn = document.getElementById('scroll-top');
+    if (!btn) return;
+    function toggle() {
+      if (window.pageYOffset > 320) btn.classList.add('show');
+      else btn.classList.remove('show');
+    }
+    window.addEventListener('scroll', toggle, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    toggle();
+  }
+
   window.addEventListener('hashchange', render);
   window.addEventListener('DOMContentLoaded', function () {
     initTheme();
     updateModeButtons();
+    initScrollTop();
     render();
   });
 
