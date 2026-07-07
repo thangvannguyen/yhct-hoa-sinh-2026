@@ -1,0 +1,88 @@
+import { Navigate } from 'react-router-dom'
+import { QUESTION_INDEX, letterFor, optionLabel, titleCase } from '../lib/data.js'
+import { useApp } from '../lib/store.jsx'
+import { Button, Card, Container, SectionTitle, cx } from '../components/ui.jsx'
+import { ExplanationReveal } from '../components/Question.jsx'
+
+function scoreTone(percent) {
+  if (percent >= 80) return { color: 'var(--success)', emoji: '🎉' }
+  if (percent >= 50) return { color: 'var(--primary)', emoji: '👍' }
+  return { color: 'var(--danger)', emoji: '📚' }
+}
+
+export default function QuizResult() {
+  const { quiz, autoExplain } = useApp()
+  if (!quiz || !quiz.result) return <Navigate to="/" replace />
+
+  const r = quiz.result
+  const tone = scoreTone(r.percent)
+
+  return (
+    <Container>
+      <Card className="py-6 text-center">
+        <div className="mb-1 text-[2rem]">{tone.emoji}</div>
+        <div className="text-[3rem] font-extrabold leading-none" style={{ color: tone.color }}>
+          {r.correct}/{r.total}
+        </div>
+        <div className="mt-1.5 text-[0.95rem] text-text-muted">
+          {r.percent}% chính xác · {quiz.scope}
+        </div>
+      </Card>
+
+      <div className="my-4 flex gap-2.5">
+        <Button className="flex-1" to="/">
+          Về trang chủ
+        </Button>
+        <Button variant="primary" className="flex-1" to="/quiz-setup">
+          Làm bài mới
+        </Button>
+      </div>
+
+      <SectionTitle>Chi tiết</SectionTitle>
+      <div className="flex flex-col gap-3">
+        {quiz.items.map((item, i) => {
+          const { question: q, chapterTitle } = QUESTION_INDEX[item.qid]
+          const isCorrect = item.picked !== null && item.picked === item.correctDisplayIndex
+          return (
+            <Card key={item.qid} className="p-4">
+              <div className="mb-1 flex items-center justify-between gap-2">
+                <span className="text-[0.72rem] font-bold uppercase text-primary">
+                  {titleCase(chapterTitle)}
+                </span>
+                <span
+                  className={cx(
+                    'rounded-full px-2.5 py-0.5 text-[0.72rem] font-bold',
+                    item.picked === null
+                      ? 'bg-warning-soft text-warning'
+                      : isCorrect
+                        ? 'bg-success-soft text-success'
+                        : 'bg-danger-soft text-danger'
+                  )}
+                >
+                  {item.picked === null ? 'Chưa trả lời' : isCorrect ? '✔ Đúng' : '✘ Sai'}
+                </span>
+              </div>
+              <div className="mb-2.5 font-semibold leading-relaxed">
+                {i + 1}. {q.text}
+              </div>
+              <div className="flex flex-col gap-1.5 text-[0.9rem]">
+                {item.picked !== null && (
+                  <div className={isCorrect ? 'text-success' : 'text-danger'}>
+                    Bạn chọn: {letterFor(item.picked)}. {optionLabel(item.displayOptions[item.picked])}
+                  </div>
+                )}
+                {!isCorrect && (
+                  <div className="text-success">
+                    Đáp án đúng: {letterFor(item.correctDisplayIndex)}.{' '}
+                    {optionLabel(item.displayOptions[item.correctDisplayIndex])}
+                  </div>
+                )}
+              </div>
+              <ExplanationReveal question={q} autoShow={autoExplain} />
+            </Card>
+          )
+        })}
+      </div>
+    </Container>
+  )
+}

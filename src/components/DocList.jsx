@@ -1,0 +1,153 @@
+import { useMemo, useRef, useState } from 'react'
+import { QUESTION_INDEX, isGraded, titleCase } from '../lib/data.js'
+import { recordAnswer } from '../lib/storage.js'
+import { useApp } from '../lib/store.jsx'
+import { BackLink, Container } from './ui.jsx'
+import QuizNav from './QuizNav.jsx'
+import {
+  DocOption,
+  ExplanationReveal,
+  NoteBox,
+  QuestionImage,
+  UNVERIFIED_NOTE,
+} from './Question.jsx'
+
+/**
+ * Paper-style list of every question in `ids` (the "full" display mode).
+ * Answers are graded inline; a sticky navigator jumps between questions.
+ */
+export default function DocList({
+  ids,
+  backTo,
+  pageTitle,
+  pageIcon,
+  showChapterLabels,
+  tabs,
+  onShuffle,
+}) {
+  const { autoExplain } = useApp()
+  const [answers, setAnswers] = useState({}) // qid -> picked index
+  const blockRefs = useRef({})
+
+  const stats = useMemo(() => {
+    let correct = 0
+    let wrong = 0
+    Object.entries(answers).forEach(([qid, picked]) => {
+      if (picked === QUESTION_INDEX[qid].question.correctIndex) correct++
+      else wrong++
+    })
+    return { correct, wrong }
+  }, [answers])
+
+  function choose(qid, i) {
+    if (answers[qid] !== undefined) return
+    const isCorrect = i === QUESTION_INDEX[qid].question.correctIndex
+    recordAnswer(qid, isCorrect)
+    setAnswers((a) => ({ ...a, [qid]: i }))
+  }
+
+  function jumpTo(i) {
+    const el = blockRefs.current[i]
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
+  const navItems = ids.map((qid) => {
+    const picked = answers[qid]
+    if (picked === undefined) return { state: 'idle' }
+    return {
+      state: picked === QUESTION_INDEX[qid].question.correctIndex ? 'correct' : 'incorrect',
+    }
+  })
+
+  const navFooter = onShuffle ? (
+    <>
+      <button
+        type="button"
+        onClick={onShuffle}
+        className="mt-1 flex w-full items-center justify-center gap-1.5 rounded-[9px] border-[1.5px] border-primary bg-primary-soft px-3 py-2.5 text-[0.85rem] font-bold text-primary-dark transition-colors hover:bg-primary hover:text-white min-[720px]:mt-3 cursor-pointer"
+      >
+        🔀 Trộn câu hỏi
+      </button>
+      <div className="flex justify-center gap-3 text-[0.72rem] text-text-muted">
+        <span className="text-success">✔ Đúng {stats.correct}</span>
+        <span className="text-danger">✘ Sai {stats.wrong}</span>
+      </div>
+    </>
+  ) : null
+
+  return (
+    <Container wide>
+      <BackLink to={backTo} />
+      {tabs}
+
+      <div className="flex flex-col gap-4 min-[720px]:flex-row min-[720px]:items-start min-[720px]:gap-[22px]">
+        <QuizNav items={navItems} onJump={jumpTo} footer={navFooter} />
+
+        <div className="min-w-0 flex-1">
+          <div className="rounded-card border border-border bg-surface p-7 shadow-soft font-serif max-[470px]:px-5 max-[470px]:py-6">
+            {pageTitle && (
+              <div className="mb-[22px] text-center text-[1.08rem] font-bold uppercase tracking-[0.02em]">
+                {pageIcon ? `${pageIcon} ` : ''}
+                {pageTitle}
+              </div>
+            )}
+
+            {ids.map((qid, i) => {
+              const { question: q, chapterTitle } = QUESTION_INDEX[qid]
+              const graded = isGraded(q)
+              const picked = answers[qid]
+              const answered = picked !== undefined
+              const last = i === ids.length - 1
+              return (
+                <div
+                  key={qid}
+                  ref={(el) => (blockRefs.current[i] = el)}
+                  className={`scroll-mt-[84px] ${last ? '' : 'mb-[22px] border-b border-dashed border-border pb-5'}`}
+                >
+                  {showChapterLabels && (
+                    <div className="mb-1.5 font-sans text-[0.72rem] font-bold uppercase text-primary">
+                      {titleCase(chapterTitle)}
+                    </div>
+                  )}
+                  <div className="mb-2.5 text-[1.04rem] font-bold leading-relaxed">
+                    Câu {i + 1}: {q.text}
+                  </div>
+                  <QuestionImage image={q.image} />
+                  <div className="flex flex-col gap-[7px]">
+                    {q.options.map((opt, oi) => {
+                      let state = 'idle'
+                      if (answered) {
+                        if (oi === q.correctIndex) state = 'correct'
+                        else if (oi === picked) state = 'incorrect'
+                      }
+                      return (
+                        <DocOption
+                          key={oi}
+                          index={oi}
+                          option={opt}
+                          state={state}
+                          disabled={answered || !graded}
+                          onClick={() => choose(qid, oi)}
+                        />
+                      )
+                    })}
+                  </div>
+                  {!graded && (
+                    <div className="font-sans">
+                      <NoteBox>{UNVERIFIED_NOTE}</NoteBox>
+                    </div>
+                  )}
+                  {(answered || !graded) && (
+                    <div className="font-sans">
+                      <ExplanationReveal question={q} autoShow={autoExplain} />
+                    </div>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </div>
+    </Container>
+  )
+}
