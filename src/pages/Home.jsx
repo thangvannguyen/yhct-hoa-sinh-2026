@@ -103,6 +103,12 @@ export default function Home() {
               : 'Chưa có câu nào sai — cứ học rồi quay lại đây'
           }
         />
+        <ModeCard
+          to="/pdf"
+          emoji="📕"
+          title="Đọc giáo trình"
+          desc="Xem trực tiếp file giáo trình Hóa Sinh (PDF) ngay trong web"
+        />
       </div>
 
       {lastQuiz && (

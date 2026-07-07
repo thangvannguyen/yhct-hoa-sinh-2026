@@ -6,6 +6,7 @@ import ReviewWrong from './pages/ReviewWrong.jsx'
 import QuizSetup from './pages/QuizSetup.jsx'
 import QuizPlay from './pages/QuizPlay.jsx'
 import QuizResult from './pages/QuizResult.jsx'
+import Pdf from './pages/Pdf.jsx'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="quiz-setup" element={<QuizSetup />} />
         <Route path="quiz" element={<QuizPlay />} />
         <Route path="quiz-result" element={<QuizResult />} />
+        <Route path="pdf" element={<Pdf />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
