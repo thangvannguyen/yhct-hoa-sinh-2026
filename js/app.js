@@ -9,6 +9,10 @@
   CHAPTERS.forEach(function (ch) {
     CHAPTER_QUESTIONS[ch.id] = [];
     ch.questions.forEach(function (q) {
+      // Data stores the answer as the exact option text in "correct"; derive
+      // the numeric index the rest of this file works with.
+      var idx = (q.correct === null || q.correct === undefined) ? null : q.options.indexOf(q.correct);
+      q.correctIndex = (idx === null || idx === -1) ? null : idx;
       QUESTION_INDEX[q.id] = { question: q, chapterId: ch.id, chapterTitle: ch.title };
       CHAPTER_QUESTIONS[ch.id].push(q.id);
       ALL_IDS.push(q.id);
@@ -28,7 +32,8 @@
     'hormon': '💊',
     'can-bang-chuyen-hoa-muoi-nuoc': '💧',
     'can-bang-acid-base': '⚖️',
-    'hemoglobin': '🩸'
+    'hemoglobin': '🩸',
+    'vitamin-khoang-chat': '🍊'
   };
   function chapterIcon(id) { return CHAPTER_ICONS[id] || '📘'; }
 
@@ -81,6 +86,12 @@
   }
 
   function letterFor(i) { return String.fromCharCode(65 + i); }
+
+  // Data stores options with their original "A. ", "B. " ... prefix baked in
+  // (so the answer key can reference full option text unambiguously). The UI
+  // generates its own letter label based on display position (which may
+  // differ after shuffling), so strip the source prefix before rendering.
+  function optionLabel(opt) { return String(opt).replace(/^[A-Za-z]\.\s*/, ''); }
 
   // ---------------- theme ----------------
   function initTheme() {
@@ -342,7 +353,7 @@
       html += '<div class="doc-options">';
       q.options.forEach(function (opt, oi) {
         html += '<button class="doc-option" data-oi="' + oi + '" ' + (ungraded ? 'disabled' : '') + '>' +
-          '<span class="letter">' + letterFor(oi) + '.</span><span>' + escapeHtml(opt) + '</span></button>';
+          '<span class="letter">' + letterFor(oi) + '.</span><span>' + escapeHtml(optionLabel(opt)) + '</span></button>';
       });
       html += '</div>';
       if (ungraded) html += '<div class="doc-note">⚠️ Đáp án của câu này chưa được xác nhận trong tài liệu gốc — xem <code>data/review_needed.md</code>.</div>';
@@ -425,7 +436,7 @@
     html += '<div class="options" id="options-zone">';
     q.options.forEach(function (opt, i) {
       html += '<button class="option" data-i="' + i + '" ' + (q.correctIndex === null || q.correctIndex === undefined ? 'disabled' : '') + '>' +
-        '<span class="letter">' + letterFor(i) + '</span><span>' + escapeHtml(opt) + '</span></button>';
+        '<span class="letter">' + letterFor(i) + '</span><span>' + escapeHtml(optionLabel(opt)) + '</span></button>';
     });
     html += '</div>';
     html += '</div>';
@@ -594,7 +605,7 @@
     html += '<div class="options" id="options-zone">';
     item.displayOptions.forEach(function (opt, oi) {
       var sel = item.picked === oi ? 'selected' : '';
-      html += '<button class="option ' + sel + '" data-i="' + oi + '"><span class="letter">' + letterFor(oi) + '</span><span>' + escapeHtml(opt) + '</span></button>';
+      html += '<button class="option ' + sel + '" data-i="' + oi + '"><span class="letter">' + letterFor(oi) + '</span><span>' + escapeHtml(optionLabel(opt)) + '</span></button>';
     });
     html += '</div></div>';
 
@@ -665,7 +676,7 @@
       html += '<div class="doc-options">';
       item.displayOptions.forEach(function (opt, oi) {
         var sel = item.picked === oi ? 'selected' : '';
-        html += '<button class="doc-option ' + sel + '" data-oi="' + oi + '"><span class="letter">' + letterFor(oi) + '.</span><span>' + escapeHtml(opt) + '</span></button>';
+        html += '<button class="doc-option ' + sel + '" data-oi="' + oi + '"><span class="letter">' + letterFor(oi) + '.</span><span>' + escapeHtml(optionLabel(opt)) + '</span></button>';
       });
       html += '</div></div>';
     });
@@ -759,7 +770,7 @@
         html += '<div class="doc-options">';
         item.displayOptions.forEach(function (opt, oi) {
           var cls = oi === item.correctDisplayIndex ? 'correct' : (oi === item.picked ? 'incorrect' : '');
-          html += '<button class="doc-option ' + cls + '" disabled><span class="letter">' + letterFor(oi) + '.</span><span>' + escapeHtml(opt) + '</span></button>';
+          html += '<button class="doc-option ' + cls + '" disabled><span class="letter">' + letterFor(oi) + '.</span><span>' + escapeHtml(optionLabel(opt)) + '</span></button>';
         });
         html += '</div>';
         if (item.picked === null) html += '<div class="doc-note">Bạn chưa trả lời câu này.</div>';
@@ -768,9 +779,9 @@
         html += '<div class="review-item">' +
           '<div class="q">' + (i + 1) + '. ' + escapeHtml(q.text) + '</div>' +
           (item.picked !== null
-            ? '<div class="a ' + (isCorrect ? 'right' : 'wrong') + '">Bạn chọn: ' + letterFor(item.picked) + '. ' + escapeHtml(item.displayOptions[item.picked]) + '</div>'
+            ? '<div class="a ' + (isCorrect ? 'right' : 'wrong') + '">Bạn chọn: ' + letterFor(item.picked) + '. ' + escapeHtml(optionLabel(item.displayOptions[item.picked])) + '</div>'
             : '<div class="a wrong">Bạn chưa trả lời</div>') +
-          (!isCorrect ? '<div class="a right">Đáp án đúng: ' + letterFor(item.correctDisplayIndex) + '. ' + escapeHtml(item.displayOptions[item.correctDisplayIndex]) + '</div>' : '') +
+          (!isCorrect ? '<div class="a right">Đáp án đúng: ' + letterFor(item.correctDisplayIndex) + '. ' + escapeHtml(optionLabel(item.displayOptions[item.correctDisplayIndex])) + '</div>' : '') +
           '</div>';
       }
     });

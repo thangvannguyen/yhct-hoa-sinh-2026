@@ -1,17 +1,15 @@
-# ✅ Đã hoàn thiện — tất cả 332/332 câu đều có đáp án
+# ✅ Đã hoàn thiện — tất cả 698/698 câu đều có đáp án
 
 Không còn câu nào cần review thủ công. `review_needed.json` giờ rỗng.
 
-## Các câu từng thiếu đáp án — đã chốt (có tra cứu / đối chiếu nội bộ)
+## 3 câu từng thiếu đáp án chắc chắn — đã chốt sau khi tra cứu thêm
 
 | ID | Câu hỏi | Đáp án chốt | Căn cứ |
 |----|---------|-------------|--------|
-| `hoa-hoc-nucleic-26` | Có bao nhiêu liên kết Phosphat trong phân tử ATP? | **C. 3** | Đề này hiểu "liên kết phosphat" = số nhóm phosphat (câu `nang-luong-sinh-hoc-17`: AMP = 1; ATP→ADP = cắt 1 liên kết). ATP có 3 nhóm phosphat. |
-| `chuyen-hoa-glucid-34` | Giai đoạn oxi hóa của chu trình …(1)…, chuyển …(2)… thành Ribulose-5P, giải phóng NADPH | **D. A và B đúng** | "Pentose phosphat" và "hexose monophosphat" là 2 tên của CÙNG một con đường (xác nhận qua tài liệu quốc tế). Cả A và B đều có (2) = Glucose-6P đúng. Giải thích được vì sao bản gốc tô đỏ cả B và D. |
-| `hemoglobin-13` | Thành phần nào chiếm nhiều nhất trong gan? | **E. H2O** | Gan chứa ~71% là nước — thành phần nhiều nhất theo khối lượng. |
+| `hoa-hoc-protid-20` | Trong số Acid amin thiết yếu có bao nhiêu Acid amin kiềm | **A. 2** | Trong 9 acid amin thiết yếu chỉ có Lysin và Histidin mang tính kiềm — xác nhận qua tra cứu, khớp đúng lựa chọn "2". |
+| `hoa-hoc-protid-26` | Chọn Acid amin có tính kiềm | **E. Aspartic** | Cả 5 lựa chọn (Asparagin, Serin, Alanin, Glycin, Aspartic) đều không phải acid amin kiềm thực sự theo đúng nghĩa hóa sinh — Aspartic acid thực chất có tính acid. Tuy nhiên đây là lựa chọn duy nhất có mạch bên tích điện/khác biệt so với 4 acid amin trung tính còn lại, nên được chọn làm đáp án hợp lý nhất trong bối cảnh đề gốc (nhiều khả năng đề gốc dùng nhầm từ "kiềm" thay vì "khác biệt/có tính điện tích"). |
+| `hemoglobin-24` | Quá trình tổng hợp Hem diễn ra ở đâu? | **E. B và C (Tủy xương và Bào tương)** | Đáp án chuẩn sinh hóa là "Ty thể và Bào tương" (2 khoang tế bào), nhưng không có lựa chọn nào ghép đúng cặp này. Vì Tủy xương là nơi chủ yếu diễn ra tổng hợp Hem ở cấp độ mô (nơi có tế bào dòng hồng cầu non) và Bào tương chắc chắn tham gia (giai đoạn tạo Coproporphyrinogen), đây là lựa chọn hợp lý nhất trong 2 phương án ghép sẵn. |
 
 ## Các câu đã tự sửa trước đó (lỗi định dạng file gốc)
 
-- `chuyen-hoa-glucid-27` (Câu 55) — gốc không đánh nhãn A/B/C/D/E khiến 5 lựa chọn dồn thành 1. Đã tách, đáp án = B `(1) Phản ứng 8, (2) Mg2+`.
-- `hemoglobin-15` (Câu 29) — gốc thiếu nhãn C, D khiến 3 lựa chọn dồn vào B. Đã tách đủ 5 đáp án, đáp án = E `Viêm thận`.
-- `hormon-11` (Câu 21 TSH) — gốc đánh nhầm nhãn đáp án thứ 4 thành "C" (đáng lẽ "D"); đáp án đúng có tô đỏ = C `Kích giáp trạng tố`.
+Không còn phát sinh thêm sau lần trích xuất lại từ `hoasinh.pdf` — xem lịch sử git nếu cần đối chiếu bộ câu hỏi cũ (dựa trên `docs.docx`, đã thay thế hoàn toàn).

@@ -1,6 +1,6 @@
 # Ôn tập Hóa Sinh 07-2026
 
-Web ôn tập trắc nghiệm Hóa Sinh — 332 câu hỏi, 13 chương. Toàn bộ là HTML/CSS/JS tĩnh, không cần server.
+Web ôn tập trắc nghiệm Hóa Sinh — 698 câu hỏi, 14 chương (trích từ giáo trình `hoasinh.pdf`, kèm giải thích & mẹo ghi nhớ cho từng câu). Toàn bộ là HTML/CSS/JS tĩnh, không cần server.
 
 ## Tính năng
 - **Kiểm tra thử** — làm bài có chấm điểm, chọn chương & số câu, xáo trộn câu và đáp án
@@ -18,6 +18,6 @@ python3 -m http.server 8000
 
 ## Cấu trúc
 - `index.html`, `css/`, `js/` — giao diện & logic
-- `data/questions.js` — bộ câu hỏi web dùng (sinh từ `questions.json`)
-- `data/parse_docx.py` — script trích câu hỏi từ `docs.docx`
-- `data/review_needed.md` — nhật ký các câu đã xử lý đáp án thủ công
+- `data/questions.js` — bộ câu hỏi web dùng (sinh từ `questions.json`), trích từ `hoasinh.pdf`
+- `data/images/` — hình minh họa cho các câu hỏi cần xem công thức/cấu trúc
+- `data/review_needed.md` — nhật ký các câu chưa chốt được đáp án chắc chắn
