@@ -7,7 +7,6 @@ import {
   ChapterTag,
   ExplanationReveal,
   NoteBox,
-  QuestionImage,
   SimpleOption,
   UNVERIFIED_NOTE,
 } from './Question.jsx'
@@ -62,7 +61,6 @@ export default function BrowsableQuestions({ ids, index, title, backTo, onIndexC
       <Card className="mb-[18px] px-[22px] py-[22px]">
         <ChapterTag>{title ? title : titleCase(chapterTitle)}</ChapterTag>
         <div className="mb-4 text-[1.05rem] font-semibold leading-relaxed">{q.text}</div>
-        <QuestionImage image={q.image} />
 
         {!graded && <NoteBox>{UNVERIFIED_NOTE}</NoteBox>}
 

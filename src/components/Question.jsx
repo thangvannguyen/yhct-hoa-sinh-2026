@@ -9,18 +9,6 @@ export function ChapterTag({ children }) {
   )
 }
 
-export function QuestionImage({ image }) {
-  const src = imageSrc(image)
-  if (!src) return null
-  return (
-    <img
-      src={src}
-      alt="hình minh họa"
-      className="max-w-full rounded-[9px] border border-border mb-[15px]"
-    />
-  )
-}
-
 export function NoteBox({ children }) {
   return (
     <div className="mb-3.5 rounded-[13px] border border-warning bg-warning-soft px-3.5 py-3 text-[0.85rem] text-warning">
@@ -110,11 +98,14 @@ export function Explanation({ question, className }) {
   const explain = question.explain && String(question.explain).trim()
   const tip = question.tip && String(question.tip).trim()
   if (!explain && !tip) return null
-  return <ExplanationBody explain={explain} tip={tip} className={className} />
+  return (
+    <ExplanationBody explain={explain} tip={tip} image={question.image} className={className} />
+  )
 }
 
-function ExplanationBody({ explain, tip, className }) {
+function ExplanationBody({ explain, tip, image, className }) {
   if (!explain && !tip) return null
+  const imgSrc = imageSrc(image)
   return (
     <div className={cx('animate-fade-up mt-3.5 flex flex-col gap-2.5', className)}>
       {explain && (
@@ -122,9 +113,18 @@ function ExplanationBody({ explain, tip, className }) {
           <div className="mb-1.5 flex items-center gap-1.5 text-[0.78rem] font-bold uppercase tracking-[0.03em] text-primary">
             <span>💡</span> Giải thích
           </div>
-          <p className="m-0 whitespace-pre-line text-[0.9rem] leading-relaxed text-text">
-            {explain}
-          </p>
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-start">
+            <p className="m-0 flex-1 whitespace-pre-line text-[0.9rem] leading-relaxed text-text">
+              {explain}
+            </p>
+            {imgSrc && (
+              <img
+                src={imgSrc}
+                alt="hình minh họa giải thích"
+                className="max-w-full rounded-[9px] sm:w-[220px] sm:flex-shrink-0 max-h-[50dvh]"
+              />
+            )}
+          </div>
         </div>
       )}
       {tip && (

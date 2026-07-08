@@ -2,7 +2,7 @@ import { Navigate } from 'react-router-dom'
 import { QUESTION_INDEX, letterFor, optionLabel, titleCase } from '../lib/data.js'
 import { useApp } from '../lib/store.jsx'
 import { Button, Card, Container, SectionTitle, cx } from '../components/ui.jsx'
-import { ExplanationReveal } from '../components/Question.jsx'
+import { DocOption, ExplanationReveal } from '../components/Question.jsx'
 
 function scoreTone(percent) {
   if (percent >= 80) return { color: 'var(--success)', emoji: '🎉' }
@@ -11,7 +11,7 @@ function scoreTone(percent) {
 }
 
 export default function QuizResult() {
-  const { quiz, autoExplain } = useApp()
+  const { quiz, autoExplain, mode } = useApp()
   if (!quiz || !quiz.result) return <Navigate to="/" replace />
 
   const r = quiz.result
@@ -65,19 +65,30 @@ export default function QuizResult() {
               <div className="mb-2.5 font-semibold leading-relaxed">
                 {i + 1}. {q.text}
               </div>
-              <div className="flex flex-col gap-1.5 text-[0.9rem]">
-                {item.picked !== null && (
-                  <div className={isCorrect ? 'text-success' : 'text-danger'}>
-                    Bạn chọn: {letterFor(item.picked)}. {optionLabel(item.displayOptions[item.picked])}
-                  </div>
-                )}
-                {!isCorrect && (
-                  <div className="text-success">
-                    Đáp án đúng: {letterFor(item.correctDisplayIndex)}.{' '}
-                    {optionLabel(item.displayOptions[item.correctDisplayIndex])}
-                  </div>
-                )}
-              </div>
+              {mode === 'full' ? (
+                <div className="flex flex-col gap-1">
+                  {item.displayOptions.map((opt, oi) => {
+                    let state = 'idle'
+                    if (oi === item.correctDisplayIndex) state = 'correct'
+                    else if (oi === item.picked) state = 'incorrect'
+                    return <DocOption key={oi} index={oi} option={opt} state={state} disabled />
+                  })}
+                </div>
+              ) : (
+                <div className="flex flex-col gap-1.5 text-[0.9rem]">
+                  {item.picked !== null && (
+                    <div className={isCorrect ? 'text-success' : 'text-danger'}>
+                      Bạn chọn: {letterFor(item.picked)}. {optionLabel(item.displayOptions[item.picked])}
+                    </div>
+                  )}
+                  {!isCorrect && (
+                    <div className="text-success">
+                      Đáp án đúng: {letterFor(item.correctDisplayIndex)}.{' '}
+                      {optionLabel(item.displayOptions[item.correctDisplayIndex])}
+                    </div>
+                  )}
+                </div>
+              )}
               <ExplanationReveal question={q} autoShow={autoExplain} />
             </Card>
           )

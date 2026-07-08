@@ -4,13 +4,7 @@ import { recordAnswer } from '../lib/storage.js'
 import { useApp } from '../lib/store.jsx'
 import { BackLink, Container } from './ui.jsx'
 import QuizNav from './QuizNav.jsx'
-import {
-  DocOption,
-  ExplanationReveal,
-  NoteBox,
-  QuestionImage,
-  UNVERIFIED_NOTE,
-} from './Question.jsx'
+import { DocOption, ExplanationReveal, NoteBox, UNVERIFIED_NOTE } from './Question.jsx'
 
 /**
  * Paper-style list of every question in `ids` (the "full" display mode).
@@ -112,7 +106,6 @@ export default function DocList({
                   <div className="mb-2.5 text-[1.04rem] font-bold leading-relaxed">
                     Câu {i + 1}: {q.text}
                   </div>
-                  <QuestionImage image={q.image} />
                   <div className="flex flex-col gap-[7px]">
                     {q.options.map((opt, oi) => {
                       let state = 'idle'

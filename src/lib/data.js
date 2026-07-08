@@ -96,8 +96,10 @@ export function shuffle(arr) {
   return a
 }
 
-// Question images are stored as "images/xx.png"; assets are served from public/.
+// Question images are either "images/xx.png" (served from public/) or a full
+// external URL (kept as-is).
 export function imageSrc(image) {
   if (!image) return null
+  if (/^https?:\/\//i.test(image)) return image
   return import.meta.env.BASE_URL + image.replace(/^\.?\/?/, '')
 }
