@@ -1,8 +1,8 @@
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { QUESTION_INDEX, isGraded, titleCase } from '../lib/data.js'
 import { recordAnswer } from '../lib/storage.js'
 import { useApp } from '../lib/store.jsx'
-import { BackLink, Container } from './ui.jsx'
+import { BackLink, Container, cx } from './ui.jsx'
 import QuizNav from './QuizNav.jsx'
 import { DocOption, ExplanationReveal, NoteBox, UNVERIFIED_NOTE } from './Question.jsx'
 
@@ -18,10 +18,25 @@ export default function DocList({
   showChapterLabels,
   tabs,
   onShuffle,
+  scrollToId,
 }) {
   const { autoExplain } = useApp()
   const [answers, setAnswers] = useState({}) // qid -> picked index
+  const [highlightId, setHighlightId] = useState(null)
   const blockRefs = useRef({})
+
+  // Jump to (and briefly highlight) a specific question, e.g. arriving from search.
+  useEffect(() => {
+    if (!scrollToId) return
+    const i = ids.indexOf(scrollToId)
+    if (i === -1) return
+    const el = blockRefs.current[i]
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    setHighlightId(scrollToId)
+    const t = setTimeout(() => setHighlightId(null), 2200)
+    return () => clearTimeout(t)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [scrollToId])
 
   const stats = useMemo(() => {
     let correct = 0
@@ -43,6 +58,18 @@ export default function DocList({
   function jumpTo(i) {
     const el = blockRefs.current[i]
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
+  if (ids.length === 0) {
+    return (
+      <Container wide>
+        <BackLink to={backTo} />
+        {tabs}
+        <div className="rounded-card border border-border bg-surface p-7 text-center text-text-muted shadow-soft">
+          Không tìm thấy câu hỏi nào khớp với từ khóa.
+        </div>
+      </Container>
+    )
   }
 
   const navItems = ids.map((qid) => {
@@ -96,7 +123,11 @@ export default function DocList({
                 <div
                   key={qid}
                   ref={(el) => (blockRefs.current[i] = el)}
-                  className={`scroll-mt-[84px] ${last ? '' : 'mb-[22px] border-b border-dashed border-border pb-5'}`}
+                  className={cx(
+                    'scroll-mt-[84px] rounded-[9px] transition-[background-color,box-shadow] duration-500',
+                    last ? '' : 'mb-[22px] border-b border-dashed border-border pb-5',
+                    highlightId === qid && 'bg-primary-soft ring-2 ring-inset ring-primary'
+                  )}
                 >
                   {showChapterLabels && (
                     <div className="mb-1.5 font-sans text-[0.72rem] font-bold uppercase text-primary">

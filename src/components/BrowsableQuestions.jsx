@@ -15,12 +15,15 @@ import {
  * One-question-at-a-time study/review view (the "simple" display mode).
  * Answers are graded immediately and the explanation/tip is revealed.
  */
-export default function BrowsableQuestions({ ids, index, title, backTo, onIndexChange }) {
+export default function BrowsableQuestions({ ids, index, title, backTo, onIndexChange, topSlot }) {
   const { autoExplain } = useApp()
-  const clamped = Math.min(Math.max(index, 0), ids.length - 1)
-  const qid = ids[clamped]
-  const { question: q, chapterTitle } = QUESTION_INDEX[qid]
-  const graded = isGraded(q)
+  const empty = ids.length === 0
+  const clamped = empty ? 0 : Math.min(Math.max(index, 0), ids.length - 1)
+  const qid = empty ? null : ids[clamped]
+  const entry = qid ? QUESTION_INDEX[qid] : null
+  const q = entry?.question
+  const chapterTitle = entry?.chapterTitle
+  const graded = q ? isGraded(q) : false
 
   const [picked, setPicked] = useState(null)
 
@@ -28,6 +31,18 @@ export default function BrowsableQuestions({ ids, index, title, backTo, onIndexC
   useEffect(() => {
     setPicked(null)
   }, [qid])
+
+  if (empty) {
+    return (
+      <Container>
+        <BackLink to={backTo} />
+        {topSlot}
+        <Card className="px-[22px] py-[30px] text-center text-text-muted">
+          Không tìm thấy câu hỏi nào khớp với từ khóa.
+        </Card>
+      </Container>
+    )
+  }
 
   const answered = picked !== null
   const revealExplanation = answered || !graded
@@ -50,6 +65,7 @@ export default function BrowsableQuestions({ ids, index, title, backTo, onIndexC
   return (
     <Container>
       <BackLink to={backTo} />
+      {topSlot}
 
       <div className="mb-4 flex items-center gap-3">
         <ProgressBar percent={Math.round(((clamped + 1) / ids.length) * 100)} className="flex-1" />
