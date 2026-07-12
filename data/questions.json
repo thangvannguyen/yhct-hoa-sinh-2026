@@ -6,10 +6,10 @@
       "questions": [
         {
           "id": "hoa-hoc-glucid-1",
-          "text": "Các Monosarccharid có bao nhiêu nguyên tử C trong phân tử?",
-          "image": null,
-          "explain": "Vì sao ≥3C: Monosaccharide cần 1 nhóm carbonyl (CHO/C=O) + nhiều nhóm OH, tối thiểu 3C mới đủ để sắp xếp cấu trúc này.\nPhân tử nhỏ nhất (aldose): Glyceraldehyde (C3H6O3) – CHO-CHOH-CH2OH\nPhân tử nhỏ nhất (ketose): Dihydroxyacetone (C3H6O3)\nNếu chỉ 2C: không đủ chỗ vừa có carbonyl vừa có OH theo đúng nghĩa đường",
-          "tip": "Liên tưởng: đường cần ít nhất 3 chân (3C) mới 'đứng vững' được để tạo cấu trúc carbonyl + polyol",
+          "text": "Các Monosaccharid có bao nhiêu nguyên tử C trong phân tử?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/1%2C3-dihydroxypropan-2-one_200.svg",
+          "explain": "Monosaccharid nhỏ nhất là triose (3C): glyceraldehyd (aldose) và dihydroxyaceton (ceton). Cần tối thiểu 3C để vừa mang nhóm carbonyl vừa mang các nhóm –OH, và có thể nhiều hơn (pentose 5C, hexose 6C...). Vì vậy số C ≥ 3.",
+          "tip": "Đường cần ít nhất 3 'chân' (3C) mới đứng vững; nhưng có thể dài hơn → ≥ 3.",
           "options": [
             "A. 3",
             "B. ≥ 3",
@@ -21,25 +21,10 @@
         },
         {
           "id": "hoa-hoc-glucid-2",
-          "text": "Nhận định nào sau đây là đúng về quy ước Fischer?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/DL-Glycerinaldehyd.svg",
-          "explain": "Theo quy ước Fischer, dãy D/L được xác định dựa vào vị trí nhóm OH tại carbon bất đối XA nhóm carbonyl nhất: dãy D có OH bên phải, dãy L có OH bên trái. Phương án C, D sai vì dùng \"gần\" thay vì \"xa\"; phương án B đảo ngược vị trí của D và L.",
-          "tip": "D = phải (như chữ D có nét cong bên phải), xét ở carbon xa carbonyl nhất",
-          "options": [
-            "A. Các MS thuộc dãy D có nhóm OH ở bên phải và thuộc dãy L có nhóm OH ở bên trái C bất đối xa nhóm carbonyl nhất.",
-            "B. Các MS thuộc dãy D có nhóm OH ở bên trái và thuộc dãy L có nhóm OH ở bên phải C bất đối xa nhóm carbonyl nhất.",
-            "C. Các MS thuộc dãy D có nhóm OH ở bên phải và thuộc dãy L có nhóm OH ở bên trái C bất đối gần nhóm carbonyl nhất",
-            "D. Các MS thuộc dãy D có nhóm OH ở bên trái và thuộc dãy L có nhóm OH ở bên phải C bất đối gần nhóm carbonyl nhất"
-          ],
-          "correct": "A. Các MS thuộc dãy D có nhóm OH ở bên phải và thuộc dãy L có nhóm OH ở bên trái C bất đối xa nhóm carbonyl nhất.",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-3",
           "text": "Khi nào một Monosaccharid được xem là một Cetose?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/D-Glucose_vs._D-Fructose_Structural_Formulae_V.1.svg",
-          "explain": "Cetose (ketose) là monosaccharide có nhóm chức ceton (>C=O) nằm giữa mạch carbon, khác với aldose có nhóm aldehyd (-CHO) ở đầu mạch. Các đáp án A, C, D nhầm lẫn tên nhóm chức với công thức tương ứng.",
-          "tip": "Cetose - Ceton - C=O (ba từ cùng gợi nhóm chức ceton)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/D-Fructose.svg",
+          "explain": "Cetose (ketose) là monosaccharid mang nhóm chức ceton (>C=O) nằm giữa mạch. Các đáp án khác ghép sai tên nhóm chức với công thức: aldehyd luôn là –CHO, ceton luôn là –C=O.",
+          "tip": "Cetose – Ceton – C=O (ba từ cùng gợi nhóm C=O ở giữa mạch).",
           "options": [
             "A. Nếu trong phân tử có nhóm aldehyd –CHO",
             "B. Nếu trong phân tử có nhóm ceton –C=O",
@@ -50,11 +35,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-4",
+          "id": "hoa-hoc-glucid-3",
           "text": "Khi nào một Monosaccharid được xem là một aldose?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/D-Glucose_vs._D-Fructose_Structural_Formulae_V.1.svg",
-          "explain": "Aldose là monosaccharide có nhóm chức aldehyd (-CHO) ở carbon đầu mạch (C1). Nhóm ceton (>C=O) là đặc trưng của cetose, không phải aldose.",
-          "tip": "Aldose - Aldehyd - CHO (cùng vần A)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/D-glucose_chain_%28Fischer%29.svg",
+          "explain": "Aldose là monosaccharid mang nhóm chức aldehyd (–CHO) ở carbon đầu mạch (C1). Nhóm ceton (–C=O) là của cetose. Aldehyd đi với –CHO, ceton đi với –C=O.",
+          "tip": "Aldose – Aldehyd – CHO (cùng vần A, ở đầu mạch).",
           "options": [
             "A. Nếu trong phân tử có nhóm aldehyd –CHO",
             "B. Nếu trong phân tử có nhóm ceton –C=O",
@@ -65,57 +50,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-5",
-          "text": "Khi nào thì một Monosaccharid thuộc dãy L?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/DL-Glycerinaldehyd.svg",
-          "explain": "Theo quy ước Fischer, MS thuộc dãy L khi nhóm OH tại carbon bất đối XA nhóm CARBONYL nhất nằm ở bên TRÁI. Các phương án C, D, E dùng sai từ \"carboxyl\" thay vì \"carbonyl\" hoặc sai vị trí carbon tham chiếu.",
-          "tip": "L = trái (Left), xét ở carbon xa carbonyl nhất",
-          "options": [
-            "A. Khi có nhóm OH ở bên phải C bất đối xa nhóm carbonyl nhất.",
-            "B. Khi có nhóm OH ở bên trái C bất đối xa nhóm carbonyl nhất.",
-            "C. Khi có nhóm OH ở bên phải C bất đối gần nhóm carboxyl nhất.",
-            "D. Khi có nhóm OH ở bên trái C bất đối gần nhóm carboxyl nhất.",
-            "E. Khi có nhóm OH ở bên trái C bất đối xa nhóm carboxyl nhất."
-          ],
-          "correct": "B. Khi có nhóm OH ở bên trái C bất đối xa nhóm carbonyl nhất.",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-6",
-          "text": "Nhận định nào sau đây là đúng về cấu tạo vòng của Monosaccharid?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Isomeric_forms_of_fructose.svg",
-          "explain": "Aldose (nhóm -CHO) phản ứng NỘI phân tử với -OH tạo vòng 6 cạnh (pyranose); cetose (nhóm -CO) phản ứng nội phân tử với -OH tạo vòng 5 cạnh (furanose); cả hai đều tạo 2 đồng phân α,β (do xuất hiện carbon bán acetal mới). Vậy cả A và B đều đúng; C sai vì đây là phản ứng NỘI phân tử chứ không phải ngoại phân tử.",
-          "tip": "Aldose→vòng 6 cạnh (pyranose), Cetose→vòng 5 cạnh (furanose), luôn là phản ứng NỘI phân tử tạo α,β",
-          "options": [
-            "A. Do phản ứng giữa nhóm -OH và –CHO trong nội phân tử tạo thành vòng 6 cạnh, tạo thành dạng đồng phân α,β",
-            "B. Do phản ứng giữa nhóm -OH và -CO trong nội phân tử tạo thành vòng 5 cạnh, tạo thành dạng đồng phân α,β",
-            "C. Do phản ứng giữa nhóm -OH và –CHO hoặc -CO trong ngoại phân tử tạo thành vòng 6 cạnh hoặc vòng 5 cạnh, tạo thành dạng đồng phân α,β",
-            "D. A và B đúng"
-          ],
-          "correct": "D. A và B đúng",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-7",
-          "text": "Nguyên tắc phản ứng tạo furfural của Monosaccharid là gì?",
-          "image": null,
-          "explain": "Dưới tác dụng của acid đặc và nhiệt độ, monosaccharide (đặc biệt pentose) bị dehydrat hóa tạo furfural (hoặc hydroxymethyl-furfural); furfural kết hợp với phenol (như α-naphthol, thymol...) cho phản ứng màu đặc trưng - đây là cơ sở của phản ứng Molisch định tính glucid. Không phải base, và không phải alcol.",
-          "tip": "Acid đặc + nhiệt → furfural; furfural + Phenol → màu (phản ứng Molisch)",
-          "options": [
-            "A. Dưới tác dụng của base đặc, nhiệt độ, MS → furfural, furfural + phenol → màu đặc biệt",
-            "B. Dưới tác dụng của base đặc, nhiệt độ, MS → furfural, furfural + alcol → màu đặc biệt",
-            "C. Dưới tác dụng của acid đặc, nhiệt độ, MS → furfural, furfural + phenol → màu đặc biệt",
-            "D. Dưới tác dụng của acid đặc, nhiệt độ, MS → furfural, furfural + alcol → màu đặc biệt"
-          ],
-          "correct": "C. Dưới tác dụng của acid đặc, nhiệt độ, MS → furfural, furfural + phenol → màu đặc biệt",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-8",
+          "id": "hoa-hoc-glucid-4",
           "text": "Sản phẩm khi thủy phân 1 phân tử Lactose là gì?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Lactose_Haworth.svg",
-          "explain": "Lactose (đường sữa) là disaccharide gồm Galactose và Glucose liên kết β-1,4-glycosid; thủy phân cho 1 phân tử Glucose và 1 phân tử Galactose.",
-          "tip": "LactOSE = Galactose + Glucose (đường sữa có Galactose)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Beta-D-Lactose.svg",
+          "explain": "Lactose (đường sữa) là disaccharid = Glucose + Galactose (liên kết β-1,4). Thủy phân cho 1 Glucose + 1 Galactose.",
+          "tip": "Lactose = 'Lac' (sữa) → Galactose (đường sữa) + Glucose.",
           "options": [
             "A. 2 phân tử Glucose",
             "B. 1 phân tử Glucose và 1 phân tử Fructose",
@@ -126,11 +65,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-9",
+          "id": "hoa-hoc-glucid-5",
           "text": "Cellulose thuộc nhóm phân loại nào của Glucid?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Cellulose_Struktur_in_Sesselform.svg",
-          "explain": "Cellulose là polysaccharide THUẦN (homopolysaccharide) vì chỉ được cấu tạo từ một loại monosaccharide duy nhất là Glucose (liên kết β-1,4-glycosid).",
-          "tip": "Cellulose, tinh bột, glycogen: toàn Glucose → polysaccharide THUẦN",
+          "explain": "Cellulose là polymer chỉ gồm các đơn vị glucose (liên kết β-1,4) → polysaccharid thuần (homopolysaccharid). Polysaccharid tạp chứa nhiều loại đơn phân/dẫn xuất khác nhau.",
+          "tip": "Cellulose chỉ có 1 loại 'gạch' Glucose → thuần.",
           "options": [
             "A. Monosaccharid",
             "B. Oligosaccharid",
@@ -141,11 +80,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-10",
+          "id": "hoa-hoc-glucid-6",
           "text": "Glucid là gì?",
-          "image": null,
-          "explain": "Glucid là hợp chất HỮU CƠ (không phải vô cơ) chứa C, H, O, cấu tạo từ một hoặc nhiều đơn vị monosaccharide. Đáp án C, D mô tả Lipid (ester của alcol và acid béo), không phải Glucid.",
-          "tip": "Glucid = hữu cơ + C,H,O + monosaccharide; đừng nhầm với Lipid (ester acid béo)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/D-glucose_chain_%28Fischer%29.svg",
+          "explain": "Glucid là hợp chất HỮU CƠ chứa C, H, O, cấu tạo từ một hoặc nhiều monosaccharid. Đáp án 'este của alcol và acid béo' là định nghĩa của Lipid.",
+          "tip": "Glucid = hữu cơ + đơn vị monosaccharid. 'Este của alcol + acid béo' = Lipid, loại ngay.",
           "options": [
             "A. Là những chất vô cơ chứa các nguyên tố C, H, O mà trong phân tử gồm một hoặc nhiều monosaccharide.",
             "B. Là những chất hữu cơ chứa các nguyên tố C, H, O mà trong phân tử gồm một hoặc nhiều monosaccharide",
@@ -156,11 +95,71 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-11",
+          "id": "hoa-hoc-glucid-7",
           "text": "Cetose thuộc nhóm phân loại nào của Glucid?",
-          "image": null,
-          "explain": "Cetose là một loại monosaccharide (phân loại theo nhóm chức gồm aldose và cetose), không phải oligosaccharide hay polysaccharide.",
-          "tip": "Aldose, Cetose luôn thuộc Monosaccharid",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/D-Fructose.svg",
+          "explain": "Cetose (đường có nhóm ceton, ví dụ fructose) là một monosaccharid – đường đơn không thể thủy phân nhỏ hơn.",
+          "tip": "Cetose/Aldose đều là cách phân loại đường ĐƠN → Monosaccharid.",
+          "options": [
+            "A. Monosaccharid",
+            "B. Oligosaccharid",
+            "C. Polysaccharid",
+            "D. Glucose-6-Phosphat"
+          ],
+          "correct": "A. Monosaccharid",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-8",
+          "text": "Đây là công thức của hợp chất gì?",
+          "image": "images/hoa-hoc-glucid-8.png",
+          "explain": "Công thức Fischer trong hình có nhóm ceton (C=O) ở C2 và 6 carbon → đây là ceto-hexose = Fructose. Glucose/Galactose là aldose (–CHO ở C1); Lactose là disaccharid.",
+          "tip": "Thấy C=O ở giữa mạch (C2) + 6C → ceto-hexose = Fructose.",
+          "options": [
+            "A. Glucose",
+            "B. Fructose",
+            "C. Lactose",
+            "D. Galactose"
+          ],
+          "correct": "B. Fructose",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-9",
+          "text": "Sản phẩm khi thủy phân 1 phân tử Sucrose là gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Saccharose2.svg",
+          "explain": "Sucrose (đường mía) = Glucose + Fructose (liên kết α-1,β-2). Thủy phân cho 1 Glucose + 1 Fructose (hỗn hợp gọi là đường nghịch chuyển).",
+          "tip": "Sucrose = đường mía = Glu + Fru (ngọt của trái cây = Fructose).",
+          "options": [
+            "A. 2 phân tử Glucose",
+            "B. 1 phân tử Glucose và 1 phân tử Fructose",
+            "C. 1 phân tử Glucose và 1 phân tử Galactose",
+            "D. 2 phân tử Fructose"
+          ],
+          "correct": "B. 1 phân tử Glucose và 1 phân tử Fructose",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-10",
+          "text": "Glycogen thuộc nhóm phân loại nào của Glucid?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Glycogen.svg",
+          "explain": "Glycogen là polymer chỉ gồm glucose (α-1,4 và điểm phân nhánh α-1,6) → polysaccharid thuần, là dạng dự trữ đường ở động vật.",
+          "tip": "Glycogen chỉ toàn Glucose → thuần (giống tinh bột nhưng phân nhánh nhiều hơn).",
+          "options": [
+            "A. Monosaccharid",
+            "B. Oligosaccharid",
+            "C. Polysaccharid thuần",
+            "D. Polysaccharid tạp"
+          ],
+          "correct": "C. Polysaccharid thuần",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-11",
+          "text": "Aldose thuộc nhóm phân loại nào của Glucid?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/D-glucose_chain_%28Fischer%29.svg",
+          "explain": "Aldose (đường có nhóm aldehyd, ví dụ glucose, galactose) là đường đơn → monosaccharid.",
+          "tip": "Aldose/Cetose = phân loại đường ĐƠN → Monosaccharid.",
           "options": [
             "A. Monosaccharid",
             "B. Oligosaccharid",
@@ -172,132 +171,25 @@
         },
         {
           "id": "hoa-hoc-glucid-12",
-          "text": "Đây là công thức của hợp chất gì?",
-          "image": "images/hoa-hoc-glucid-14.png",
-          "explain": "Công thức Fischer cho thấy: C1 là CH2OH, C2 là nhóm ceton (C=O) — xác nhận đây là một Cetose (không phải aldose vì không có CHO ở đầu mạch).\nC3 có OH bên trái (HO-), C4 và C5 có OH bên phải — đây chính xác là cấu hình của D-Fructose, ketohexose phổ biến nhất trong tự nhiên (có trong mật ong, trái cây).",
-          "tip": "Ceton ở C2 + có trong trái cây/mật ong ngọt = Fructose (đường của trái cây)",
+          "text": "Khi nào một Monosaccharid được xem là một aldose?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/D-glucose_chain_%28Fischer%29.svg",
+          "explain": "Aldose mang nhóm aldehyd –CHO ở đầu mạch. Ghép đúng: aldehyd ↔ –CHO, ceton ↔ –C=O.",
+          "tip": "Aldose – Aldehyd – CHO.",
           "options": [
-            "A. Glucose",
-            "B. Fructose",
-            "C. Lactose",
-            "D. Galactose"
+            "A. Nếu trong phân tử có nhóm aldehyd –CHO",
+            "B. Nếu trong phân tử có nhóm ceton –C=O",
+            "C. Nếu trong phân tử có nhóm aldehyd –C=O",
+            "D. Nếu trong phân tử có nhóm ceton –CHO"
           ],
-          "correct": "B. Fructose",
+          "correct": "A. Nếu trong phân tử có nhóm aldehyd –CHO",
           "flag": null
         },
         {
           "id": "hoa-hoc-glucid-13",
-          "text": "Khi nào thì một Monosaccharid thuộc dãy D?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/DL-Glycerinaldehyd.svg",
-          "explain": "MS thuộc dãy D khi nhóm OH tại carbon bất đối XA nhóm carbonyl nhất nằm ở bên PHẢI (theo Fischer). Các đáp án khác sai vị trí (trái), sai carbon tham chiếu (gần) hoặc dùng nhầm từ \"carboxyl\".",
-          "tip": "D = phải (chữ D có bụng phình bên phải), xét ở carbon xa carbonyl nhất",
-          "options": [
-            "A. Khi có nhóm OH ở bên phải C bất đối xa nhóm carbonyl nhất.",
-            "B. Khi có nhóm OH ở bên trái C bất đối xa nhóm carbonyl nhất.",
-            "C. Khi có nhóm OH ở bên phải C bất đối gần nhóm carbonyl nhất.",
-            "D. Khi có nhóm OH ở bên trái C bất đối gần nhóm carbonyl nhất.",
-            "E. Khi có nhóm OH ở bên phải C bất đối xa nhóm carboxyl nhất."
-          ],
-          "correct": "A. Khi có nhóm OH ở bên phải C bất đối xa nhóm carbonyl nhất.",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-14",
-          "text": "Nguyên tắc phản ứng Feeling của Monosaccharid là gì?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fehling.JPG",
-          "explain": "Trong phản ứng Fehling, nhóm carbonyl (-CHO tự do) của monosaccharide bị OXY HÓA thành acid carboxylic, đồng thời Cu2+ (xanh) bị KHỬ thành Cu+ tạo kết tủa Cu2O màu đỏ gạch - đây là cơ sở xác định đường khử.",
-          "tip": "Fehling: đường khử bị OXY HÓA, Cu2+ (xanh) → Cu+ (đỏ gạch)",
-          "options": [
-            "A. Nhóm Carbonyl của MS bị khử thành Acid carboxylic và Cu++ bị oxi hóa thành Cu+",
-            "B. Acid carboxylic của MS bị oxy hóa thành nhóm Carbonyl và Cu++ bị khử thành Cu+",
-            "C. Acid carboxylic của MS bị khử thành nhóm Carbonyl và Cu++ bị oxi hóa thành Cu+",
-            "D. Nhóm Carbonyl của MS bị oxy hóa thành Acid carboxylic và Cu++ bị khử thành Cu+",
-            "E. Nhóm Carboxyl của MS bị oxy hóa thành Acid carboxylic và Cu++ bị khử thành Cu+"
-          ],
-          "correct": "D. Nhóm Carbonyl của MS bị oxy hóa thành Acid carboxylic và Cu++ bị khử thành Cu+",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-15",
-          "text": "Nguyên tắc phản ứng tạo ester của Monosaccharid là gì?",
-          "image": null,
-          "explain": "Phản ứng ester hóa xảy ra giữa nhóm OH ALCOL (các OH không phải bán acetal) trong phân tử MS với ACID, tạo thành ester tương ứng (ví dụ Glucose + acid phosphoric → Glucose phosphat). Nhóm OH bán acetal phản ứng với alcol tạo Glucosid, không phải ester.",
-          "tip": "OH-Alcol + Acid → Ester; OH bán acetal + Alcol → Glucosid",
-          "options": [
-            "A. Nhóm OH alcol trong phân tử MS phản ứng với các base tạo ester tương ứng",
-            "B. Nhóm OH bán acetal trong phân tử MS phản ứng với các acid tạo ester tương ứng",
-            "C. Nhóm OH alcol trong phân tử MS phản ứng với các acid tạo ester tương ứng",
-            "D. Nhóm OH bán acetal trong phân tử MS phản ứng với các base tạo ester tương ứng"
-          ],
-          "correct": "C. Nhóm OH alcol trong phân tử MS phản ứng với các acid tạo ester tương ứng",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-16",
-          "text": "Sản phẩm khi thủy phân 1 phân tử Sucrose là gì?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sucrose.svg",
-          "explain": "Sucrose (đường mía) là disaccharide gồm Glucose và Fructose liên kết qua 2 carbon bán acetal; thủy phân cho 1 phân tử Glucose và 1 phân tử Fructose.",
-          "tip": "SucrOSE = Glucose + Fructose (mía ngọt có Fructose)",
-          "options": [
-            "A. 2 phân tử Glucose",
-            "B. 1 phân tử Glucose và 1 phân tử Fructose",
-            "C. 1 phân tử Glucose và 1 phân tử Galactose",
-            "D. 2 phân tử Fructose"
-          ],
-          "correct": "B. 1 phân tử Glucose và 1 phân tử Fructose",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-17",
-          "text": "Glycogen thuộc nhóm phân loại nào của Glucid?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Glycogen_structure.jpg",
-          "explain": "Glycogen là polysaccharide dự trữ ở động vật, chỉ cấu tạo từ các đơn vị Glucose (liên kết α-1,4 và α-1,6-glycosid) nên là polysaccharide THUẦN.",
-          "tip": "Glycogen = 'tinh bột động vật', toàn Glucose → thuần",
-          "options": [
-            "A. Monosaccharid",
-            "B. Oligosaccharid",
-            "C. Polysaccharid thuần",
-            "D. Polysaccharid tạp"
-          ],
-          "correct": "C. Polysaccharid thuần",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-18",
-          "text": "Aldose thuộc nhóm phân loại nào của Glucid?",
-          "image": null,
-          "explain": "Aldose là một loại monosaccharide có nhóm chức aldehyd, thuộc phân loại Monosaccharid chứ không phải oligo hay polysaccharide.",
-          "tip": "Aldose, Cetose = Monosaccharid",
-          "options": [
-            "A. Monosaccharid",
-            "B. Oligosaccharid",
-            "C. Polysaccharid",
-            "D. Glucose-6-Phosphat"
-          ],
-          "correct": "A. Monosaccharid",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-19",
-          "text": "Nguyên tắc phản ứng tạo Glucosid của Monosaccharid là gì?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ethyl-glucoside.png",
-          "explain": "Phản ứng tạo Glucosid (glycosid) xảy ra giữa nhóm OH BÁN ACETAL (OH tại carbon anomeric) trong phân tử MS với ALCOL, tạo liên kết glycosid và giải phóng nước. Đây khác với phản ứng ester (OH alcol + acid).",
-          "tip": "OH bán acetal + Alcol → Glucosid (liên kết glycosid)",
-          "options": [
-            "A. Phản ứng giữa nhóm –OH  trong phân tử MS với Alcol tạo ra Glucosid.",
-            "B. Phản ứng giữa nhóm –OH  trong phân tử MS với Glycogen ra Glucosid",
-            "C. Phản ứng giữa nhóm –OH  bán acetal trong phân tử MS với Glycogen tạo ra Glucosid",
-            "D. Phản ứng giữa nhóm –OH  bán acetal trong phân tử MS với Alcol tạo ra Glucosid"
-          ],
-          "correct": "D. Phản ứng giữa nhóm –OH  bán acetal trong phân tử MS với Alcol tạo ra Glucosid",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-20",
           "text": "Sản phẩm khi thủy phân 1 phân tử Maltose là gì?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Maltose_structure.svg",
-          "explain": "Maltose (đường mạch nha) là disaccharide gồm 2 phân tử Glucose liên kết α-1,4-glycosid; thủy phân cho 2 phân tử Glucose.",
-          "tip": "Maltose = 2 Glucose (mạch nha từ tinh bột, toàn Glucose)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Maltose2.svg",
+          "explain": "Maltose (đường mạch nha) = Glucose + Glucose (liên kết α-1,4). Thủy phân cho 2 phân tử Glucose.",
+          "tip": "Maltose = sản phẩm cắt tinh bột → chỉ toàn Glucose (2 Glu).",
           "options": [
             "A. 2 phân tử Glucose",
             "B. 1 phân tử Glucose và 1 phân tử Fructose",
@@ -308,11 +200,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-21",
+          "id": "hoa-hoc-glucid-14",
           "text": "Heparin thuộc nhóm phân loại nào của Glucid?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Heparin_General_Structure_V.1.svg",
-          "explain": "Heparin là một glycosaminoglycan (mucopolysaccharide), cấu tạo từ nhiều loại đơn vị đường khác nhau (đường amin, acid uronic, gốc sulfat) nên thuộc polysaccharide TẠP (heteropolysaccharide).",
-          "tip": "Heparin, acid hyaluronic, chondroitin: nhiều loại đường khác nhau → polysaccharide TẠP",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Heparin_pharmacophore_haworth_v.01.svg",
+          "explain": "Heparin là mucopolysaccharid (glycosaminoglycan) chứa các đơn vị đường amin bị sulfat hóa và acid uronic khác nhau → polysaccharid tạp (heteropolysaccharid).",
+          "tip": "Heparin có nhiều loại 'gạch' khác nhau (đường amin, gốc sulfat) → tạp.",
           "options": [
             "A. Monosaccharid",
             "B. Oligosaccharid",
@@ -323,11 +215,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-22",
-          "text": "Hợp chất hóa sinh nào sau đây chứa các nguyên tố C, H, O; bao gồm một hoặc nhiều monosaccharid",
-          "image": null,
-          "explain": "Đây chính là định nghĩa của Glucid: hợp chất hữu cơ chứa C, H, O, cấu tạo từ một hoặc nhiều đơn vị monosaccharide. Lipid, Protid, Nucleic acid và Hemoglobin có thành phần cấu tạo khác (chứa thêm N, P, hoặc là protein/acid nucleic).",
-          "tip": "C, H, O + monosaccharide = Glucid",
+          "id": "hoa-hoc-glucid-15",
+          "text": "Hợp chất hóa sinh nào sau đây chứa các nguyên tố C, H, O; bao gồm một hoặc nhiều monosaccharid?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/D-glucose_chain_%28Fischer%29.svg",
+          "explain": "Định nghĩa 'chứa C, H, O và cấu tạo từ một hoặc nhiều monosaccharid' chính là Glucid.",
+          "tip": "Từ khóa 'monosaccharid' → Glucid.",
           "options": [
             "A. Glucid",
             "B. Lipid",
@@ -339,11 +231,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-23",
-          "text": "Cetose là phân nhóm nhỏ thuộc hợp chất hóa sinh nào sau đây",
-          "image": null,
-          "explain": "Cetose là một phân nhóm nhỏ của Monosaccharid, mà Monosaccharid lại là đơn vị cấu tạo cơ bản của Glucid, nên Cetose thuộc hợp chất Glucid.",
-          "tip": "Cetose ⊂ Monosaccharid ⊂ Glucid",
+          "id": "hoa-hoc-glucid-16",
+          "text": "Cetose là phân nhóm nhỏ thuộc hợp chất hóa sinh nào sau đây?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/D-Fructose.svg",
+          "explain": "Cetose là một loại monosaccharid, tức thuộc nhóm Glucid.",
+          "tip": "Cetose là đường → Glucid.",
           "options": [
             "A. Glucid",
             "B. Lipid",
@@ -355,11 +247,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-24",
-          "text": "Aldose là phân nhóm nhỏ thuộc hợp chất hóa sinh nào sau đây",
-          "image": null,
-          "explain": "Tương tự Cetose, Aldose là phân nhóm nhỏ của Monosaccharid, thuộc hợp chất Glucid.",
-          "tip": "Aldose ⊂ Monosaccharid ⊂ Glucid",
+          "id": "hoa-hoc-glucid-17",
+          "text": "Aldose là phân nhóm nhỏ thuộc hợp chất hóa sinh nào sau đây?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/D-glucose_chain_%28Fischer%29.svg",
+          "explain": "Aldose là một loại monosaccharid, thuộc nhóm Glucid.",
+          "tip": "Aldose là đường → Glucid.",
           "options": [
             "A. Glucid",
             "B. Lipid",
@@ -371,11 +263,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-25",
-          "text": "Đồng phân dạng vòng của Monosaccharid thường tồn tại mấy cạnh",
+          "id": "hoa-hoc-glucid-18",
+          "text": "Đồng phân dạng vòng của Monosaccharid thường tồn tại mấy cạnh?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Isomeric_forms_of_fructose.svg",
-          "explain": "Monosaccharid dạng vòng tồn tại chủ yếu ở 2 dạng: vòng 5 cạnh (furanose, đặc trưng cho cetose hoặc aldopentose) và vòng 6 cạnh (pyranose, phổ biến ở aldohexose như Glucose). Do đó cả 5 và 6 cạnh đều đúng.",
-          "tip": "Vòng MS: 5 cạnh (furanose) hoặc 6 cạnh (pyranose)",
+          "explain": "Monosaccharid tạo vòng bán acetal thường ở dạng vòng 5 cạnh (furanose) hoặc 6 cạnh (pyranose). Vậy cả 5 và 6 cạnh đều đúng.",
+          "tip": "Furanose (5) và Pyranose (6) → chọn 'C và D đúng'.",
           "options": [
             "A. 3",
             "B. 4",
@@ -387,11 +279,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-26",
-          "text": "Lý do Monosaccharid có tính khử",
-          "image": null,
-          "explain": "Monosaccharid có tính khử là do nhóm chức carbonyl tự do (-CHO của aldose hoặc >C=O của cetose) có khả năng bị oxy hóa, qua đó khử các ion kim loại như Cu2+ (phản ứng Fehling), Ag+ (phản ứng Tollens).",
-          "tip": "Tính khử của đường là nhờ nhóm Carbonyl tự do",
+          "id": "hoa-hoc-glucid-19",
+          "text": "Lý do Monosaccharid có tính khử?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/D-glucose_chain_%28Fischer%29.svg",
+          "explain": "Tính khử của monosaccharid do nhóm carbonyl (–CHO của aldose hoặc C=O của cetose) tự do, có thể bị oxy hóa (khử ion kim loại như Cu²⁺ trong phản ứng Fehling/Tollens).",
+          "tip": "Carbonyl tự do = 'đầu khử' của đường.",
           "options": [
             "A. Nhóm Carbonyl",
             "B. Nhóm Carboxyl",
@@ -403,91 +295,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-27",
-          "text": "Khi tham gia phản ứng Fehling, nhóm Carbonyl của Monosaccharid bị oxi hóa thành sản phẩm gì?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fehling.JPG",
-          "explain": "Trong phản ứng Fehling, nhóm carbonyl (-CHO) của monosaccharide bị oxi hóa thành nhóm carboxyl (-COOH).\nĐồng thời Cu2+ trong thuốc thử Fehling bị KHỬ thành Cu2O (kết tủa đỏ gạch) - đây là sản phẩm của Cu, không phải của nhóm carbonyl.\nCác đáp án C, D, E không phải sản phẩm oxi hóa của nhóm carbonyl trong phản ứng này.",
-          "tip": "Fehling: Đường bị oxi hóa (CHO → COOH), Đồng bị khử (Cu2+ → Cu2O đỏ gạch)",
-          "options": [
-            "A. Cu2O",
-            "B. -COOH",
-            "C. H2O",
-            "D. CO2",
-            "E. CONH2"
-          ],
-          "correct": "B. -COOH",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-28",
-          "text": "Khi tham gia phản ứng Fehling, nhóm -CO của Monosaccharid bị oxi hóa thành sản phẩm gì?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fehling.JPG",
-          "explain": "Nhóm carbonyl (-CO, cụ thể là -CHO của aldose) khi bị oxi hóa trong môi trường kiềm của thuốc thử Fehling sẽ chuyển thành nhóm carboxyl (-COOH).\nCu2O là sản phẩm khử của Cu2+ (kết tủa đỏ gạch), không phải sản phẩm oxi hóa của nhóm carbonyl.",
-          "tip": "Fehling: Đường bị oxi hóa (CHO → COOH), Đồng bị khử (Cu2+ → Cu2O đỏ gạch)",
-          "options": [
-            "A. Cu2O",
-            "B. -COOH",
-            "C. H2O",
-            "D. CO2",
-            "E. CONH2"
-          ],
-          "correct": "B. -COOH",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-29",
-          "text": "Trong phản ứng Fehling, nhận định nào sau đây là đúng?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fehling.JPG",
-          "explain": "Cu2+ trong phức chất Fehling (với tartrat) nhận electron do nhóm aldehyde của đường nhường, bị KHỬ thành Cu+ (tồn tại dưới dạng kết tủa Cu2O màu đỏ gạch).\nSố oxi hóa của Cu giảm từ +2 xuống +1, đây là quá trình khử chứ không phải oxi hóa nên loại C và D.",
-          "tip": "Cu2+ (xanh) nhận electron → Cu+ (Cu2O đỏ gạch): đây là khử, không phải oxi hóa",
-          "options": [
-            "A. Cu2+ bị khử thành Cu+",
-            "B. Cu+ bị khử thành Cu2+",
-            "C. Cu2+ bị oxi hóa thành Cu+",
-            "D. Cu2+ bị oxi hóa thành Cu+",
-            "E. Hợp chất của Cu không tham gia phản ứng Fehling"
-          ],
-          "correct": "A. Cu2+ bị khử thành Cu+",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-30",
-          "text": "Trong phản ứng Fehling, nhận định nào sau đây là đúng?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fehling.JPG",
-          "explain": "Trong phản ứng Fehling, đường (chất khử) nhường electron cho Cu2+, nhóm carbonyl (-CHO) của đường bị oxi hóa thành nhóm carboxylic (-COOH).\nĐây là bản chất phản ứng: đường bị oxi hóa, đồng bị khử - nên các phát biểu nói carbonyl bị khử hoặc carboxylic bị oxi hóa/khử đều sai chiều.",
-          "tip": "Trong Fehling: Carbonyl của đường luôn bị OXI HÓA thành Carboxylic",
-          "options": [
-            "A. Nhóm Carbonyl bị khử thành Carboxylic",
-            "B. Nhóm Carbonyl bị oxi hóa thành Carboxylic",
-            "C. Nhóm Carboxylic bị khử thành Carbonyl",
-            "D. Nhóm Carboxylic bị oxi hóa thành Carbonyl",
-            "E. Nhóm Carboxyl bị khử thành Carboxylic"
-          ],
-          "correct": "B. Nhóm Carbonyl bị oxi hóa thành Carboxylic",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-31",
-          "text": "Trong phản ứng Fehling, nhận định nào sau đây là đúng?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fehling.JPG",
-          "explain": "Trong phản ứng Fehling, nhóm carbonyl (-CHO) của đường khử bị oxi hóa thành nhóm carboxylic (-COOH), đồng thời Cu2+ bị khử thành Cu2O.\nĐây là chiều phản ứng đúng: carbonyl → carboxylic (oxi hóa), nên các phát biểu về carboxyl bị khử/oxi hóa thành carbonyl (chiều ngược lại) đều sai.",
-          "tip": "Trong Fehling: Carbonyl của đường luôn bị OXI HÓA thành Carboxylic",
-          "options": [
-            "A. Nhóm Carbonyl bị khử thành Carboxylic",
-            "B. Nhóm Carbonyl bị oxi hóa thành Carboxylic",
-            "C. Nhóm Carboxyl bị khử thành Carbonyl",
-            "D. Nhóm Carboxyl bị oxi hóa thành Carbonyl",
-            "E. Nhóm Carboxylic bị khử thành Carboxyl"
-          ],
-          "correct": "B. Nhóm Carbonyl bị oxi hóa thành Carboxylic",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-32",
-          "text": "Erytrose là đường có mấy Carbon?",
-          "image": null,
-          "explain": "Erythrose (C4H8O4) là một aldotetrose, có 4 nguyên tử Carbon: CHO-CHOH-CHOH-CH2OH.",
-          "tip": "Ery-4-ose: nhớ theo số carbon tăng dần Triose(3)-Tetrose(4: Erythrose)-Pentose(5: Ribose)-Hexose(6: Glucose)",
+          "id": "hoa-hoc-glucid-20",
+          "text": "Erythrose là đường có mấy Carbon?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/D-erythrose.svg",
+          "explain": "Erythrose là một tetrose (aldotetrose) → 4 carbon.",
+          "tip": "Erythro-... nhớ nhóm tetrose: threose & erythrose đều 4C.",
           "options": [
             "A. 3",
             "B. 4",
@@ -499,11 +311,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-33",
+          "id": "hoa-hoc-glucid-21",
           "text": "Ribose là đường có mấy Carbon?",
-          "image": null,
-          "explain": "Ribose (C5H10O5) là một aldopentose có 5 nguyên tử Carbon, là thành phần của RNA.",
-          "tip": "Ribose - Pentose - 5 Carbon, có trong RNA",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/DRibose_Fischer.svg",
+          "explain": "Ribose là pentose (aldopentose) → 5 carbon; là thành phần đường của ARN.",
+          "tip": "Ribose trong ARN → pentose = 5C.",
           "options": [
             "A. 3",
             "B. 4",
@@ -515,11 +327,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-34",
+          "id": "hoa-hoc-glucid-22",
           "text": "Deoxyribose là đường có mấy Carbon?",
-          "image": null,
-          "explain": "Deoxyribose (C5H10O4) là dẫn xuất mất 1 oxy của Ribose ở vị trí C2, vẫn giữ nguyên khung 5 Carbon, là thành phần của DNA.",
-          "tip": "Deoxyribose = Ribose mất 1 Oxy nhưng vẫn 5 Carbon, có trong DNA",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/D-deoxyribose_chain.svg",
+          "explain": "Deoxyribose là pentose (mất 1 oxy ở C2 so với ribose) → 5 carbon; là đường của ADN.",
+          "tip": "Deoxyribose trong ADN → cũng pentose = 5C.",
           "options": [
             "A. 3",
             "B. 4",
@@ -531,11 +343,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-35",
+          "id": "hoa-hoc-glucid-23",
           "text": "Galactose là đường có mấy Carbon?",
-          "image": null,
-          "explain": "Galactose (C6H12O6) là một aldohexose, đồng phân epimer của Glucose tại C4, có 6 nguyên tử Carbon.",
-          "tip": "Galactose - Hexose giống Glucose - 6 Carbon (khác Glucose ở C4)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Beta-D-Galactopyranose.svg",
+          "explain": "Galactose là hexose (aldohexose, đồng phân của glucose) → 6 carbon.",
+          "tip": "Galactose ~ Glucose → hexose = 6C.",
           "options": [
             "A. 3",
             "B. 4",
@@ -547,27 +359,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-36",
-          "text": "Liên kết nối 2 Monosaccharid với nhau là:",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ethyl-glucoside.png",
-          "explain": "Hai monosaccharide liên kết với nhau qua liên kết glycosid, hình thành giữa nhóm OH bán acetal (C1 của đường này) với nhóm OH của đường kia, giải phóng 1 phân tử nước.\nLiên kết hydro, phosphodieste (nối nucleotid), disulfua (nối protein) không phải là liên kết đặc trưng nối 2 monosaccharide.",
-          "tip": "Monosaccharid nối nhau bằng liên kết Glycosid (giống 'keo' glucid)",
-          "options": [
-            "A. Glycosid",
-            "B. Hydro",
-            "C. Phosphodieste",
-            "D. Disulfua",
-            "E. Tất cả đều sai"
-          ],
-          "correct": "A. Glycosid",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-37",
+          "id": "hoa-hoc-glucid-24",
           "text": "Cm(H2O)n là công thức cấu tạo chung của nhóm hợp chất nào sau đây?",
-          "image": null,
-          "explain": "Glucid (Carbohydrat) có công thức tổng quát Cm(H2O)n, do đó còn được gọi là \"carbon ngậm nước\". Lipid, Protid, Nucleic, Peptid không có công thức tổng quát này.",
-          "tip": "Glucid = Cm(H2O)n = \"Carbon ngậm nước\"",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/D-glucose_chain_%28Fischer%29.svg",
+          "explain": "Công thức tổng quát Cm(H2O)n (carbon 'ngậm nước') đặc trưng cho Glucid (carbohydrat).",
+          "tip": "C ngậm nước = Cm(H2O)n → Glucid.",
           "options": [
             "A. Glucid",
             "B. Lipid",
@@ -579,11 +375,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-38",
+          "id": "hoa-hoc-glucid-25",
           "text": "Cm(H2O)n là công thức cấu tạo chung của nhóm hợp chất nào sau đây?",
-          "image": null,
-          "explain": "Glucid và Carbohydrat là hai tên gọi khác nhau của cùng một nhóm hợp chất, đều có công thức chung Cm(H2O)n, nên đáp án đúng là cả A và B.",
-          "tip": "Glucid = Carbohydrat: hai tên gọi của cùng một chất, công thức Cm(H2O)n",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/D-glucose_chain_%28Fischer%29.svg",
+          "explain": "Glucid và Carbohydrat là hai tên gọi của cùng một nhóm chất có công thức chung Cm(H2O)n → cả A và B đúng.",
+          "tip": "Glucid = Carbohydrat (đồng nghĩa) → 'A và B'.",
           "options": [
             "A. Glucid",
             "B. Carbohydrat",
@@ -595,11 +391,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-39",
-          "text": "\"Carbon ngậm nước\" là cụm từ miêu tả nhóm hợp chất nào sau đây?",
-          "image": null,
-          "explain": "Glucid có công thức tổng quát Cm(H2O)n, tức mỗi phân tử Carbon đi kèm với một phân tử nước (về mặt tỷ lệ nguyên tử), nên được gọi là \"Carbon ngậm nước\" (Carbohydrat).",
-          "tip": "Glucid = \"Carbon ngậm nước\" vì công thức Cm(H2O)n",
+          "id": "hoa-hoc-glucid-26",
+          "text": "“Carbon ngậm nước” là cụm từ miêu tả nhóm hợp chất nào sau đây?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/D-glucose_chain_%28Fischer%29.svg",
+          "explain": "'Carbon ngậm nước' mô tả công thức Cm(H2O)n của Glucid (carbohydrat).",
+          "tip": "Carbon ngậm nước → Glucid.",
           "options": [
             "A. Glucid",
             "B. Lipid",
@@ -611,11 +407,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-40",
-          "text": "\"Carbon ngậm nước\" là cụm từ miêu tả nhóm hợp chất nào sau đây?",
-          "image": null,
-          "explain": "\"Carbon ngậm nước\" là tên gọi khác của Carbohydrat (chính là Glucid), do công thức Cm(H2O)n. Ở đây đáp án A là Lipid nên sai, chỉ có Carbohydrat (B) là đúng, không có Glucid trong danh sách để chọn E.",
-          "tip": "\"Carbon ngậm nước\" = Carbohydrat (tên khác của Glucid), không phải Lipid",
+          "id": "hoa-hoc-glucid-27",
+          "text": "“Carbon ngậm nước” là cụm từ miêu tả nhóm hợp chất nào sau đây?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/D-glucose_chain_%28Fischer%29.svg",
+          "explain": "'Carbon ngậm nước' = Carbohydrat (Glucid). Trong danh sách này chỉ có Carbohydrat đúng (Lipid sai) → B.",
+          "tip": "Carbon ngậm nước = Carbohydrat.",
           "options": [
             "A. Lipid",
             "B. Carbohydrat",
@@ -627,11 +423,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-41",
+          "id": "hoa-hoc-glucid-28",
           "text": "Công thức phân tử của đường Deoxyribose là gì?",
-          "image": null,
-          "explain": "Deoxyribose có công thức C5H10O4 (Ribose C5H10O5 mất 1 nguyên tử Oxy ở C2).\nC6H12O6 là hexose (Glucose...), C12H22O11 là disaccharid (Saccarose...), C3H6O3 là triose (Glyceraldehyd/Dihydroxyaceton).",
-          "tip": "Deoxyribose: 5C, mất 1 Oxy so với Ribose → C5H10O4",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/D-deoxyribose_chain.svg",
+          "explain": "Deoxyribose là pentose mất 1 oxy → C5H10O4 (ribose là C5H10O5).",
+          "tip": "Deoxy = bớt 1 O so với ribose C5H10O5 → C5H10O4.",
           "options": [
             "A. C6H12O6",
             "B. C12H22O11",
@@ -643,11 +439,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-42",
-          "text": "Công thức phân tử của đường Dihydroxy aceton là gì?",
-          "image": null,
-          "explain": "Dihydroxyaceton là một ketotriose (3 Carbon) có công thức phân tử C3H6O3, cùng công thức phân tử với Glyceraldehyd (aldotriose) nhưng khác cấu trúc (ketose vs aldose).",
-          "tip": "Dihydroxyaceton: 3 Carbon (triose) → C3H6O3",
+          "id": "hoa-hoc-glucid-29",
+          "text": "Công thức phân tử của đường Dihydroxyaceton là gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/1%2C3-dihydroxypropan-2-one_200.svg",
+          "explain": "Dihydroxyaceton là ceto-triose (3C) → C3H6O3.",
+          "tip": "Triose = 3C → C3H6O3.",
           "options": [
             "A. C6H12O6",
             "B. C12H22O11",
@@ -659,11 +455,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-43",
+          "id": "hoa-hoc-glucid-30",
           "text": "Phân tử của đường nào sau đây không có đồng phân quang học?",
-          "image": null,
-          "explain": "Trong các công thức, C3H6O3 tương ứng với Dihydroxyaceton - một ketotriose không có Carbon bất đối (2 nhóm CH2OH đối xứng ở 2 bên nhóm C=O), nên không có đồng phân quang học.\nC6H12O6 (Glucose), C12H22O11 (Saccarose), C5H10O4 (Deoxyribose) đều có ít nhất 1 Carbon bất đối nên có đồng phân quang học.",
-          "tip": "Dihydroxyaceton (C3H6O3) là ketose duy nhất không có Carbon bất đối",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/1%2C3-dihydroxypropan-2-one_200.svg",
+          "explain": "C3H6O3 ứng với dihydroxyaceton – không có carbon bất đối nên không có đồng phân quang học. Các đường 6C, 12C, 5C đều có C bất đối.",
+          "tip": "Không C bất đối = không quang học → dihydroxyaceton (C3H6O3).",
           "options": [
             "A. C6H12O6",
             "B. C12H22O11",
@@ -675,11 +471,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-44",
+          "id": "hoa-hoc-glucid-31",
           "text": "Phân tử của đường nào sau đây không có đồng phân quang học?",
-          "image": null,
-          "explain": "Trong danh sách này (C6H12O6 - Glucose, C12H22O11 - Saccarose, C5H10O4 - Deoxyribose) tất cả đều có ít nhất 1 Carbon bất đối, đều có đồng phân quang học.\nDo đó không có đáp án nào trong A, B, C là chính xác (không phải \"tất cả đều đúng\" vì không đáp án nào thỏa yêu cầu \"không có đồng phân quang học\"), nên đáp án là \"Tất cả đều sai\".",
-          "tip": "Glucose, Saccarose, Deoxyribose đều có Carbon bất đối → đều có đồng phân quang học → không đáp án nào đúng",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/1%2C3-dihydroxypropan-2-one_200.svg",
+          "explain": "Cả C6H12O6, C12H22O11 và C5H10O4 (deoxyribose) đều chứa carbon bất đối → đều CÓ đồng phân quang học. Vì vậy không đường nào trong danh sách 'không có đồng phân quang học' → Tất cả đều sai.",
+          "tip": "Cả 3 đều có C bất đối → không cái nào đúng → 'Tất cả đều sai'.",
           "options": [
             "A. C6H12O6",
             "B. C12H22O11",
@@ -691,11 +487,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-45",
-          "text": "Điền vào chỗ \"...\": Các monosaccharide ...(1)... trong nước, ...(2)... trong dung môi hữu cơ, ...(3) tính quay cực trừ triose.",
-          "image": null,
-          "explain": "Monosaccharide có nhiều nhóm OH phân cực nên TAN tốt trong nước, KHÔNG TAN trong dung môi hữu cơ (không phân cực).\nMonosaccharide có Carbon bất đối nên CÓ tính quay cực ánh sáng phân cực, trừ Dihydroxyaceton (ketotriose) không có Carbon bất đối nên không quay cực.",
-          "tip": "Đường: Tan trong nước, Không tan trong dung môi hữu cơ, Có quay cực (trừ Dihydroxyaceton)",
+          "id": "hoa-hoc-glucid-32",
+          "text": "Điền vào chỗ “…”: Các monosaccharid …(1)… trong nước, …(2)… trong dung môi hữu cơ, …(3)… tính quay cực trừ triose.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/D-glucose_chain_%28Fischer%29.svg",
+          "explain": "Monosaccharid có nhiều nhóm –OH nên TAN tốt trong nước, KHÔNG tan trong dung môi hữu cơ, và CÓ tính quay cực (do có C bất đối) – trừ triose dạng dihydroxyaceton không có C bất đối.",
+          "tip": "Nhiều OH → ưa nước (tan nước, không tan dầu); có C bất đối → quay cực.",
           "options": [
             "A. (1) Tan, (2) Không tan, (3) Có",
             "B. (1) Không tan, (2) Tan, (3) Có",
@@ -707,11 +503,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-46",
+          "id": "hoa-hoc-glucid-33",
           "text": "Tại sao Triose không có năng suất quay cực?",
-          "image": null,
-          "explain": "Dihydroxyaceton (ketotriose) không có Carbon bất đối (Carbon C2 gắn với 2 nhóm CH2OH giống nhau và nhóm C=O), nên phân tử không có tính quang hoạt, không làm quay mặt phẳng ánh sáng phân cực.",
-          "tip": "Không có Carbon bất đối (Carbon gắn 4 nhóm thế khác nhau) → không quay cực",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/1%2C3-dihydroxypropan-2-one_200.svg",
+          "explain": "Triose ở đây là dihydroxyaceton – không có carbon bất đối (không có C gắn 4 nhóm khác nhau) nên không làm quay mặt phẳng ánh sáng phân cực.",
+          "tip": "Không C bất đối → không quay cực.",
           "options": [
             "A. Vì chứa nhóm –CHO",
             "B. Vì chứa nhóm =CO",
@@ -723,159 +519,31 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-47",
-          "text": "Monosaccharid phản ứng với chất oxi hóa nào sau đây tạo diacid?",
-          "image": null,
-          "explain": "HNO3 đặc là chất oxi hóa mạnh, oxi hóa cả nhóm -CHO (đầu khử) lẫn nhóm -CH2OH (đầu cuối) của monosaccharide thành 2 nhóm -COOH, tạo thành acid 2 chức (diacid, ví dụ acid glucaric từ glucose).\nNước Brom và Cu(OH)2/OH- (Fehling) chỉ oxi hóa nhóm -CHO thành monoacid.",
-          "tip": "HNO3 đặc: oxi hóa mạnh cả 2 đầu mạch đường → tạo diacid (acid 2 chức)",
-          "options": [
-            "A. Nước Brom",
-            "B. HNO3 đặc",
-            "C. Cu(OH)2/OH-",
-            "D. CH3OH",
-            "E. Phenol"
-          ],
-          "correct": "B. HNO3 đặc",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-48",
-          "text": "Aldose phản ứng với chất oxi hóa nào sau đây tạo monoacid?",
-          "image": null,
-          "explain": "Aldose có nhóm -CHO tự do, bị oxi hóa nhẹ bởi Nước Brom thành nhóm -COOH tạo monoacid (acid aldonic), đồng thời cũng phản ứng dương tính với Cu(OH)2/OH- (thuốc thử Fehling) do nhóm -CHO bị oxi hóa thành -COOH (kèm khử Cu2+ thành Cu2O).\nVậy cả Nước Brom (A) và Cu(OH)2/OH- (C) đều tạo monoacid từ aldose, nên đáp án đúng là A và C.",
-          "tip": "Aldose (có CHO tự do): phản ứng cả với Nước Brom và Fehling để tạo monoacid",
-          "options": [
-            "A. Nước Brom",
-            "B. HNO3 đặc",
-            "C. Cu(OH)2/OH-",
-            "D. CH3OH",
-            "E. A và C đúng"
-          ],
-          "correct": "E. A và C đúng",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-49",
-          "text": "Cetose phản ứng với chất oxi hóa nào sau đây tạo monoacid?",
-          "image": null,
-          "explain": "Cetose (ketose) không có nhóm -CHO tự do nên KHÔNG phản ứng với Nước Brom (đây chính là phản ứng dùng để phân biệt aldose và cetose).\nTuy nhiên trong môi trường kiềm của Fehling, cetose có thể chuyển hóa qua dạng enediol trung gian thành aldose rồi bị oxi hóa nhóm -CHO thành -COOH, tạo monoacid, nên Cu(OH)2/OH- vẫn phản ứng dương tính với cetose.",
-          "tip": "Cetose: KHÔNG phản ứng Nước Brom (không có CHO tự do), nhưng VẪN phản ứng Fehling (nhờ chuyển thành enediol)",
-          "options": [
-            "A. Nước Brom",
-            "B. HNO3 đặc",
-            "C. Cu(OH)2/OH-",
-            "D. CH3OH",
-            "E. Tất cả đều sai"
-          ],
-          "correct": "C. Cu(OH)2/OH-",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-50",
-          "text": "Fructose không phản ứng với chất oxi hóa nào sau đây?",
-          "image": null,
-          "explain": "Fructose là một cetose (ketohexose), không có nhóm -CHO tự do nên KHÔNG phản ứng với Nước Brom - đây là phản ứng đặc trưng dùng để phân biệt aldose (phản ứng dương tính) với cetose (không phản ứng).\nFructose vẫn phản ứng với HNO3 đặc và Cu(OH)2/OH- (Fehling, nhờ chuyển hóa qua enediol).",
-          "tip": "Nước Brom là thuốc thử phân biệt Aldose (dương tính) và Cetose - Fructose (âm tính, không phản ứng)",
-          "options": [
-            "A. Nước Brom",
-            "B. HNO3 đặc",
-            "C. Cu(OH)2/OH-",
-            "D. CH3OH",
-            "E. Phenol"
-          ],
-          "correct": "A. Nước Brom",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-51",
-          "text": "Trong phản ứng Fehling, Glucose phản ứng với chất khử nào sau đây?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fehling.JPG",
-          "explain": "Thuốc thử Fehling có thành phần chính là Cu(OH)2 trong môi trường kiềm (OH-, phức với tartrat). Glucose (nhóm -CHO) khử Cu2+ trong Cu(OH)2/OH- thành Cu2O (kết tủa đỏ gạch), đồng thời nhóm -CHO của Glucose bị oxi hóa thành -COOH.",
-          "tip": "Thuốc thử Fehling = Cu(OH)2/OH- (phức đồng-tartrat trong môi trường kiềm)",
-          "options": [
-            "A. Nước Brom",
-            "B. HNO3 đặc",
-            "C. Cu(OH)2/OH-",
-            "D. CH3OH",
-            "E. Phenol"
-          ],
-          "correct": "C. Cu(OH)2/OH-",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-52",
-          "text": "Glucose phản ứng với chất oxi hóa nào sau đây tạo Acid Gluconic?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fehling.JPG",
-          "explain": "Nước Brom là chất oxy hóa nhẹ, chỉ oxy hóa nhóm CHO (aldehyde) ở C1 thành COOH, tạo Acid Gluconic (monocarboxylic). Cu(OH)2/OH- (thuốc thử Fehling) cũng oxy hóa CHO thành COOH theo cơ chế tương tự, tạo Acid Gluconic và Cu2O (tủa đỏ gạch).\nHNO3 đặc là chất oxy hóa mạnh, oxy hóa cả CHO và CH2OH thành 2 nhóm COOH, tạo Acid Glucaric (Saccharic acid) chứ không phải Gluconic. CH3OH không phải chất oxy hóa.",
-          "tip": "Brom & Cu(OH)2 = oxy hóa nhẹ 1 đầu → Gluconic; HNO3 đặc = oxy hóa mạnh 2 đầu → Glucaric.",
-          "options": [
-            "A. Nước Brom",
-            "B. HNO3 đặc",
-            "C. Cu(OH)2/OH-",
-            "D. CH3OH",
-            "E. A và C đúng"
-          ],
-          "correct": "E. A và C đúng",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-53",
-          "text": "Glucose phản ứng với chất nào sau đây để hình thành liên kết Glycosid?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ethyl-glucoside.png",
-          "explain": "Liên kết Glycosid hình thành khi nhóm OH bán acetal (C1) của Glucose phản ứng với 1 nhóm OH của rượu (CH3OH), tạo Methyl-Glycosid (phản ứng Fischer), giải phóng H2O. Đây chính là bản chất của liên kết glycosid (acetal hóa nhóm bán acetal).",
-          "tip": "Glycosid = OH bán acetal của đường + ROH (rượu) → 'Glucose + rượu = glycosid'.",
-          "options": [
-            "A. Nước Brom",
-            "B. HNO3 đặc",
-            "C. Cu(OH)2/OH-",
-            "D. CH3OH",
-            "E. Phenol"
-          ],
-          "correct": "D. CH3OH",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-54",
-          "text": "Furfural của monosaccharid phản ứng với α-naphthol cho hiện tượng gì?",
-          "image": null,
-          "explain": "Đây là phản ứng Molisch: Monosaccharid bị acid mạnh (H2SO4/HCl) dehydrat hóa tạo Furfural (hoặc dẫn xuất), Furfural ngưng tụ với α-naphthol tạo phức màu tím ở mặt phân cách 2 lớp dung dịch - là phản ứng định tính chung cho Glucid.",
-          "tip": "Molisch = Furfural + α-naphthol → vòng tím ở ranh giới 2 lớp dung dịch.",
-          "options": [
-            "A. Tủa đỏ gạch",
-            "B. Dung dịch xanh",
-            "C. Vòng màu tím",
-            "D. Tủa nâu",
-            "E. Sủi khí"
-          ],
-          "correct": "C. Vòng màu tím",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-55",
-          "text": "Rafinose cấu tạo từ các đường nào sau đây",
+          "id": "hoa-hoc-glucid-34",
+          "text": "Rafinose cấu tạo từ các đường nào sau đây?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Raffinose.svg",
-          "explain": "Rafinose là một trisaccharid không khử, cấu tạo từ 3 monosaccharid: Galactose - Glucose - Fructose (Galactose gắn vào Glucose của Sucrose qua liên kết α-1,6-glycosid).",
-          "tip": "Rafinose = Sucrose (Glucose-Fructose) + thêm 1 Galactose.",
+          "explain": "Rafinose là trisaccharid gồm Galactose – Glucose – Fructose (Gal-α1,6-Glc-α1,β2-Fru). Các lựa chọn khác chứa disaccharid (maltose/lactose) nên sai.",
+          "tip": "Rafinose = Gal + Glu + Fru (3 đường đơn khác nhau).",
           "options": [
-            "A. Galatose, Glucose, Frutose",
-            "B. Maltose, Glucose, Frutose",
-            "C. Lactose, Glucose, Frutose",
+            "A. Galactose, Glucose, Fructose",
+            "B. Maltose, Glucose, Fructose",
+            "C. Lactose, Glucose, Fructose",
             "D. Maltose, Lactose, Glucose",
             "E. Fructose, Lactose, Galactose"
           ],
-          "correct": "A. Galatose, Glucose, Frutose",
+          "correct": "A. Galactose, Glucose, Fructose",
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-56",
+          "id": "hoa-hoc-glucid-35",
           "text": "Glucid nào sau đây cấu tạo từ 3 monosaccharid?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Raffinose.svg",
-          "explain": "Trong các đáp án, chỉ Rafinose là oligosaccharid cấu tạo từ 3 monosaccharid (Galactose, Glucose, Fructose); các chất còn lại là monosaccharid đơn lẻ (Galactose, Glucose, Fructose) hoặc disaccharid (Maltose = 2 Glucose).",
-          "tip": "Rafinose = 'tam đường' (tri-saccharid) duy nhất trong danh sách.",
+          "explain": "Rafinose là trisaccharid (Galactose + Glucose + Fructose). Galactose/Glucose/Fructose là đường đơn; Maltose là disaccharid.",
+          "tip": "Tri = 3 → Rafinose (Gal-Glu-Fru).",
           "options": [
-            "A. Galatose",
+            "A. Galactose",
             "B. Glucose",
-            "C. Frutose",
+            "C. Fructose",
             "D. Rafinose",
             "E. Maltose"
           ],
@@ -883,15 +551,15 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-57",
+          "id": "hoa-hoc-glucid-36",
           "text": "Glucid nào sau đây dễ gây đầy hơi?",
-          "image": null,
-          "explain": "Rafinose không bị enzym tiêu hóa của người phân giải (thiếu enzym α-galactosidase ở ruột non) nên xuống đại tràng bị vi khuẩn lên men sinh nhiều khí, gây đầy hơi - đặc trưng của các oligosaccharid họ Rafinose (có nhiều trong đậu, đỗ).",
-          "tip": "Ăn đậu bị đầy hơi vì có Rafinose không tiêu hóa được ở ruột non.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Raffinose.svg",
+          "explain": "Rafinose (họ oligosaccharid raffinose) không bị tiêu hóa ở ruột non do người thiếu enzym α-galactosidase; nó bị vi khuẩn đại tràng lên men sinh khí → đầy hơi.",
+          "tip": "Rafinose không tiêu hóa được → vi khuẩn lên men → đầy hơi.",
           "options": [
-            "A. Galatose",
+            "A. Galactose",
             "B. Glucose",
-            "C. Frutose",
+            "C. Fructose",
             "D. Rafinose",
             "E. Maltose"
           ],
@@ -899,15 +567,15 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-58",
+          "id": "hoa-hoc-glucid-37",
           "text": "Glucid nào sau đây dễ gây đầy hơi?",
-          "image": null,
-          "explain": "Tương tự câu hỏi về Rafinose: người không có enzym thủy phân liên kết α-galactosid của các oligosaccharid nhóm này nên chúng xuống đại tràng bị vi khuẩn lên men sinh hơi, khác với các mono/disaccharid thông thường (Galactose, Glucose, Fructose, Maltose) được hấp thu và tiêu hóa bình thường.",
-          "tip": "Oligosaccharid không tiêu hóa được → vi khuẩn đại tràng lên men → sinh hơi, đầy bụng.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Raffinose.svg",
+          "explain": "'Meltriose' (Melitriose) chính là một tên gọi khác của Rafinose (raffinose còn gọi là melitose/melitriose/gossypose) – một trisaccharid Galactose-Glucose-Fructose. Do người không có enzym α-galactosidase nên nó không được tiêu hóa ở ruột non mà bị vi khuẩn đại tràng lên men sinh khí → đầy hơi.",
+          "tip": "Meltriose = Melitriose = Rafinose → oligosaccharid khó tiêu → lên men → đầy hơi.",
           "options": [
-            "A. Galatose",
+            "A. Galactose",
             "B. Glucose",
-            "C. Frutose",
+            "C. Fructose",
             "D. Meltriose",
             "E. Maltose"
           ],
@@ -915,15 +583,15 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-59",
+          "id": "hoa-hoc-glucid-38",
           "text": "Đây là CTCT của Glucid nào sau đây?",
-          "image": "images/hoa-hoc-glucid-60.png",
-          "explain": "Hình vẽ thể hiện rõ 3 monosaccharid nối với nhau qua liên kết glycosid: Galactose - Glucose - Fructose (có nhãn tên ngay trên hình).\nĐây chính là cấu tạo của Rafinose, một trisaccharid đặc trưng cấu tạo từ 3 đơn vị đường này (thường có trong củ cải đường, các loại đậu).",
-          "tip": "3 tên đường ghi ngay trên hình: Galactose-Glucose-Fructose = Rafinose (tam đường)",
+          "image": "images/hoa-hoc-glucid-38.png",
+          "explain": "Hình cho thấy chuỗi 3 đường đơn Galactose – Glucose – Fructose nối với nhau → đó là trisaccharid Rafinose.",
+          "tip": "3 vòng đường Gal-Glu-Fru nối nhau → Rafinose.",
           "options": [
-            "A.Galatose",
+            "A. Galactose",
             "B. Glucose",
-            "C. Frutose",
+            "C. Fructose",
             "D. Rafinose",
             "E. Maltose"
           ],
@@ -931,11 +599,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-60",
+          "id": "hoa-hoc-glucid-39",
           "text": "Cấu hình cuộn xoắn ốc của Amylose được giữ vững nhờ liên kết nào sau đây?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Starch_helix.jpg",
-          "explain": "Cấu trúc xoắn ốc (helix) của Amylose được ổn định chủ yếu nhờ các liên kết Hydro giữa các nhóm OH của các đơn vị Glucose trong chuỗi xoắn, không phải liên kết cộng hóa trị bền vững như peptid, glycosid, disulfur hay ion.",
-          "tip": "Xoắn ốc mềm dẻo, dễ tháo → liên kết yếu (Hydro), không phải liên kết bền vững.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Amylose2.svg",
+          "explain": "Chuỗi amylose (α-1,4 glucose) cuộn thành xoắn ốc, được giữ ổn định bởi các liên kết HYDRO nội phân tử. Liên kết glycosid là liên kết nối các glucose thành chuỗi (không phải yếu tố giữ xoắn).",
+          "tip": "Giữ hình xoắn = liên kết Hydro (yếu, nhiều).",
           "options": [
             "A. Peptid",
             "B. Hydro",
@@ -947,11 +615,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-61",
+          "id": "hoa-hoc-glucid-40",
           "text": "Trong phân tử Amylose, các Glucose liên kết với nhau bằng liên kết gì?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Starch_helix.jpg",
-          "explain": "Amylose là polymer thẳng (không phân nhánh) của Glucose, các đơn vị Glucose nối với nhau hoàn toàn bằng liên kết α-1,4 glycosidic.",
-          "tip": "Amylose = chuỗi thẳng, chỉ có liên kết 1-4, không có nhánh 1-6.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Amylose2.svg",
+          "explain": "Amylose là chuỗi thẳng gồm glucose nối bằng liên kết α-1,4 glucosidic (C1–C4).",
+          "tip": "Amylose mạch thẳng → chỉ có C1-C4.",
           "options": [
             "A. C1-C6 glucosidic",
             "B. C1-C4 glucosidic",
@@ -963,11 +631,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-62",
-          "text": "Trong phân tử Amylopectin, các Glucose liên kết với nhau bằng liên kết gì?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Amylopektin.svg",
-          "explain": "Amylopectin có cấu trúc phân nhánh: mạch chính nối bằng liên kết α-1,4 glycosidic, tại điểm phân nhánh nối thêm bằng liên kết α-1,6 glycosidic → cả 2 loại liên kết đều có mặt trong phân tử.",
-          "tip": "Amylopectin phân nhánh = 1,4 (mạch thẳng) + 1,6 (nhánh).",
+          "id": "hoa-hoc-glucid-41",
+          "text": "Trong phân tử Amylopectin các Glucose liên kết với nhau bằng liên kết gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Amylopektin_Sessel.svg",
+          "explain": "Amylopectin phân nhánh: mạch chính nối C1–C4, tại điểm phân nhánh nối C1–C6 → cả A và B đúng.",
+          "tip": "Amylopectin phân nhánh → có cả C1-C4 (mạch) và C1-C6 (nhánh).",
           "options": [
             "A. C1-C6 glucosidic",
             "B. C1-C4 glucosidic",
@@ -979,11 +647,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-63",
+          "id": "hoa-hoc-glucid-42",
           "text": "Tại vị trí phân nhánh của Amylopectin, các Glucose liên kết với nhau bằng liên kết gì?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Amylopektin.svg",
-          "explain": "Điểm phân nhánh của Amylopectin là nơi một chuỗi Glucose mới gắn vào C6 của Glucose ở mạch chính, tạo liên kết α-1,6 glycosidic đặc trưng riêng cho vị trí phân nhánh (khác với mạch thẳng là 1,4).",
-          "tip": "Phân nhánh luôn là liên kết 1-6 (nhánh tách ra từ số '6').",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Amylopektin_Sessel.svg",
+          "explain": "Riêng tại điểm phân nhánh, liên kết là α-1,6 glucosidic (C1–C6). Mạch thẳng vẫn là C1–C4.",
+          "tip": "Điểm 'rẽ nhánh' = C1-C6.",
           "options": [
             "A. C1-C6 glucosidic",
             "B. C1-C4 glucosidic",
@@ -995,11 +663,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-64",
+          "id": "hoa-hoc-glucid-43",
           "text": "Trong phân tử Cellulose, các Glucose liên kết với nhau bằng liên kết gì?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Cellulose_Struktur_in_Sesselform.svg",
-          "explain": "Cellulose là polymer thẳng của Glucose, các đơn vị nối với nhau bằng liên kết β-1,4 glycosidic (khác Amylose là α-1,4), tạo cấu trúc sợi thẳng, bền vững, không phân nhánh.",
-          "tip": "Cellulose & Amylose đều là liên kết 1-4, chỉ khác dạng α (Amylose) hay β (Cellulose).",
+          "explain": "Cellulose là chuỗi thẳng glucose nối bằng liên kết β-1,4 glucosidic (C1–C4). (Khác amylose ở cấu hình β khiến người không tiêu hóa được.)",
+          "tip": "Cellulose mạch thẳng → C1-C4 (nhưng kiểu β).",
           "options": [
             "A. C1-C6 glucosidic",
             "B. C1-C4 glucosidic",
@@ -1011,59 +679,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-65",
-          "text": "Hợp chất nào sau đây thuộc nhóm Hemicellulose?",
-          "image": null,
-          "explain": "Hemicellulose là nhóm polysaccharid cấu trúc thực vật đi kèm Cellulose ở vách tế bào, gồm các loại như Xylan (polymer của Xylose), Araban, Galactan... Pectin, Glycogen, Inulin, Heparin không thuộc nhóm này.",
-          "tip": "Hemicellulose 'họ hàng' với Cellulose ở thành tế bào thực vật: Xylan, Araban, Galactan.",
-          "options": [
-            "A. Xylan",
-            "B. Pectin",
-            "C. Glycogen",
-            "D. Inulin",
-            "E. Heparin"
-          ],
-          "correct": "A. Xylan",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-66",
-          "text": "Hợp chất nào sau đây thuộc nhóm Hemicellulose?",
-          "image": null,
-          "explain": "Araban (polymer của Arabinose) là một trong các Hemicellulose có trong thành tế bào thực vật, cùng nhóm với Xylan, Galactan.",
-          "tip": "Hemicellulose: Xylan, Araban, Galactan - nhóm 'polysaccharid phụ' ở vách tế bào thực vật.",
-          "options": [
-            "A. Araban",
-            "B. Pectin",
-            "C. Glycogen",
-            "D. Inulin",
-            "E. Heparin"
-          ],
-          "correct": "A. Araban",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-67",
-          "text": "Hợp chất nào sau đây thuộc nhóm Hemicellulose?",
-          "image": null,
-          "explain": "Galactan (polymer của Galactose) cũng là một Hemicellulose điển hình có trong thành tế bào thực vật, cùng nhóm với Xylan, Araban.",
-          "tip": "Hemicellulose: Xylan, Araban, Galactan - nhóm 'polysaccharid phụ' ở vách tế bào thực vật.",
-          "options": [
-            "A. Galactan",
-            "B. Pectin",
-            "C. Glycogen",
-            "D. Inulin",
-            "E. Heparin"
-          ],
-          "correct": "A. Galactan",
-          "flag": null
-        },
-        {
-          "id": "hoa-hoc-glucid-68",
+          "id": "hoa-hoc-glucid-44",
           "text": "Hợp chất nào sau đây có phản ứng dương tính với thuốc thử Saliwanof?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Seliwanow.svg",
-          "explain": "Thuốc thử Seliwanoff dùng để phát hiện Ketose (Fructose và dẫn xuất). Inulin là polyfructosan (polymer của Fructose) nên cho phản ứng dương tính (màu đỏ) với Seliwanoff, khác với các polysaccharid gốc Glucose/Galactose/Xylose (Xylan, Glycogen).",
-          "tip": "Seliwanoff (+) với Ketose → Inulin (polymer của Fructose) cho phản ứng dương tính.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Inulin_strukturformel.png",
+          "explain": "Phản ứng Seliwanoff (Saliwanof) dương tính với cetose (fructose). Inulin là polymer của fructose → khi thủy phân cho fructose → dương tính.",
+          "tip": "Seliwanoff = phát hiện Fructose → Inulin (polyfructose).",
           "options": [
             "A. Xylan",
             "B. Pectin",
@@ -1075,11 +695,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-69",
+          "id": "hoa-hoc-glucid-45",
           "text": "Hợp chất nào sau đây có thành phần chính là galacturonic acid có nhóm -COOH bị methyl hóa?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Pektin1.svg",
-          "explain": "Pectin có thành phần chính là Acid Galacturonic (dẫn xuất oxy hóa của Galactose ở C6 thành COOH), trong đó một phần nhóm -COOH bị ester hóa (methyl hóa) tạo pectin với các mức độ methoxyl hóa khác nhau.",
-          "tip": "Pectin = chuỗi Acid Galacturonic + nhóm COOH bị methyl hóa (methyl ester).",
+          "explain": "Pectin cấu tạo chủ yếu từ acid galacturonic, trong đó nhiều nhóm –COOH bị methyl ester hóa (methyl hóa).",
+          "tip": "Pectin (trong vỏ trái cây) = acid galacturonic bị methyl hóa.",
           "options": [
             "A. Xylan",
             "B. Pectin",
@@ -1091,11 +711,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-70",
+          "id": "hoa-hoc-glucid-46",
           "text": "Hợp chất nào sau đây là polysaccharid dự trữ chủ yếu ở gan?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Glycogen_structure.jpg",
-          "explain": "Glycogen là polysaccharid dự trữ năng lượng chính ở động vật, tập trung nhiều nhất ở gan và cơ vân, có cấu trúc phân nhánh nhiều hơn Amylopectin.",
-          "tip": "Glycogen = 'tinh bột động vật', dự trữ chủ yếu ở gan và cơ.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Glycogen.svg",
+          "explain": "Glycogen là dạng dự trữ glucid ở động vật, tập trung nhiều nhất ở gan và cơ.",
+          "tip": "Đường dự trữ ở gan/cơ = Glycogen.",
           "options": [
             "A. Xylan",
             "B. Pectin",
@@ -1107,11 +727,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-71",
+          "id": "hoa-hoc-glucid-47",
           "text": "Hợp chất nào sau đây ức chế quá trình đông máu?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Heparin_General_Structure_V.1.svg",
-          "explain": "Heparin là một Glycosaminoglycan có tác dụng chống đông máu mạnh, do hoạt hóa Antithrombin III để ức chế Thrombin và yếu tố Xa.",
-          "tip": "Heparin = thuốc chống đông máu tự nhiên trong cơ thể (mast cell, gan, phổi).",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Heparin_pharmacophore_haworth_v.01.svg",
+          "explain": "Heparin là chất chống đông máu tự nhiên (hoạt hóa antithrombin III).",
+          "tip": "Heparin = thuốc/chất chống đông.",
           "options": [
             "A. Xylan",
             "B. Pectin",
@@ -1123,11 +743,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-72",
+          "id": "hoa-hoc-glucid-48",
           "text": "Hợp chất nào sau đây có cấu tạo gần giống Amylopectin?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Glycogen_structure.jpg",
-          "explain": "Glycogen có cấu trúc phân nhánh nhiều (mỗi 8-12 Glucose có 1 nhánh α-1,6) tương tự Amylopectin nhưng mức độ phân nhánh dày đặc hơn.",
-          "tip": "Glycogen giống Amylopectin nhưng phân nhánh 'dày' hơn - gọi là tinh bột động vật.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Glycogen.svg",
+          "explain": "Glycogen có cấu tạo gần giống amylopectin (đều là glucose nối α-1,4 và phân nhánh α-1,6) nhưng glycogen phân nhánh dày đặc hơn.",
+          "tip": "Cùng 'phân nhánh' → Amylopectin ~ Glycogen.",
           "options": [
             "A. Xylan",
             "B. Pectin",
@@ -1139,11 +759,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-73",
+          "id": "hoa-hoc-glucid-49",
           "text": "Hợp chất nào sau đây có cấu tạo gần giống Amylose?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Starch_helix.jpg",
-          "explain": "Cellulose và Amylose đều là polymer thẳng, không phân nhánh của Glucose (khác nhau ở kiểu liên kết α hay β 1-4), nên có cấu trúc mạch thẳng tương tự nhau, khác hẳn Pectin (acid galacturonic), Glycogen (phân nhánh nhiều), Inulin (fructan) hay Heparin (glycosaminoglycan).",
-          "tip": "Amylose (α1-4) và Cellulose (β1-4) đều là mạch Glucose thẳng, không phân nhánh.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Cellulose_Struktur_in_Sesselform.svg",
+          "explain": "Amylose là chuỗi glucose mạch thẳng, không phân nhánh, liên kết α-1,4. Cellulose cũng là chuỗi glucose mạch thẳng, không phân nhánh, liên kết ở vị trí 1,4 – chỉ khác cấu hình β (khiến người không tiêu hóa được). Vì cùng đơn phân glucose + cùng liên kết 1→4 + cùng mạch thẳng nên Cellulose có cấu tạo GẦN GIỐNG amylose nhất (đây cũng là cặp so sánh kinh điển amylose ↔ cellulose). Inulin tuy mạch thẳng nhưng lại là polymer của fructose (liên kết β-2,1) nên khác xa hơn.",
+          "tip": "Amylose ↔ Cellulose: cùng glucose, cùng mạch thẳng 1-4, chỉ khác α/β. (Amylopectin ↔ Glycogen: cùng phân nhánh.)",
           "options": [
             "A. Cellulose",
             "B. Pectin",
@@ -1155,11 +775,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-74",
+          "id": "hoa-hoc-glucid-50",
           "text": "Hợp chất nào sau đây tạo phức đỏ nâu với Iod?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Iod-St%C3%A4rke-Test.jpg",
-          "explain": "Với Iod, Amylose cho màu xanh tím do xoắn ốc dài; còn Amylopectin và Glycogen (cấu trúc phân nhánh nhiều, mạch xoắn ngắn) cho màu đỏ nâu (đỏ tía).",
-          "tip": "Iod: Amylose → xanh tím; Glycogen/Amylopectin → đỏ nâu.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Glycogen.svg",
+          "explain": "Glycogen (và amylopectin) phân nhánh nhiều → tạo phức màu đỏ nâu với iod; còn amylose mạch thẳng tạo màu xanh tím.",
+          "tip": "Phân nhánh (Glycogen) + Iod → đỏ nâu.",
           "options": [
             "A. Cellulose",
             "B. Pectin",
@@ -1171,11 +791,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-75",
+          "id": "hoa-hoc-glucid-51",
           "text": "Hợp chất nào sau đây tạo phức xanh tím với Iod?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Iod-St%C3%A4rke-Test.jpg",
-          "explain": "Amylose có cấu trúc xoắn ốc dài, giữ phân tử Iod bên trong lòng xoắn tạo phức màu xanh tím đặc trưng, dùng làm phản ứng nhận biết tinh bột kinh điển.",
-          "tip": "Amylose + Iod = xanh tím (test hồ tinh bột kinh điển).",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Amylose2.svg",
+          "explain": "Amylose mạch thẳng cuộn xoắn ôm lấy phân tử iod → tạo phức màu xanh tím đặc trưng.",
+          "tip": "Mạch thẳng (Amylose) + Iod → xanh tím.",
           "options": [
             "A. Amylose",
             "B. Amylopectin",
@@ -1187,11 +807,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-76",
+          "id": "hoa-hoc-glucid-52",
           "text": "Hợp chất nào sau đây là thành phần của mô liên kết, có trong dịch khớp xương, thủy tinh thể?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Hyaluronic_acid.svg",
-          "explain": "Acid Hyaluronic là Glycosaminoglycan có trong mô liên kết, dịch khớp (dịch nhầy hoạt dịch) và thủy tinh thể của mắt, có vai trò bôi trơn và giữ nước.",
-          "tip": "Hyaluronic = 'chất bôi trơn' của khớp, mắt, da.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Hyaluronan.svg",
+          "explain": "Acid hyaluronic (một glycosaminoglycan) có trong mô liên kết, dịch khớp và thủy tinh thể của mắt, giữ vai trò bôi trơn và tạo độ nhớt.",
+          "tip": "Hyaluronic = 'nhớt' của dịch khớp & thủy tinh thể.",
           "options": [
             "A. Amylose",
             "B. Hyaluronic",
@@ -1203,11 +823,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-77",
+          "id": "hoa-hoc-glucid-53",
           "text": "Cơ chế chống đông máu của Heparin là gì?",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Heparin_General_Structure_V.1.svg",
-          "explain": "Heparin hoạt hóa Antithrombin III, chất này ức chế Thrombin (và yếu tố Xa), do đó ngăn cản Prothrombin chuyển thành Thrombin, ức chế quá trình đông máu. Heparin không đối kháng Vitamin K (đó là cơ chế của Warfarin) và không trực tiếp ức chế kết tập tiểu cầu (đó là Aspirin), nên chỉ đáp án B đúng.",
-          "tip": "Heparin ức chế Thrombin qua Antithrombin III, không phải đối kháng Vitamin K hay ức chế tiểu cầu.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Heparin_pharmacophore_haworth_v.01.svg",
+          "explain": "Heparin hoạt hóa antithrombin III, qua đó ức chế thrombin và các yếu tố đông máu → ngăn prothrombin chuyển thành thrombin. Đối kháng vitamin K là cơ chế của warfarin; ức chế kết tập tiểu cầu là của aspirin.",
+          "tip": "Heparin chặn bước prothrombin → thrombin (khác warfarin đối kháng vitamin K).",
           "options": [
             "A. Đối kháng Vitamin K",
             "B. Ngăn chặn prothrombin chuyển thành thrombin",
@@ -1219,11 +839,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-78",
+          "id": "hoa-hoc-glucid-54",
           "text": "Inulin được cấu tạo từ monosaccharid nào?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Inulin_strukturformel.png",
-          "explain": "Inulin là fructan – một polysaccharide dự trữ ở một số thực vật (củ dahlia, rễ diếp xoăn, atiso...), được cấu tạo hầu như hoàn toàn từ các gốc Fructose liên kết với nhau (có thể có 1 gốc Glucose ở đầu mạch nhưng thành phần chủ yếu và đặc trưng là Fructose).",
-          "tip": "Inulin - nhớ liên tưởng 'in' như 'inulin chứa toàn Fructose'.",
+          "explain": "Inulin là fructan – polymer của Fructose (thường có 1 glucose ở đầu chuỗi). Đơn phân chính là fructose.",
+          "tip": "Inulin = poly-Fructose.",
           "options": [
             "A. Glucose",
             "B. Fructose",
@@ -1235,11 +855,11 @@
           "flag": null
         },
         {
-          "id": "hoa-hoc-glucid-79",
+          "id": "hoa-hoc-glucid-55",
           "text": "Polysaccharid nào sau đây chỉ có ở động vật?",
-          "image": null,
-          "explain": "Cellulose, Pectin, Inulin đều có nguồn gốc thực vật. Glycogen tuy là polysaccharide dự trữ ở động vật (gan, cơ) nhưng cũng được tìm thấy ở nấm men và một số vi sinh vật nên không phải 'chỉ có ở động vật'. Heparin là một glycosaminoglycan (mucopolysaccharid) chỉ có ở mô động vật (gan, phổi...), có vai trò chống đông máu, không tồn tại ở thực vật hay vi sinh vật.",
-          "tip": "Heparin - Hepar (gan) - chỉ có ở động vật, không lẫn vào đâu được.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Heparin_pharmacophore_haworth_v.01.svg",
+          "explain": "Trong cụm 3 câu 55-56-57, bộ câu hỏi coi Glycogen là chất 'có ở cả thực vật và động vật' (đáp án câu 57), nên ở câu này chất 'CHỈ có ở động vật' là Heparin – một mucopolysaccharid (glycosaminoglycan) chỉ có ở mô động vật. Cellulose/Pectin/Inulin thuộc thực vật.",
+          "tip": "Mucopolysaccharid (Heparin) → riêng động vật. (Lưu ý: hóa sinh chuẩn xem glycogen cũng chỉ ở động vật.)",
           "options": [
             "A. Cellulose",
             "B. Pectin",
@@ -1248,14 +868,14 @@
             "E. Inulin"
           ],
           "correct": "C. Heparin",
-          "flag": null
+          "flag": "Cụm 55/56/57 mâu thuẫn: hóa sinh chuẩn xem glycogen chỉ ở động vật. Đáp án chọn theo cách đọc nhất quán với câu 57 (glycogen=cả TV&ĐV). Cần đối chiếu đáp án gốc."
         },
         {
-          "id": "hoa-hoc-glucid-80",
+          "id": "hoa-hoc-glucid-56",
           "text": "Polysaccharid nào sau đây chỉ có ở động vật?",
-          "image": null,
-          "explain": "Cellulose, Pectin, Inulin có nguồn gốc thực vật. Glycogen còn gặp ở nấm men, vi khuẩn nên không phải chỉ có ở động vật. Acid Hyaluronic là một mucopolysaccharid chỉ có trong mô liên kết, dịch khớp, thủy tinh thể... của động vật, không có ở thực vật hay vi sinh vật.",
-          "tip": "Hyaluronic - có trong khớp, da, mắt động vật - đặc trưng riêng cho động vật.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Hyaluronan.svg",
+          "explain": "Tương tự câu 55: bộ câu hỏi coi Glycogen là 'có ở cả TV và ĐV', nên chất 'CHỈ có ở động vật' ở đây là Acid hyaluronic – glycosaminoglycan của mô liên kết, dịch khớp, thủy tinh thể, chỉ có ở động vật.",
+          "tip": "Hyaluronic (chất nền mô liên kết) → chỉ ở động vật.",
           "options": [
             "A. Cellulose",
             "B. Pectin",
@@ -1264,14 +884,14 @@
             "E. Inulin"
           ],
           "correct": "C. Hyaluronic",
-          "flag": null
+          "flag": "Xem câu 55: cách đọc nhất quán với câu 57. Nếu theo hóa sinh chuẩn (glycogen chỉ ở ĐV) thì đáp án có thể là Glycogen. Cần đối chiếu đáp án gốc."
         },
         {
-          "id": "hoa-hoc-glucid-81",
+          "id": "hoa-hoc-glucid-57",
           "text": "Polysaccharid nào sau đây có ở thực vật và động vật?",
-          "image": null,
-          "explain": "Cellulose và Inulin chỉ có ở thực vật; Heparin và Acid Hyaluronic chỉ có ở động vật. Glycogen là polysaccharide dự trữ chủ yếu ở động vật (gan, cơ) nhưng cũng được tìm thấy ở nấm men và một số vi sinh vật, nên được xem là polysaccharid có mặt ở cả hai giới.",
-          "tip": "Glycogen 'đa năng' - vừa có ở động vật vừa gặp ở nấm men, vi khuẩn.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Glycogen.svg",
+          "explain": "Trong danh sách này, Cellulose/Inulin chỉ ở thực vật; Heparin/Hyaluronic chỉ ở động vật; do đó chất được bộ câu hỏi xem là 'có ở cả thực vật và động vật' là Glycogen. (Lưu ý: theo hóa sinh kinh điển glycogen là polysaccharid dự trữ của ĐỘNG VẬT; một số tài liệu ghi nhận glycogen/phytoglycogen còn gặp ở nấm, vi khuẩn, vài loài thực vật nên mới xếp là 'cả hai'.)",
+          "tip": "Chỉ Glycogen mới có thể là 'cả TV và ĐV' trong danh sách này → D.",
           "options": [
             "A. Cellulose",
             "B. Inulin",
@@ -1280,102 +900,829 @@
             "E. Hyaluronic"
           ],
           "correct": "D. Glycogen",
+          "flag": "Mâu thuẫn với hóa sinh chuẩn (glycogen chỉ ở ĐV). Đây là câu ép buộc đáp án Glycogen để cả cụm 55/56/57 nhất quán. Cần đối chiếu đáp án gốc."
+        },
+        {
+          "id": "hoa-hoc-glucid-58",
+          "text": "Dạ dày có pH khoảng bao nhiêu?",
+          "image": null,
+          "explain": "Dịch vị dạ dày rất acid do HCl → pH khoảng 1,5 – 2,5.",
+          "tip": "Dạ dày = acid mạnh (HCl) → pH ~2.",
+          "options": [
+            "A. pH 6,8 – 7",
+            "B. pH 1,5 – 2,5",
+            "C. pH 8",
+            "D. pH 9 – 10"
+          ],
+          "correct": "B. pH 1,5 – 2,5",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-59",
+          "text": "Quá trình chuyển hóa tiếp theo của Glucid tại gan là gì?",
+          "image": null,
+          "explain": "Tại gan, glucose có thể được: tổng hợp thành glycogen dự trữ, thoái hóa cho năng lượng, hoặc chuyển thành lipid/protein → cả 3 đều đúng.",
+          "tip": "Gan là 'ngã ba' chuyển hóa → làm cả 3 việc.",
+          "options": [
+            "A. Tổng hợp Glycogen (đường dự trữ)",
+            "B. Đốt cháy (thoái hóa) cung cấp năng lượng",
+            "C. Tổng hợp Lipid, Protein",
+            "D. A, B và C đều đúng"
+          ],
+          "correct": "D. A, B và C đều đúng",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-60",
+          "text": "Thoái hóa Glucose theo con đường Hexose diphosphat xảy ra ở đâu?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Glycolysis.svg",
+          "explain": "Con đường hexose diphosphat (đường phân – glycolysis) diễn ra ở BÀO TƯƠNG (cytosol).",
+          "tip": "Đường phân (glycolysis) → bào tương.",
+          "options": [
+            "A. Lạp thể",
+            "B. Ty thể",
+            "C. Bào tương",
+            "D. Ribosom"
+          ],
+          "correct": "C. Bào tương",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-61",
+          "text": "Cơ quan nào đảm nhận vai trò chủ yếu trong tổng hợp Glucose?",
+          "image": null,
+          "explain": "Gan là cơ quan chính thực hiện tân tạo đường (gluconeogenesis) và điều hòa đường huyết (thận đóng vai trò phụ).",
+          "tip": "Tân tạo đường chủ yếu ở Gan.",
+          "options": [
+            "A. Thận",
+            "B. Gan",
+            "C. Ruột non",
+            "D. Tim"
+          ],
+          "correct": "B. Gan",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-62",
+          "text": "Nhận định nào sau đây là đúng về quá trình thoái hóa Glucose theo con đường Hexose diphosphat?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Glycolysis.svg",
+          "explain": "Đường phân (hexose diphosphat) xảy ra ở bào tương, 2 giai đoạn với 10 phản ứng (A đúng) và là con đường chuyển hóa được biết đến sớm nhất, hiểu rõ nhất (C đúng). Nhận định B mô tả con đường hexose monophosphat (pentose phosphat) → sai. Vậy A và C đúng.",
+          "tip": "Diphosphat = đường phân: bào tương, 10 phản ứng, kinh điển → A và C.",
+          "options": [
+            "A. Xảy ra ở bào tương, qua 2 giai đoạn gồm 10 phản ứng. Giai đoạn hoạt hóa 5 phản ứng. Giai đoạn oxy hóa sinh năng lượng 5 phản ứng.",
+            "B. Quan trọng ở các tế bào phân chia nhanh và các tế bào cần NADPH2 để chống lại tác nhân oxy hóa và sinh tổng hợp acid béo, cholesterol.",
+            "C. Đây là con đường chuyển hóa đầu tiên được biết đến và được hiểu rõ nhất.",
+            "D. A và C đúng"
+          ],
+          "correct": "D. A và C đúng",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-63",
+          "text": "Gan điều hòa đường huyết theo cơ chế nào?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Glucose_Homeostasis_for_Wikipedia.jpg",
+          "explain": "Gan điều hòa đường huyết hai chiều: bình thường cấp glucose cho máu; khi tăng → dự trữ thành glycogen; khi giảm → phân cắt glycogen trả glucose ra máu. Cả 3 đều đúng.",
+          "tip": "Gan như 'ngân hàng đường': gửi khi dư, rút khi thiếu → cả 3 đúng.",
+          "options": [
+            "A. Khi nồng độ glucose máu bình thường: gan là nơi cung cấp Glucose cho máu.",
+            "B. Khi nồng độ glucose máu tăng cao: sự giải phóng Glucose vào máu ngừng lại và gan tăng sử dụng Glucose để tổng hợp glycogen.",
+            "C. Khi nồng độ glucose máu giảm thấp: gan tăng phân cắt Glycogen tạo Glucose cho máu.",
+            "D. A, B và C đều đúng."
+          ],
+          "correct": "D. A, B và C đều đúng.",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-64",
+          "text": "Chuỗi hô hấp tế bào diễn ra ở đâu?",
+          "image": null,
+          "explain": "Chuỗi hô hấp tế bào (chuỗi vận chuyển điện tử) nằm ở màng trong TY THỂ.",
+          "tip": "Hô hấp tế bào = 'nhà máy điện' Ty thể.",
+          "options": [
+            "A. Ty thể",
+            "B. Bào tương",
+            "C. Nhân tế bào",
+            "D. Lạp thể",
+            "E. Cơ"
+          ],
+          "correct": "A. Ty thể",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-65",
+          "text": "Quá trình nào sau đây là chuyển hóa yếm khí Glucid?",
+          "image": null,
+          "explain": "Muối chua (lên men lactic), làm rượu (lên men rượu), làm sữa chua (lên men lactic) đều là quá trình lên men – chuyển hóa yếm khí glucid → cả 3 đều đúng.",
+          "tip": "Lên men (chua, rượu, sữa chua) đều 'thiếu O2' → yếm khí.",
+          "options": [
+            "A. Muối chua cải, cà, dưa",
+            "B. Làm rượu trái cây",
+            "C. Làm sữa chua",
+            "D. Tất cả đều đúng",
+            "E. Tất cả đều sai"
+          ],
+          "correct": "D. Tất cả đều đúng",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-66",
+          "text": "Sản phẩm chuyển hóa Glucid hiếu khí là gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Acetyl-CoA-2D_colored.svg",
+          "explain": "Chuyển hóa hiếu khí (đủ O2): glucose → pyruvat → Acetyl CoA đi vào chu trình Krebs, tạo nhiều ATP. Acid lactic và ethanol là sản phẩm YẾM khí. Vậy sản phẩm hiếu khí gồm Acetyl CoA và ATP → C và D đúng.",
+          "tip": "Hiếu khí → Acetyl CoA + nhiều ATP (không tạo acid lactic/ethanol).",
+          "options": [
+            "A. Acid lactic",
+            "B. Ethanol",
+            "C. Acetyl CoA",
+            "D. ATP",
+            "E. C và D đúng"
+          ],
+          "correct": "E. C và D đúng",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-67",
+          "text": "Điền vào chỗ “…”: Chuyển hóa Hexose …(1)… là quá trình phân giải trực tiếp …(2)… không qua quá trình đường phân, có 2 giai đoạn: oxi hóa và không oxi hóa.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
+          "explain": "Con đường hexose MONOphosphat (pentose phosphat) phân giải trực tiếp Glucose-6P, không qua đường phân, gồm giai đoạn oxi hóa và không oxi hóa.",
+          "tip": "Monophosphat = phân giải Glucose-6P trực tiếp.",
+          "options": [
+            "A. (1) monophosphat, (2) Glucose-6P",
+            "B. (1) diphosphat, (2) Glucose-6P",
+            "C. (1) monophosphat, (2) Glucose-1P",
+            "D. (1) diphosphat, (2) Glucose-6P",
+            "E. (1) diphosphat, (2) Glucose"
+          ],
+          "correct": "A. (1) monophosphat, (2) Glucose-6P",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-68",
+          "text": "Điền vào chỗ “…”: Giai đoạn oxi hóa của chu trình …(1)…, chuyển đổi …(2)… thành Ribulose-5P. Giải phóng NADPH, là nguyên liệu cần thiết cho sinh tổng hợp acid béo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
+          "explain": "Chu trình này có hai tên: hexose monophosphat = pentose phosphat. Giai đoạn oxi hóa chuyển Glucose-6P → Ribulose-5P, giải phóng NADPH. Cả (1) monophosphat và (1) pentose phosphat đều đúng, kèm (2) Glucose-6P → A và B đúng.",
+          "tip": "Hexose monophosphat = pentose phosphat (cùng 1 chu trình) → A và B.",
+          "options": [
+            "A. (1) monophosphat, (2) Glucose-6P",
+            "B. (1) pentose phosphat, (2) Glucose-6P",
+            "C. (1) monophosphat, (2) Glucose-1P",
+            "D. A và B đúng",
+            "E. Tất cả đều sai"
+          ],
+          "correct": "D. A và B đúng",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-69",
+          "text": "Điền vào chỗ “…”: Giai đoạn 1 của chu trình pentose phosphat là quá trình oxi hóa, chuyển đổi Glucose-6P thành …(1)…. Giải phóng …(2)…, là nguyên liệu cần thiết cho sinh tổng hợp acid béo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
+          "explain": "Giai đoạn oxi hóa: Glucose-6P → Ribulose-5P, giải phóng NADPH (dùng cho tổng hợp acid béo). Ribose-5P chỉ xuất hiện sau đó ở giai đoạn không oxi hóa.",
+          "tip": "Oxi hóa Glucose-6P → Ribulose-5P + NADPH.",
+          "options": [
+            "A. (1) Ribose-5P, (2) NADPH",
+            "B. (1) Ribose-5P, (2) NADP",
+            "C. (1) Ribulose-5P, (2) ATP",
+            "D. (1) Ribose-5P, (2) ADP",
+            "E. (1) Ribulose-5P, (2) NADPH"
+          ],
+          "correct": "E. (1) Ribulose-5P, (2) NADPH",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-70",
+          "text": "Điền vào chỗ “…”: …(1)… của chu trình pentose phosphat là quá trình …(2)…, chuyển đổi Glucose-6P thành Ribulose-5P, giải phóng NADPH, là nguyên liệu cần thiết cho sinh tổng hợp acid béo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
+          "explain": "Việc chuyển Glucose-6P → Ribulose-5P kèm giải phóng NADPH là Giai đoạn 1 (oxi hóa) của chu trình pentose phosphat.",
+          "tip": "Sinh NADPH = giai đoạn 1, oxi hóa.",
+          "options": [
+            "A. (1) Giai đoạn 1, (2) Không oxi hóa",
+            "B. (1) Giai đoạn 1, (2) Oxi hóa",
+            "C. (1) Giai đoạn 2, (2) Không oxi hóa",
+            "D. (1) Giai đoạn 2, (2) Oxi hóa",
+            "E. (1) Giai đoạn 3, (2) Oxi hóa"
+          ],
+          "correct": "B. (1) Giai đoạn 1, (2) Oxi hóa",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-71",
+          "text": "Điền vào chỗ “…”: Giai đoạn 2 của chu trình hexose monophosphat là quá trình …(1)… chuyển đổi Ribulose-5P thành …(2)…, tiếp tục chuyển đổi thành Glucose-6P và lặp lại chu trình từ giai đoạn 1.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
+          "explain": "Giai đoạn 2 là quá trình KHÔNG oxi hóa, chuyển Ribulose-5P → Ribose-5P rồi tái tạo Glucose-6P. (Ribose-5P, không phải Ribose-6P.)",
+          "tip": "Giai đoạn 2 = không oxi hóa → tạo Ribose-5P.",
+          "options": [
+            "A. (1) Không oxi hóa, (2) Ribose-6P",
+            "B. (1) Không oxi hóa, (2) Ribose-5P",
+            "C. (1) Oxi hóa, (2) Ribose-6P",
+            "D. (1) Oxi hóa, (2) Ribose-5P",
+            "E. Tất cả đều sai"
+          ],
+          "correct": "B. (1) Không oxi hóa, (2) Ribose-5P",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-72",
+          "text": "Điền vào chỗ “…”: Giai đoạn 2 của chu trình hexose monophosphat là quá trình không oxi hóa chuyển đổi …(1)… thành …(2)…, tiếp tục chuyển đổi thành Glucose-6P và lặp lại chu trình từ giai đoạn 1.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
+          "explain": "Ở giai đoạn không oxi hóa của con đường HMP, các đường-phosphat được sắp xếp lại rồi tái tạo Glucose-6P. Trong cách trình bày giản lược của giáo trình: 2 phân tử phosphoglyceraldehyd (Glyceraldehyd-3-P) – trong đó 1 phân tử đồng phân hóa thành Dihydroxyaceton-P – kết hợp tạo Fructose-1,6-diP → Fructose-6P → Glucose-6P. Vì vậy cặp triose-phosphat Dihydroxyaceton-P ↔ Glyceraldehyd-3-P là hai chất chuyển đổi cho nhau rồi tái tạo Glucose-6P. Các đáp án còn lại (1,3-biphosphoglycerat, 3P-glycerat) là chất của con đường đường phân nên sai.",
+          "tip": "Hai triose-P (DHAP ↔ G3P) ghép lại → Fructose-1,6-diP → F6P → Glucose-6P.",
+          "options": [
+            "A. (1) Dihydroxyaceton-P, (2) Glyceraldehyde-3-P",
+            "B. (1) Dihydroxyaceton-P, (2) 1,3 biphosphoglycerate",
+            "C. (1) Glyceraldehyde-3-P, (2) 1,3 biphosphoglycerate",
+            "D. (1) 3P-glycerate, (2) 1,3 biphosphoglycerate",
+            "E. Tất cả đều sai"
+          ],
+          "correct": "A. (1) Dihydroxyaceton-P, (2) Glyceraldehyde-3-P",
+          "flag": "Câu diễn đạt tối giản, không hoàn toàn khớp con đường HMP chuẩn (transketolase/transaldolase). Chọn A theo cách trình bày giáo trình VN. Cần đối chiếu đáp án gốc."
+        },
+        {
+          "id": "hoa-hoc-glucid-73",
+          "text": "Điền vào chỗ “…”: Giai đoạn 2 của chu trình …(1)… là quá trình …(2)… chuyển đổi Ribulose-5P thành Ribose-5P, tiếp tục chuyển đổi thành Glucose-6P và lặp lại chu trình từ giai đoạn 1.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
+          "explain": "Chu trình có hai tên gọi: hexose monophosphat = pentose phosphat; giai đoạn 2 là quá trình không oxi hóa → cả A và B đúng. Hexose diphosphat là đường phân (khác) nên sai.",
+          "tip": "Monophosphat = pentose phosphat → 'A và B đúng'.",
+          "options": [
+            "A. (1) hexose monophosphat, (2) không oxi hóa",
+            "B. (1) pentose phosphat, (2) không oxi hóa",
+            "C. (1) hexose diphosphat, (2) không oxi hóa",
+            "D. (1) hexose diphosphat, (2) oxi hóa",
+            "E. A và B đúng"
+          ],
+          "correct": "E. A và B đúng",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-74",
+          "text": "Điền vào chỗ “…”: Chu trình Pentose phosphat tạo ra …(1)… ở giai đoạn 1 cần cho các phản ứng sinh tổng hợp acid béo, hormon steroid; …(2)… ở giai đoạn 2 cần cho sự tổng hợp nucleotid và nucleic acid.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
+          "explain": "Giai đoạn 1 (oxi hóa) tạo NADPH (cho tổng hợp acid béo, steroid); giai đoạn 2 (không oxi hóa) tạo pentose phosphat (ribose-5P) cho tổng hợp nucleotid/nucleic acid.",
+          "tip": "Giai đoạn 1 → NADPH (tạo mỡ); giai đoạn 2 → pentose (tạo gen).",
+          "options": [
+            "A. (1) NADPH, (2) pentose phosphat",
+            "B. (1) NADP, (2) pentose phosphat",
+            "C. (1) FADPH, (2) ribulose-5P",
+            "D. (1) FADP, (2) ribulose-5P",
+            "E. (1) NADPH, (2) ribulose-5P"
+          ],
+          "correct": "A. (1) NADPH, (2) pentose phosphat",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-75",
+          "text": "Điền vào chỗ “…”: Chu trình Pentose phosphat tạo ra …(1)… ở giai đoạn 1 cần cho các phản ứng sinh tổng hợp acid béo, hormon steroid; …(2)… ở giai đoạn 2 cần cho sự tổng hợp nucleotid và nucleic acid.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
+          "explain": "Giai đoạn 1 tạo NADPH; giai đoạn 2 tạo pentose phosphat mà cụ thể là Ribose-5P. Vì 'pentose phosphat' và 'ribose-5P' cùng chỉ sản phẩm giai đoạn 2 nên cả A và B đúng.",
+          "tip": "Ribose-5P chính là pentose phosphat → 'A và B đúng'.",
+          "options": [
+            "A. (1) NADPH, (2) pentose phosphat",
+            "B. (1) NADPH, (2) ribose-5P",
+            "C. (1) FADPH, (2) ribulose-5P",
+            "D. (1) FADP, (2) ribulose-5P",
+            "E. A và B đúng"
+          ],
+          "correct": "E. A và B đúng",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-76",
+          "text": "Điền vào chỗ “…”: Chu trình Pentose phosphat xảy ra ở …(1)…, glucose được phosphoryl hóa 1 lần tại …(2)… rồi bị oxy hóa.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
+          "explain": "Chu trình pentose phosphat xảy ra ở BÀO TƯƠNG; glucose được phosphoryl hóa thành Glucose-6P rồi mới bị oxy hóa.",
+          "tip": "Pentose phosphat: bào tương, bắt đầu từ Glucose-6P.",
+          "options": [
+            "A. (1) Ty thể, (2) Glucose-1P",
+            "B. (1) Ty thể, (2) Fructose-1P",
+            "C. (1) Ty thể, (2) Glucose-6P",
+            "D. (1) Bào tương, (2) Fructose-6P",
+            "E. (1) Bào tương, (2) Glucose-6P"
+          ],
+          "correct": "E. (1) Bào tương, (2) Glucose-6P",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-77",
+          "text": "Trong động vật, Glucid thường chiếm bao nhiêu % khối lượng chất khô?",
+          "image": null,
+          "explain": "Ở động vật, glucid dự trữ ít (chủ yếu glycogen) → chỉ chiếm dưới 2% khối lượng chất khô. Ngược lại ở thực vật glucid rất nhiều (80–90%).",
+          "tip": "Động vật ít đường (<2%); thực vật nhiều đường (80–90%).",
+          "options": [
+            "A. 50-60%",
+            "B. 80-90%",
+            "C. <2%",
+            "D. <50%"
+          ],
+          "correct": "C. <2%",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-78",
+          "text": "Ruột có pH khoảng bao nhiêu?",
+          "image": null,
+          "explain": "Ruột non có môi trường hơi kiềm (nhờ dịch tụy và mật trung hòa acid) → pH khoảng 8.",
+          "tip": "Ruột hơi kiềm → pH ~8 (khác dạ dày acid, khoang miệng ~7).",
+          "options": [
+            "A. pH 6,8 – 7",
+            "B. pH 1,5 – 2,5",
+            "C. pH 8",
+            "D. pH 9 – 10"
+          ],
+          "correct": "C. pH 8",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-79",
+          "text": "Nhận định nào sau đây là đúng về quá trình hấp thu Glucid tại ruột?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Secondary_Active_Transport.png",
+          "explain": "Glucid chỉ được hấp thu ở dạng monosaccharid (đường đơn) (A đúng); cellulose không tiêu hóa/hấp thu được ở người (C đúng). B sai vì cellulose không được thủy phân. Vậy A và C đúng.",
+          "tip": "Chỉ hấp thu đường ĐƠN; cellulose thì 'bỏ đi' → A và C.",
+          "options": [
+            "A. Các chất chỉ được hấp thu qua ruột dưới dạng đường đơn.",
+            "B. Tất cả các Glucid đều được thủy phân và hấp thu vào cơ thể.",
+            "C. Cellulose không được cơ thể người hấp thu.",
+            "D. A và C đúng"
+          ],
+          "correct": "D. A và C đúng",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-80",
+          "text": "Quá trình chuyển hóa tiếp theo của Glucid tại gan là gì?",
+          "image": null,
+          "explain": "Tại gan glucose vừa được dùng để tổng hợp (glycogen, lipid, protein) vừa được thoái hóa cung cấp năng lượng → A và B đều đúng.",
+          "tip": "Gan vừa 'dự trữ/tạo chất' vừa 'đốt lấy năng lượng' → A và B đúng.",
+          "options": [
+            "A. Tổng hợp Glycogen, Lipid, Protein",
+            "B. Đốt cháy (thoái hóa) cung cấp năng lượng",
+            "C. A và B sai",
+            "D. A và B đúng"
+          ],
+          "correct": "D. A và B đúng",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-81",
+          "text": "Sản phẩm của quá trình Acid pyruvic chuyển hóa hiếu khí là gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Citric_acid_cycle_with_aconitate_2.svg",
+          "explain": "Điều kiện hiếu khí: acid pyruvic → Acetyl CoA, đi vào chu trình Krebs và chuỗi hô hấp, tạo tổng cộng ~38 ATP cho 1 phân tử glucose. Acid lactic là sản phẩm yếm khí.",
+          "tip": "Hiếu khí: Pyruvat → Acetyl CoA → Krebs → ~38 ATP.",
+          "options": [
+            "A. Acid Lactic và tích trữ 2-3 ATP",
+            "B. Acetyl CoA đi vào chu trình Krebs tạo 38 ATP",
+            "C. CO2 và H2O",
+            "D. Acetyl CoA và Acid Lactic"
+          ],
+          "correct": "B. Acetyl CoA đi vào chu trình Krebs tạo 38 ATP",
           "flag": null
         },
         {
           "id": "hoa-hoc-glucid-82",
-          "text": "Nhận định nào sau đây về Saccharid là sai?",
-          "image": null,
-          "explain": "Công thức Cm(H2O)n chỉ đúng với một số Monosaccharid đơn giản (glucose C6H12O6...), KHÔNG đúng với tất cả Saccharid: ví dụ Deoxyribose (C5H10O4) không tuân theo tỉ lệ này, các dẫn xuất amino-đường, acid uronic... cũng vậy. Các đáp án B, C, D, E đều là những phát biểu đúng về Saccharid.",
-          "tip": "Cm(H2O)n chỉ là công thức 'gần đúng', không áp dụng cho mọi saccharid (nhớ deoxyribose là ngoại lệ).",
+          "text": "Nguyên liệu tổng hợp Glycogen ở gan là gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Glycogen.svg",
+          "explain": "Gan có đủ enzym để chuyển nhiều monosaccharid (galactose, fructose...) về glucose-6P nên tổng hợp glycogen từ Glucose VÀ các monosaccharid khác. (Cơ thì chỉ dùng glucose.)",
+          "tip": "Gan 'đa năng' → dùng Glucose + các đường khác.",
           "options": [
-            "A. Tất cả Saccharid đều có công thức cấu tạo chung là Cm(H2O)n",
-            "B. Hemicellulose không tan trong nước",
-            "C. Disaccharide chỉ có tính khử khi ít nhất một trong 2 nhóm –OH glucoside ở trạng thái tự do",
-            "D. Các Cetose không bị oxi hóa bởi nước Brom",
-            "E. Tính khử của Saccharid do nhóm Carbonyl quy định."
+            "A. Glucose và các MS khác",
+            "B. Chỉ từ Glucose",
+            "C. Galactose và các MS khác",
+            "D. Chỉ từ Galactose"
           ],
-          "correct": "A. Tất cả Saccharid đều có công thức cấu tạo chung là Cm(H2O)n",
+          "correct": "A. Glucose và các MS khác",
           "flag": null
         },
         {
           "id": "hoa-hoc-glucid-83",
-          "text": "Nhận định nào sau đây về Saccharid là sai?",
-          "image": null,
-          "explain": "Không phải tất cả Saccharid đều có đồng phân quang học. Ví dụ Dihydroxyaceton (ketotriose đơn giản nhất) không có carbon bất đối (carbon gắn 4 nhóm thế khác nhau) nên không có đồng phân quang học. Các đáp án B, C, D, E đều là phát biểu đúng.",
-          "tip": "Dihydroxyaceton là 'ngoại lệ không quang hoạt' vì không có carbon bất đối.",
+          "text": "Hormon nào sau đây là hormone giảm đường huyết?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Human-insulin-hexamer-3D-ribbons.png",
+          "explain": "Insulin là hormon DUY NHẤT làm giảm đường huyết (tăng đưa glucose vào tế bào, tăng tổng hợp glycogen). Adrenalin, ACTH, glucagon đều làm tăng đường huyết.",
+          "tip": "Chỉ Insulin hạ đường huyết; còn lại đều tăng.",
           "options": [
-            "A. Tất cả Saccharid đều có đồng phân quang học",
-            "B. Hemicellulose không tan trong nước",
-            "C. Disaccharide chỉ có tính khử khi ít nhất một trong 2 nhóm –OH glucoside ở trạng thái tự do",
-            "D. Các Cetose không bị oxi hóa bởi nước Brom",
-            "E. Tính khử của Saccharid do nhóm Carbonyl quy định."
+            "A. Insulin",
+            "B. Adrenalin",
+            "C. ACTH",
+            "D. Glucagon"
           ],
-          "correct": "A. Tất cả Saccharid đều có đồng phân quang học",
+          "correct": "A. Insulin",
           "flag": null
         },
         {
           "id": "hoa-hoc-glucid-84",
-          "text": "Nhận định nào sau đây về Saccharid là sai?",
+          "text": "Vai trò của Glucid đối với động vật là gì?",
           "image": null,
-          "explain": "Hemicellulose là polysaccharide cấu trúc thành tế bào thực vật, KHÔNG tan trong nước (chỉ tan được trong dung dịch kiềm loãng), nên phát biểu 'Hemicellulose tan trong nước' là sai. Các đáp án A, C, D, E đều đúng: Saccharid cơ bản cấu tạo từ C-H-O; Disaccharide khử cần OH glucoside tự do; Cetose không bị oxi hóa bởi nước Brom; tính khử do nhóm carbonyl.",
-          "tip": "Hemicellulose giống Cellulose - không tan trong nước thường, chỉ tan trong kiềm loãng.",
+          "explain": "Glucid vừa là nguồn năng lượng chính (~60%), vừa tham gia tạo hình/cấu trúc tế bào, và tạo các phức hợp glycolipid, glycoprotein → cả 3 đều đúng.",
+          "tip": "Glucid = năng lượng + tạo hình + phức hợp → cả 3 đúng.",
           "options": [
-            "A. Tất cả Saccharid đều cấu tạo từ C-H-O",
-            "B. Hemicellulose tan trong nước",
-            "C. Disaccharide chỉ có tính khử khi ít nhất một trong 2 nhóm –OH glucoside ở trạng thái tự do",
-            "D. Các Cetose không bị oxi hóa bởi nước Brom",
-            "E. Tính khử của Saccharid do nhóm Carbonyl quy định."
+            "A. Chiếm 60% năng lượng, là nguồn năng lượng không thể thay thế hoàn toàn",
+            "B. Tham gia tạo hình, cung cấp chất tham gia cấu trúc tế bào",
+            "C. Hợp chất Glycolipid tham gia cấu tạo tế bào và mô.",
+            "D. Cả A, B và C đều đúng"
           ],
-          "correct": "B. Hemicellulose tan trong nước",
+          "correct": "D. Cả A, B và C đều đúng",
           "flag": null
         },
         {
           "id": "hoa-hoc-glucid-85",
-          "text": "Nhận định nào sau đây về Saccharid là sai?",
-          "image": null,
-          "explain": "Nước Brom (Br2/H2O) chỉ oxi hóa được nhóm Aldehyd (-CHO) của Aldose thành nhóm Carboxyl (acid Aldonic), KHÔNG oxi hóa được nhóm Ceton của Cetose (vì Cetose không có nhóm CHO tự do). Đây chính là phản ứng dùng để phân biệt Aldose và Cetose. Vậy phát biểu 'Cetose bị oxi hóa bởi nước Brom' là sai. Các đáp án A, B, C, E đều đúng.",
-          "tip": "Nước Brom chỉ 'bắt' được Aldose (có CHO), Cetose thoát vì không có CHO tự do.",
+          "text": "Nhận định nào sau đây là đúng về quá trình hấp thu Glucid qua niêm mạc ruột?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Secondary_Active_Transport.png",
+          "explain": "Hấp thu glucose/galactose ở ruột là vận chuyển tích cực thứ phát: chỉ hấp thu dạng đường đơn (A), cần năng lượng (B), qua chất mang SGLT đồng vận chuyển với Na+ (C) → cả 3 đúng.",
+          "tip": "Đường đơn + tốn năng lượng + đi kèm Na+ (SGLT) → cả 3 đúng.",
           "options": [
-            "A. Tất cả Saccharid đều cấu tạo từ C-H-O",
-            "B. Hemicellulose không tan trong nước",
-            "C. Disaccharide chỉ có tính khử khi ít nhất một trong 2 nhóm –OH glucoside ở trạng thái tự do",
-            "D. Các Cetose bị oxi hóa bởi nước Brom",
-            "E. Tính khử của Saccharid do nhóm Carbonyl quy định."
+            "A. Các chất chỉ được hấp thu dưới dạng đường đơn",
+            "B. Là quá trình vận chuyển tích cực cần năng lượng",
+            "C. Kết hợp với protein tải và đồng chuyển với Na+",
+            "D. Cả A, B và C đều đúng"
           ],
-          "correct": "D. Các Cetose bị oxi hóa bởi nước Brom",
+          "correct": "D. Cả A, B và C đều đúng",
           "flag": null
         },
         {
           "id": "hoa-hoc-glucid-86",
-          "text": "Nhận định nào sau đây về Saccharid là sai?",
-          "image": null,
-          "explain": "Nhóm Carbonyl (-CHO hoặc C=O) của Saccharid quy định TÍNH KHỬ (Saccharid là chất khử, có khả năng khử ion kim loại như Cu2+ trong phản ứng Fehling), không phải tính oxi hóa. Vậy phát biểu 'tính oxi hóa của Saccharid do nhóm Carbonyl quy định' là sai. Các đáp án A, B, C, D đều đúng.",
-          "tip": "Saccharid mang nhóm khử (carbonyl) nên là chất KHỬ, không phải chất oxi hóa - nhớ cụm 'đường khử' (reducing sugar).",
+          "text": "Công thức hóa học của Acid pyruvic là gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Pyruvic-acid-2D-skeletal.svg",
+          "explain": "Acid pyruvic: CH3–CO–COOH. CH3–CHOH–COOH là acid lactic; CH3–CO~SCoA là Acetyl CoA.",
+          "tip": "Pyruvic = CH3-CO-COOH (có nhóm ceton C=O giữa).",
           "options": [
-            "A. Tất cả Saccharid đều cấu tạo từ C-H-O",
-            "B. Hemicellulose không tan trong nước",
-            "C. Disaccharide chỉ có tính khử khi ít nhất một trong 2 nhóm –OH glucoside ở trạng thái tự do",
-            "D. Các Cetose không bị oxi hóa bởi nước Brom",
-            "E. Tính oxi hóa của Saccharid do nhóm Carbonyl quy định."
+            "A. CH3-CO-COOH",
+            "B. CH3–CHOH-COOH",
+            "C. CH3–CO~SCoA",
+            "D. A, B và C đều sai"
           ],
-          "correct": "E. Tính oxi hóa của Saccharid do nhóm Carbonyl quy định.",
+          "correct": "A. CH3-CO-COOH",
           "flag": null
         },
         {
           "id": "hoa-hoc-glucid-87",
-          "text": "Nhận định nào sau đây về Saccharid là sai?",
-          "image": null,
-          "explain": "Phản ứng Fehling dùng để nhận biết đường khử (Monosaccharid và một số Disaccharid) xảy ra trong môi trường KIỀM (thuốc thử Fehling gồm CuSO4 và muối Kali-Natri tartrat hòa tan trong NaOH), không phải môi trường acid. Vậy phát biểu này sai. Các đáp án A, B, D, E đều đúng.",
-          "tip": "Fehling cần môi trường 'kiềm' (NaOH) để tạo phức Cu2+-tartrat - nhớ 'kiềm Fehling'.",
+          "text": "Nhận định nào sau đây là đúng về quá trình thoái hóa Glucose theo con đường Hexose diphosphat?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Glycolysis.svg",
+          "explain": "Đường phân (hexose diphosphat) xảy ra ở BÀO TƯƠNG, gồm 10 phản ứng chia 2 giai đoạn: hoạt hóa (5 phản ứng, tiêu ATP) và oxy hóa sinh năng lượng (5 phản ứng).",
+          "tip": "Đường phân: bào tương, 10 phản ứng = 5 (hoạt hóa) + 5 (sinh NL).",
           "options": [
-            "A. Tất cả Saccharid đều cấu tạo từ C-H-O",
-            "B. Hemicellulose không tan trong nước",
-            "C. Phản ứng Fehling của Monosaccharid xảy ra trong môi trường acid",
-            "D. Các Cetose không bị oxi hóa bởi nước Brom",
-            "E. Tính khử của Saccharid do nhóm Carbonyl quy định."
+            "A. Xảy ra ở bào tương, qua 2 giai đoạn gồm 10 phản ứng. Giai đoạn hoạt hóa 5 phản ứng. Giai đoạn oxy hóa sinh năng lượng 5 phản ứng.",
+            "B. Xảy ra ở bào tương, qua 2 giai đoạn gồm 8 phản ứng. Giai đoạn hoạt hóa 4 phản ứng. Giai đoạn oxy hóa sinh năng lượng 4 phản ứng.",
+            "C. Xảy ra ở ty thể, qua 2 giai đoạn gồm 10 phản ứng. Giai đoạn hoạt hóa 5 phản ứng. Giai đoạn oxy hóa sinh năng lượng 5 phản ứng.",
+            "D. Xảy ra ở ty thể, qua 2 giai đoạn gồm 8 phản ứng. Giai đoạn hoạt hóa 4 phản ứng. Giai đoạn oxy hóa sinh năng lượng 4 phản ứng."
           ],
-          "correct": "C. Phản ứng Fehling của Monosaccharid xảy ra trong môi trường acid",
+          "correct": "A. Xảy ra ở bào tương, qua 2 giai đoạn gồm 10 phản ứng. Giai đoạn hoạt hóa 5 phản ứng. Giai đoạn oxy hóa sinh năng lượng 5 phản ứng.",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-88",
+          "text": "Cơ chế hoạt động của Insulin trong điều hòa đường huyết là gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Human-insulin-hexamer-3D-ribbons.png",
+          "explain": "Insulin GIẢM đường huyết bằng cách TĂNG nhập glucose vào tế bào, tăng sử dụng glucose và ức chế các enzym tân tạo đường. Các đáp án khác sai ở 'tăng đường huyết' hoặc 'giảm nhập glucose'.",
+          "tip": "Insulin = hạ đường: mở cửa cho glucose vào tế bào, chặn tân tạo đường.",
+          "options": [
+            "A. Là hormon làm giảm đường huyết bằng cách tăng nhập Glucose vào tế bào và tăng sử dụng Glucose ở gan đồng thời ức chế các Enzym tân tạo đường.",
+            "B. Là hormon làm giảm đường huyết bằng cách giảm nhập Glucose vào tế bào và tăng sử dụng Glucose ở gan đồng thời ức chế các Enzym tân tạo đường.",
+            "C. Là hormon làm tăng đường huyết bằng cách tăng nhập Glucose vào tế bào và tăng sử dụng Glucose ở gan đồng thời ức chế các Enzym tân tạo đường.",
+            "D. Là hormon làm tăng đường huyết bằng cách giảm nhập Glucose vào tế bào và tăng sử dụng Glucose ở gan đồng thời ức chế các Enzym tân tạo đường."
+          ],
+          "correct": "A. Là hormon làm giảm đường huyết bằng cách tăng nhập Glucose vào tế bào và tăng sử dụng Glucose ở gan đồng thời ức chế các Enzym tân tạo đường.",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-89",
+          "text": "Điền vào chỗ “…”: Chu trình …(1)… là quá trình chuyển hóa …(2)… Glucose tại …(3)… tạo acid Lactic, giải phóng 2 ATP.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cori_Cycle.SVG",
+          "explain": "Chu trình Cori: tại CƠ, glucose chuyển hóa YẾM KHÍ tạo acid lactic (giải phóng 2 ATP); acid lactic về gan để tân tạo lại glucose.",
+          "tip": "Cori = cơ (yếm khí) → acid lactic → gan tái tạo glucose.",
+          "options": [
+            "A. (1) Cori, (2) yếm khí, (3) cơ",
+            "B. (1) Krebs, (2) yếm khí, (3) cơ",
+            "C. (1) Cori, (2) hiếu khí, (3) gan",
+            "D. (1) Krebs, (2) hiếu khí, (3) gan",
+            "E. (1) Cori, (2) yếm khí, (3) gan"
+          ],
+          "correct": "A. (1) Cori, (2) yếm khí, (3) cơ",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-90",
+          "text": "Chu trình Cori diễn ra ở đâu?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cori_Cycle.SVG",
+          "explain": "Chu trình Cori là vòng luân chuyển giữa CƠ (tạo lactic) và GAN (tái tạo glucose) → A và B.",
+          "tip": "Cori nối Cơ ↔ Gan.",
+          "options": [
+            "A. Gan",
+            "B. Cơ",
+            "C. Thận",
+            "D. A và B",
+            "E. B và C"
+          ],
+          "correct": "D. A và B",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-91",
+          "text": "Chu trình Krebs diễn ra ở đâu?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Citric_acid_cycle_with_aconitate_2.svg",
+          "explain": "Chu trình Krebs (acid citric) diễn ra trong chất nền TY THỂ.",
+          "tip": "Krebs = trong Ty thể (nơi hiếu khí).",
+          "options": [
+            "A. Ty thể",
+            "B. Bào tương",
+            "C. Nhân tế bào",
+            "D. Lạp thể",
+            "E. Cơ"
+          ],
+          "correct": "A. Ty thể",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-92",
+          "text": "Nhận định nào sau đây là sai về chu trình Cori?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cori_Cycle.SVG",
+          "explain": "Câu A SAI vì Cori là chuyển hóa YẾM KHÍ (không phải hiếu khí) tạo acid lactic. Các câu B, C, D, E đều đúng.",
+          "tip": "Cori luôn là YẾM khí → câu nói 'hiếu khí' là sai.",
+          "options": [
+            "A. Chu trình Cori là quá trình chuyển hóa hiếu khí Glucose tại cơ tạo acid Lactic, giải phóng 2 ATP",
+            "B. Acid Lactic được máu vận chuyển về gan để tổng hợp Glucose, sử dụng 6 ATP",
+            "C. Đường phân Glucose tại cơ tạo Pyruvat, Pyruvat chuyển hóa yếm khí tạo Acid Lactic",
+            "D. Acid lactic về gan chuyển thành Pyruvat nhờ enzym Lactat dehydrogenase",
+            "E. Hiện tượng hoạt động mạnh trong thời gian ngắn gây đau cơ là do chuyển hóa yếm khí Pyruvat theo chu trình Cori tạo acid lactic"
+          ],
+          "correct": "A. Chu trình Cori là quá trình chuyển hóa hiếu khí Glucose tại cơ tạo acid Lactic, giải phóng 2 ATP",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-93",
+          "text": "Nhận định nào sau đây là sai về chu trình Cori?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cori_Cycle.SVG",
+          "explain": "Câu B SAI: quá trình tân tạo glucose ở gan TIÊU TỐN (sử dụng) 6 ATP chứ không 'tổng hợp' 6 ATP. Các câu còn lại đúng.",
+          "tip": "Tân tạo đường ở gan = TỐN 6 ATP, không phải tạo ra ATP.",
+          "options": [
+            "A. Chu trình Cori là quá trình chuyển hóa yếm khí Glucose tại cơ tạo acid Lactic, giải phóng 2 ATP",
+            "B. Acid Lactic được máu vận chuyển về gan để tổng hợp Glucose, tổng hợp 6 ATP",
+            "C. Đường phân Glucose tại cơ tạo Pyruvat, Pyruvat chuyển hóa yếm khí tạo Acid Lactic",
+            "D. Acid lactic về gan chuyển thành Pyruvat nhờ enzym Lactat dehydrogenase",
+            "E. Hiện tượng hoạt động mạnh trong thời gian ngắn gây đau cơ là do chuyển hóa yếm khí Pyruvat theo chu trình Cori tạo acid lactic"
+          ],
+          "correct": "B. Acid Lactic được máu vận chuyển về gan để tổng hợp Glucose, tổng hợp 6 ATP",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-94",
+          "text": "Nhận định nào sau đây là sai về chu trình Cori?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cori_Cycle.SVG",
+          "explain": "Câu C SAI: pyruvat chuyển thành acid lactic là chuyển hóa YẾM KHÍ, không phải hiếu khí.",
+          "tip": "Pyruvat → acid lactic là bước YẾM khí (câu nói 'hiếu khí' sai).",
+          "options": [
+            "A. Chu trình Cori là quá trình chuyển hóa yếm khí Glucose tại cơ tạo acid Lactic, giải phóng 2 ATP",
+            "B. Acid Lactic được máu vận chuyển về gan để tổng hợp Glucose, sử dụng 6 ATP",
+            "C. Đường phân Glucose tại cơ tạo Pyruvat, Pyruvat chuyển hóa hiếu khí tạo Acid Lactic",
+            "D. Acid lactic về gan chuyển thành Pyruvat nhờ enzym Lactat dehydrogenase",
+            "E. Hiện tượng hoạt động mạnh trong thời gian ngắn gây đau cơ là do chuyển hóa yếm khí Pyruvat theo chu trình Cori tạo acid lactic"
+          ],
+          "correct": "C. Đường phân Glucose tại cơ tạo Pyruvat, Pyruvat chuyển hóa hiếu khí tạo Acid Lactic",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-95",
+          "text": "Nhận định nào sau đây là sai về chu trình Cori?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cori_Cycle.SVG",
+          "explain": "Câu D SAI: acid lactic chuyển thành pyruvat nhờ enzym Lactat dehydrogenase (LDH), KHÔNG phải Pyruvat dehydrogenase.",
+          "tip": "Lactic ⇄ Pyruvat do LDH (Lactat dehydrogenase), không phải Pyruvat DH.",
+          "options": [
+            "A. Chu trình Cori là quá trình chuyển hóa yếm khí Glucose tại cơ tạo acid Lactic, giải phóng 2 ATP",
+            "B. Acid Lactic được máu vận chuyển về gan để tổng hợp Glucose, sử dụng 6 ATP",
+            "C. Đường phân Glucose tại cơ tạo Pyruvat, Pyruvat chuyển hóa yếm khí tạo Acid Lactic",
+            "D. Acid lactic về gan chuyển thành Pyruvat nhờ enzym Pyruvat dehydrogenase",
+            "E. Hiện tượng hoạt động mạnh trong thời gian ngắn gây đau cơ là do chuyển hóa yếm khí Pyruvat theo chu trình Cori tạo acid lactic"
+          ],
+          "correct": "D. Acid lactic về gan chuyển thành Pyruvat nhờ enzym Pyruvat dehydrogenase",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-96",
+          "text": "Nhận định nào sau đây là sai về chu trình Cori?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cori_Cycle.SVG",
+          "explain": "Câu E SAI: đau cơ khi gắng sức ngắn là do chuyển hóa YẾM KHÍ pyruvat tạo acid lactic, không phải hiếu khí.",
+          "tip": "Đau cơ do tích acid lactic = chuyển hóa YẾM khí (câu nói 'hiếu khí' sai).",
+          "options": [
+            "A. Chu trình Cori là quá trình chuyển hóa yếm khí Glucose tại cơ tạo acid Lactic, giải phóng 2 ATP",
+            "B. Acid Lactic được máu vận chuyển về gan để tổng hợp Glucose, sử dụng 6 ATP",
+            "C. Đường phân Glucose tại cơ tạo Pyruvat, Pyruvat chuyển hóa yếm khí tạo Acid Lactic",
+            "D. Acid lactic về gan chuyển thành Pyruvat nhờ enzym Lactat dehydrogenase",
+            "E. Hiện tượng hoạt động mạnh trong thời gian ngắn gây đau cơ là do chuyển hóa hiếu khí Pyruvat theo chu trình Cori tạo acid lactic"
+          ],
+          "correct": "E. Hiện tượng hoạt động mạnh trong thời gian ngắn gây đau cơ là do chuyển hóa hiếu khí Pyruvat theo chu trình Cori tạo acid lactic",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-97",
+          "text": "Nhận định nào sau đây là sai về chu trình Glucose-Alanin?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cori_%26_Alanine_Cycle_edited_by_wrekodara.svg",
+          "explain": "ALT và GPT là cùng một enzym (hai tên gọi) nên A, B, C, D đều đúng. Câu E SAI vì chu trình Glucose-Alanin tạo ALANIN (không tạo acid lactic); tạo acid lactic là chu trình Cori.",
+          "tip": "ALT = GPT. Glucose-Alanin tạo Alanin, KHÔNG tạo acid lactic (đó là Cori) → E sai.",
+          "options": [
+            "A. Tại cơ Pyruvat chuyển hóa thành Alanin nhờ Enzym ALT",
+            "B. Tại gan Alanin chuyển hóa thành Pyruvat nhờ Enzym ALT",
+            "C. Tại cơ Pyruvat chuyển hóa thành Alanin nhờ Enzym GPT",
+            "D. Tại gan Alanin chuyển hóa thành Pyruvat nhờ Enzym GPT",
+            "E. Hiện tượng hoạt động mạnh trong thời gian ngắn gây đau cơ là do chuyển hóa yếm khí Pyruvat theo chu trình Glucose-Alanin tạo acid lactic"
+          ],
+          "correct": "E. Hiện tượng hoạt động mạnh trong thời gian ngắn gây đau cơ là do chuyển hóa yếm khí Pyruvat theo chu trình Glucose-Alanin tạo acid lactic",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-98",
+          "text": "Nhận định nào sau đây là đúng về chu trình Glucose-Alanin?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cori_%26_Alanine_Cycle_edited_by_wrekodara.svg",
+          "explain": "Đúng phải là: tại CƠ pyruvat → alanin, tại GAN alanin → pyruvat. Cả A, B, C đều đảo ngược vị trí cơ/gan nên đều sai → Tất cả đều sai.",
+          "tip": "Đúng: Cơ (pyruvat→alanin), Gan (alanin→pyruvat). A,B,C đảo ngược → tất cả sai.",
+          "options": [
+            "A. Tại gan Pyruvat chuyển hóa thành Alanin nhờ Enzym ALT",
+            "B. Tại cơ Alanin chuyển hóa thành Pyruvat nhờ Enzym ALT",
+            "C. Tại gan Pyruvat chuyển hóa thành Alanin nhờ Enzym GPT",
+            "D. Tất cả đều đúng",
+            "E. Tất cả đều sai"
+          ],
+          "correct": "E. Tất cả đều sai",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-99",
+          "text": "Nhận định nào sau đây là đúng về chu trình Glucose-Alanin?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cori_%26_Alanine_Cycle_edited_by_wrekodara.svg",
+          "explain": "Tại cơ: pyruvat → alanin (A đúng); tại gan: alanin → pyruvat (B đúng); ALT = GPT nên C cũng đúng → Tất cả đều đúng.",
+          "tip": "Cơ tạo alanin, gan trả về pyruvat, ALT=GPT → cả 3 đúng.",
+          "options": [
+            "A. Tại cơ Pyruvat chuyển hóa thành Alanin nhờ Enzym ALT",
+            "B. Tại gan Alanin chuyển hóa thành Pyruvat nhờ Enzym ALT",
+            "C. Tại cơ Pyruvat chuyển hóa thành Alanin nhờ Enzym GPT",
+            "D. Tất cả đều đúng",
+            "E. Tất cả đều sai"
+          ],
+          "correct": "D. Tất cả đều đúng",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-100",
+          "text": "Hoạt chất còn thiếu trong chuỗi chuyển hóa sau là gì?",
+          "image": "images/hoa-hoc-glucid-100.png",
+          "explain": "Trong sơ đồ tổng hợp glycogen: Glucose → Glucose-6P → (I) Glucose-1P (nhờ phosphoglucomutase) → (II) UDP-Glucose (nhờ UDP-glucose pyrophosphorylase) → Glycogen (nhờ glycogen synthase). Vậy (I) = Glucose-1P, (II) = UDP-Glucose.",
+          "tip": "Đường vào glycogen: G6P → G1P → UDP-Glucose → Glycogen.",
+          "options": [
+            "A. (I) Fructose-6P, (II) UDP-Glycogen",
+            "B. (I) Glucose-1P, (II) UDP-Glycogen",
+            "C. (I) Fructose-6P, (II) UDP-Glucose",
+            "D. (I) Glucose-1P, (II) UDP-Glucose",
+            "E. (I) Fructose-1P, (II) UDP-Glucogen"
+          ],
+          "correct": "D. (I) Glucose-1P, (II) UDP-Glucose",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-101",
+          "text": "Hoạt chất còn thiếu trong chuỗi chuyển hóa sau là gì?",
+          "image": "images/hoa-hoc-glucid-101.png",
+          "explain": "Theo sơ đồ: Glucose → (I) Glucose-6P (nhờ hexokinase) → (II) Glucose-1P (nhờ phosphoglucomutase) → UDP-Glucose → Glycogen. Vậy (I) = Glucose-6P, (II) = Glucose-1P.",
+          "tip": "Glucose → G6P → G1P → UDP-Glucose → Glycogen.",
+          "options": [
+            "A. (I) Fructose-6P, (II) Fructose-1P",
+            "B. (I) Glucose-1P, (II) Glucose-6P",
+            "C. (I) Glucose-6P, (II) Glucose-1P",
+            "D. (I) Glucose-1P, (II) Fructose-1P",
+            "E. (I) Glucose-6P, (II) Fructose-1P"
+          ],
+          "correct": "C. (I) Glucose-6P, (II) Glucose-1P",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-102",
+          "text": "Trong thực vật, Glucid thường chiếm bao nhiêu % khối lượng chất khô?",
+          "image": null,
+          "explain": "Ở thực vật, glucid (cellulose, tinh bột...) rất dồi dào, chiếm khoảng 80–90% khối lượng chất khô.",
+          "tip": "Thực vật giàu đường/xơ → 80–90% (ngược với động vật <2%).",
+          "options": [
+            "A. 50-60%",
+            "B. 80-90%",
+            "C. <2%",
+            "D. <50%"
+          ],
+          "correct": "B. 80-90%",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-103",
+          "text": "Khoang miệng có pH khoảng bao nhiêu?",
+          "image": null,
+          "explain": "Nước bọt trong khoang miệng gần trung tính, pH khoảng 6,8 – 7 (thích hợp cho enzym amylase nước bọt hoạt động).",
+          "tip": "Miệng gần trung tính ~7 (dạ dày ~2, ruột ~8).",
+          "options": [
+            "A. pH 6,8 – 7",
+            "B. pH 1,5 – 2,5",
+            "C. pH 8",
+            "D. pH 9 – 10"
+          ],
+          "correct": "A. pH 6,8 – 7",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-104",
+          "text": "Nhận định nào sau đây là đúng về quá trình hấp thu Glucid qua niêm mạc ruột?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Secondary_Active_Transport.png",
+          "explain": "Hấp thu glucose/galactose ở ruột là vận chuyển TÍCH CỰC (cần năng lượng), chỉ hấp thu dạng đường đơn (A đúng) và đồng vận chuyển với Na+ qua protein tải SGLT (C đúng). B sai vì đây không phải vận chuyển thụ động. Vậy A và C đúng.",
+          "tip": "Đường đơn + đồng chuyển Na+ đúng; 'thụ động' sai → 'A và C đúng'.",
+          "options": [
+            "A. Các chất chỉ được hấp thu dưới dạng đường đơn",
+            "B. Là quá trình vận chuyển thụ động, không cần năng lượng",
+            "C. Kết hợp với protein tải và đồng chuyển với Na+",
+            "D. Cả A và C đúng"
+          ],
+          "correct": "D. Cả A và C đúng",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-105",
+          "text": "Công thức hóa học của Acetyl CoA là gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Acetyl-CoA-2D_colored.svg",
+          "explain": "Acetyl CoA = CH3–CO~SCoA (nhóm acetyl gắn với CoA qua liên kết thioester giàu năng lượng). CH3-CO-COOH là acid pyruvic; CH3-CHOH-COOH là acid lactic.",
+          "tip": "Acetyl CoA có '~SCoA' (liên kết thioester giàu năng lượng).",
+          "options": [
+            "A. CH3-CO-COOH",
+            "B. CH3–CHOH-COOH",
+            "C. CH3–CO~SCoA",
+            "D. A, B và C đều sai"
+          ],
+          "correct": "C. CH3–CO~SCoA",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-106",
+          "text": "Nhận định nào sau đây là đúng về quá trình thoái hóa Glucose theo con đường Hexose monophosphat?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
+          "explain": "Con đường hexose monophosphat (pentose phosphat) quan trọng ở tế bào phân chia nhanh và tế bào cần NADPH (chống oxy hóa, tổng hợp acid béo, cholesterol) → B đúng. A (10 phản ứng, 2 giai đoạn) và C (con đường biết đến đầu tiên) mô tả đường phân (hexose diphosphat) → sai.",
+          "tip": "Monophosphat = tạo NADPH cho tế bào phân chia nhanh → B.",
+          "options": [
+            "A. Xảy ra ở bào tương, qua 2 giai đoạn gồm 10 phản ứng. Giai đoạn hoạt hóa 5 phản ứng. Giai đoạn oxy hóa sinh năng lượng 5 phản ứng.",
+            "B. Quan trọng ở các tế bào phân chia nhanh và các tế bào cần NADPH2 để chống lại tác nhân oxy hóa và sinh tổng hợp acid béo, cholesterol.",
+            "C. Đây là con đường chuyển hóa đầu tiên được biết đến và được hiểu rõ nhất.",
+            "D. A và C đúng"
+          ],
+          "correct": "B. Quan trọng ở các tế bào phân chia nhanh và các tế bào cần NADPH2 để chống lại tác nhân oxy hóa và sinh tổng hợp acid béo, cholesterol.",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-107",
+          "text": "Nguyên liệu tổng hợp Glycogen ở cơ là gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Glycogen.svg",
+          "explain": "Cơ thiếu các enzym chuyển các monosaccharid khác về glucose (và thiếu glucose-6-phosphatase) nên chỉ tổng hợp glycogen TỪ Glucose. (Gan thì dùng được cả các đường khác.)",
+          "tip": "Cơ 'kén chọn' → chỉ dùng Glucose; gan dùng mọi đường.",
+          "options": [
+            "A. Glucose và các MS khác",
+            "B. Chỉ từ Glucose",
+            "C. Galactose và các MS khác",
+            "D. Chỉ từ Galactose"
+          ],
+          "correct": "B. Chỉ từ Glucose",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-108",
+          "text": "Hormon nào sau đây là hormone tăng đường huyết?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Glucose_Homeostasis_for_Wikipedia.jpg",
+          "explain": "Adrenalin, ACTH và Glucagon đều là hormon làm TĂNG đường huyết (đối kháng insulin). Vậy cả 3 đều đúng.",
+          "tip": "Nhiều hormon tăng đường huyết (adrenalin, ACTH, glucagon...); chỉ insulin là hạ.",
+          "options": [
+            "A. Adrenalin",
+            "B. ACTH",
+            "C. Glucagon",
+            "D. A, B và C đều đúng"
+          ],
+          "correct": "D. A, B và C đều đúng",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-109",
+          "text": "Chu trình Krebs diễn ra ở đâu?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Citric_acid_cycle_with_aconitate_2.svg",
+          "explain": "Chu trình Krebs diễn ra trong chất nền TY THỂ.",
+          "tip": "Krebs = Ty thể.",
+          "options": [
+            "A. Ty thể",
+            "B. Bào tương",
+            "C. Ribosom",
+            "D. A và B đúng",
+            "E. Tất cả đều sai"
+          ],
+          "correct": "A. Ty thể",
+          "flag": null
+        },
+        {
+          "id": "hoa-hoc-glucid-110",
+          "text": "Enzym nào sau đây thủy phân tinh bột tại khoang miệng?",
+          "image": null,
+          "explain": "Amylase nước bọt (ptyalin) thủy phân tinh bột ngay tại khoang miệng. Peptidase phân giải protein, Lipase phân giải lipid, Amylose là cơ chất (không phải enzym), người không có Cellulase.",
+          "tip": "Tinh bột (Amyl-) → Amylase. (Amylose là chất, không phải enzym.)",
+          "options": [
+            "A. Peptidase",
+            "B. Lipase",
+            "C. Amylase",
+            "D. Amylose",
+            "E. Cellulase"
+          ],
+          "correct": "C. Amylase",
           "flag": null
         }
       ]
