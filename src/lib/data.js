@@ -27,21 +27,17 @@ CHAPTERS.forEach((ch) => {
 export const TOTAL_QUESTIONS = ALL_IDS.length
 
 // ---- chapter icons ----------------------------------------------------------
+// Kept in sync with the icons in lib/lectures.js so the same chapter shows the
+// same icon on the home screen and in the lecture-PDF list.
 const CHAPTER_ICONS = {
-  'hoa-hoc-glucid': '🍬',
-  'hoa-hoc-lipid': '🧈',
-  'hoa-hoc-protid': '🥩',
-  'hoa-hoc-nucleic': '🧬',
-  'chuyen-hoa-glucid': '🍚',
-  'chuyen-hoa-lipid': '🥑',
-  'chuyen-hoa-protid': '🍗',
-  enzym: '⚗️',
-  'nang-luong-sinh-hoc': '⚡',
+  glucid: '🍬',
+  lipid: '🧈',
+  protid: '🥩',
+  'acid-nucleic': '🧬',
   hormon: '💊',
-  'can-bang-chuyen-hoa-muoi-nuoc': '💧',
+  'chuyen-hoa-muoi-nuoc': '💧',
   'can-bang-acid-base': '⚖️',
-  hemoglobin: '🩸',
-  'vitamin-khoang-chat': '🍊',
+  'enzym-nang-luong-sinh-hoc': '⚡',
 }
 export function chapterIcon(id) {
   return CHAPTER_ICONS[id] || '📘'
