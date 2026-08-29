@@ -29,6 +29,13 @@ export const LECTURES = [
     file: '09-hemoglobin-gan-than.pdf',
     icon: '🩸',
   },
+  {
+    id: 'on-tap-trac-nghiem',
+    title: 'Ôn tập trắc nghiệm (đáp án tô màu)',
+    file: '10-on-tap-trac-nghiem.docx',
+    icon: '📝',
+    type: 'docx',
+  },
 ]
 
 export function lectureById(id) {
@@ -37,4 +44,12 @@ export function lectureById(id) {
 
 export function lectureUrl(lecture) {
   return import.meta.env.BASE_URL + 'lectures/' + lecture.file
+}
+
+// Word docs can't be embedded natively like PDFs, so route them through
+// Microsoft's Office Online viewer. It needs a publicly reachable absolute
+// URL, which only exists once the site is deployed (not on localhost).
+export function officeViewerUrl(lecture) {
+  const absoluteUrl = new URL(lectureUrl(lecture), window.location.href).href
+  return `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(absoluteUrl)}`
 }

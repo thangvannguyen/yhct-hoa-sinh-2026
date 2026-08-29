@@ -38,6 +38,7 @@ const CHAPTER_ICONS = {
   'chuyen-hoa-muoi-nuoc': '💧',
   'can-bang-acid-base': '⚖️',
   'enzym-nang-luong-sinh-hoc': '⚡',
+  hemoglobin: '🩸',
 }
 export function chapterIcon(id) {
   return CHAPTER_ICONS[id] || '📘'

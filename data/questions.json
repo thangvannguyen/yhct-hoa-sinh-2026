@@ -2399,6 +2399,444 @@
           "flag": null
         }
       ]
+    },
+    {
+      "id": "hemoglobin",
+      "title": "HEMOGLOBIN",
+      "questions": [
+        {
+          "id": "hemoglobin-1",
+          "text": "Huyết cầu tố là gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Structures_of_Hemoglobin_forms.png",
+          "explain": "\"Huyết cầu tố\" là tên gọi Hán-Việt của Hemoglobin (Hb) — sắc tố hô hấp trong hồng cầu, gồm Hem + Globin. Hồng cầu chỉ là tế bào chứa Hb; Hem và Globin chỉ là 2 thành phần cấu tạo nên Hb, không phải bản thân Hb.",
+          "tip": "Huyết cầu tố = Hemoglobin = Hb (tên gọi khác nhau của cùng 1 chất).",
+          "options": [
+            "A. Hồng cầu",
+            "B. Hem",
+            "C. Globin",
+            "D. Albumin",
+            "E. Hb"
+          ],
+          "correct": "E. Hb",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-2",
+          "text": "Cấu tạo hóa học của Globin gồm?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Structures_of_Hemoglobin_forms.png",
+          "explain": "Globin của HbA là một protein gồm 4 chuỗi polypeptide (2 chuỗi α 141 acid amin + 2 chuỗi β 146 acid amin) — mô tả tổng quát đúng là \"4 chuỗi Protein\". Các đáp án về Protoporphyrin IX gắn Fe là mô tả của Hem chứ không phải Globin; B và C chỉ nêu đúng một nửa (1 loại chuỗi) nên chưa đầy đủ.",
+          "tip": "Globin = 4 chuỗi polypeptide (2α + 2β); Hem mới là phần chứa Fe-Porphyrin.",
+          "options": [
+            "A. Protoporphyrin IX, gắn với Fe(II)",
+            "B. 2 chuỗi protein α, gồm 146 acid amin",
+            "C. 2 chuỗi protein β, gồm 141 acid amin",
+            "D. Protoporphyrin IX, gắn với Fe(III)",
+            "E. 4 chuỗi Protein"
+          ],
+          "correct": "E. 4 chuỗi Protein",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-3",
+          "text": "Nhận định nào sau đây là đúng về CO2?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Structures_of_Hemoglobin_forms.png",
+          "explain": "Các đặc điểm \"ái lực với Hb lớn hơn O2\" và \"ngăn cản vận chuyển, giải phóng O2\" thực chất là tính chất của khí CO (carbon monoxide, gây ngộ độc do cạnh tranh vị trí gắn O2 trên Hem), KHÔNG phải của CO2. CO2 vận chuyển chủ yếu dưới dạng bicarbonat/carbamin-Hb và còn hỗ trợ giải phóng O2 (hiệu ứng Bohr) chứ không ngăn cản. Vì vậy các nhận định trên là sai khi gán cho CO2.",
+          "tip": "Dễ nhầm CO2 với CO: chỉ có CO mới 'giành chỗ' O2 trên Hb và gây ngộ độc.",
+          "options": [
+            "A. Sản phẩm của quá trình đốt cháy",
+            "B. Ái lực với Hb lớn hơn O2",
+            "C. Ngăn cản quá trình vận chuyển và giải phóng O2",
+            "D. A, B, C đúng",
+            "E. A, B, C sai"
+          ],
+          "correct": "E. A, B, C sai",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-4",
+          "text": "Hợp chất nào sau đây, khi thoái hóa tạo acid amin?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Heme_degradation_to_bilirubin.png",
+          "explain": "Globin là chuỗi polypeptide, khi bị thủy phân sẽ giải phóng các acid amin cấu thành. Hem, Biliverdin, Bilirubin, Urobilinogen đều thuộc nhánh chuyển hóa vòng Porphyrin (không chứa acid amin), thoái hóa cho ra sắc tố mật chứ không phải acid amin.",
+          "tip": "Globin = protein → thoái hóa cho acid amin; nhánh Hem → thoái hóa cho sắc tố mật.",
+          "options": [
+            "A. Hem",
+            "B. Globin",
+            "C. Biliverin",
+            "D. Bilirubin",
+            "E. Urobulin"
+          ],
+          "correct": "B. Globin",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-5",
+          "text": "Nhận định nào sau đây là đúng về Bilirubin tự do?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bilirubin_folded.svg",
+          "explain": "Bilirubin tự do (Bilirubin gián tiếp) chưa gắn Acid Glucuronic nên không tan trong nước, phải gắn Albumin để vận chuyển trong máu; do phản ứng với thuốc thử Diazo chậm (cần chất xúc tác như alcol) nên gọi là phản ứng gián tiếp; vì tan trong lipid nên có thể qua hàng rào máu não gây độc thần kinh (vàng da nhân não ở trẻ sơ sinh). Cả 4 nhận định đều đúng.",
+          "tip": "Bilirubin tự do = gián tiếp = không tan nước = diazo chậm = độc thần kinh.",
+          "options": [
+            "A. Còn gọi là Bilirubin gián tiếp",
+            "B. Tham gia phản ứng diazo chậm",
+            "C. Không tan trong nước",
+            "D. Độc hệ thần kinh",
+            "E. A, B, C, D đúng"
+          ],
+          "correct": "E. A, B, C, D đúng",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-6",
+          "text": "Nhận định nào sau đây là đúng về Bilirubin tự do?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bilirubin_folded.svg",
+          "explain": "Chỉ có A đúng: Bilirubin tự do còn gọi là Bilirubin gián tiếp. Các đặc điểm còn lại bị đảo ngược: Bilirubin tự do phản ứng Diazo CHẬM (không phải nhanh), KHÔNG tan trong nước (không phải tan), và CÓ độc tính với thần kinh (không phải không độc) — đây là các tính chất của Bilirubin liên hợp, không phải Bilirubin tự do.",
+          "tip": "So với câu chuẩn: tự do = gián tiếp, diazo chậm, không tan, độc thần kinh — câu này đảo ngược B, C, D.",
+          "options": [
+            "A. Còn gọi là Bilirubin gián tiếp",
+            "B. Tham gia phản ứng diazo nhanh",
+            "C. Tan trong nước",
+            "D. Không độc",
+            "E. A, B, C, D đúng"
+          ],
+          "correct": "A. Còn gọi là Bilirubin gián tiếp",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-7",
+          "text": "Nhận định nào sau đây là đúng về Bilirubin liên hợp?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Bilirubin_glucuronide.svg",
+          "explain": "Bilirubin liên hợp (đã gắn Acid Glucuronic tại gan) còn gọi là Bilirubin trực tiếp vì phản ứng nhanh, trực tiếp với thuốc thử Diazo. Do đã liên hợp với Acid Glucuronic nên tan tốt trong nước, được bài tiết qua mật/nước tiểu, và không có tính độc thần kinh như dạng tự do. Vậy chỉ có A đúng; B, C, D đều mô tả sai (đó là đặc điểm của Bilirubin tự do).",
+          "tip": "Bilirubin liên hợp = trực tiếp = tan nước = diazo nhanh = không độc thần kinh (ngược hoàn toàn với Bilirubin tự do).",
+          "options": [
+            "A. Còn gọi là Bilirubin trực tiếp tiếp",
+            "B. Tham gia phản ứng diazo chậm",
+            "C. Không tan trong nước",
+            "D. Độc hệ thần kinh",
+            "E. A, B, C, D sai"
+          ],
+          "correct": "A. Còn gọi là Bilirubin trực tiếp tiếp",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-8",
+          "text": "Bilirubin tự do vận chuyển trong máu nhờ hợp chất nào sau đây?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bilirubin_folded.svg",
+          "explain": "Do không tan trong nước, Bilirubin tự do phải gắn với Albumin huyết tương để được vận chuyển trong máu đến gan. Đây là cơ chế vận chuyển kinh điển của Bilirubin gián tiếp.",
+          "tip": "Bilirubin tự do 'đi nhờ xe' Albumin trong máu.",
+          "options": [
+            "A. Acid Glucuronic",
+            "B. Bilirubin liên hợp",
+            "C. Albumin",
+            "D. Globin",
+            "E. A, B, C , D sai"
+          ],
+          "correct": "C. Albumin",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-9",
+          "text": "Nguyên nhân vàng da trước gan là gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Jaundice_in_newborn.jpg",
+          "explain": "Vàng da trước gan (tan huyết) xảy ra khi hồng cầu bị phá hủy quá mức, sinh ra lượng lớn Bilirubin tự do vượt khả năng liên hợp của gan, làm tăng Bilirubin gián tiếp trong máu. Viêm gan là nguyên nhân tại gan; sỏi mật là nguyên nhân sau gan; thiếu enzym chuyển hóa tại gan cũng là nguyên nhân tại gan.",
+          "tip": "Trước gan = tan huyết (vỡ hồng cầu quá nhiều, gan 'không kịp' xử lý).",
+          "options": [
+            "A. Tan huyết",
+            "B. Thiếu Enzym chuyển hóa tại gan",
+            "C. Viêm gan",
+            "D. Sỏi mật",
+            "E. Ung thư đầu tụy"
+          ],
+          "correct": "A. Tan huyết",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-10",
+          "text": "Nguyên nhân vàng da sau gan là gì?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Jaundice_in_newborn.jpg",
+          "explain": "Vàng da sau gan (tắc mật) do cản trở dòng chảy mật sau khi Bilirubin đã được liên hợp tại gan, điển hình là sỏi mật gây tắc nghẽn đường mật, làm Bilirubin liên hợp trào ngược vào máu. Tan huyết là nguyên nhân trước gan; viêm gan là nguyên nhân tại gan.",
+          "tip": "Sau gan = tắc nghẽn đường ra của mật (sỏi mật là ví dụ điển hình).",
+          "options": [
+            "A. Tan huyết",
+            "B. Viêm gan",
+            "C. Sỏi mật",
+            "D. Ung thư gan",
+            "E. Thiếu Vi khuẩn đường ruột"
+          ],
+          "correct": "C. Sỏi mật",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-11",
+          "text": "Cơ quan nào sau đây tổng hợp Hem nhiều nhất?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Heme_degradation_to_bilirubin.png",
+          "explain": "Tủy xương là nơi sinh hồng cầu (tạo máu) nên tổng hợp phần lớn lượng Hem của cơ thể để gắn vào Hemoglobin mới; gan chỉ tổng hợp một phần nhỏ hơn (cho các protein chứa Hem khác như Cytochrome). Hồng cầu trưởng thành đã mất ty thể nên không còn khả năng tổng hợp Hem.",
+          "tip": "Tủy xương 'nhà máy' chính sản xuất Hem cho hồng cầu mới.",
+          "options": [
+            "A. Gan",
+            "B. Tủy",
+            "C. Hồng cầu",
+            "D. A và B",
+            "E. A và C"
+          ],
+          "correct": "B. Tủy",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-12",
+          "text": "Thành phần nào sau đây chiếm nhiều nhất trong gan?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Nephron-urine.svg",
+          "explain": "Cũng như hầu hết các mô trong cơ thể, nước (H2O) chiếm tỷ lệ khối lượng lớn nhất trong gan (khoảng 70-75%), vượt xa Protid, Glucid, Lipid hay Vitamin.",
+          "tip": "Nước luôn chiếm tỷ trọng lớn nhất trong mọi mô cơ thể, kể cả gan.",
+          "options": [
+            "A. Protid",
+            "B. Glucid",
+            "C. Lipid",
+            "D. Vitamin",
+            "E. H2O"
+          ],
+          "correct": "E. H2O",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-13",
+          "text": "Nguyên nhân tăng Creatinin trong nước tiểu là?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Nephron-urine.svg",
+          "explain": "Creatinin là sản phẩm thoái hóa của Creatin-phosphat trong cơ, phản ánh khối lượng và mức độ chuyển hóa của mô cơ. Khi cơ bị tổn thương/tăng dị hóa (teo cơ, viêm cơ), lượng Creatinin đào thải qua nước tiểu tăng lên.",
+          "tip": "Creatinin gắn liền với cơ — bệnh lý cơ (teo cơ, viêm cơ) làm thay đổi Creatinin.",
+          "options": [
+            "A. Nhiễm độc ức chế tổng hợp Hem",
+            "B. Ký sinh trùng đường ruột",
+            "C. Viêm thận",
+            "D. Rối loạn chuyển hóa Glucid",
+            "E. Teo cơ, viêm cơ"
+          ],
+          "correct": "E. Teo cơ, viêm cơ",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-14",
+          "text": "Nguyên nhân tăng Protein trong nước tiểu là?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Nephron-urine.svg",
+          "explain": "Viêm thận (viêm cầu thận) làm tổn thương màng lọc cầu thận, khiến Protein huyết tương (đặc biệt Albumin) lọt qua và xuất hiện bất thường trong nước tiểu (protein niệu) — dấu hiệu kinh điển của bệnh lý thận.",
+          "tip": "Protein niệu = 'báo động' tổn thương màng lọc cầu thận do viêm thận.",
+          "options": [
+            "A. Rối loạn chuyển hóa Glucid",
+            "B. Nhiễm độc ức chế tổng hợp Hem",
+            "C. Teo cơ, viêm cơ",
+            "D. Ký sinh trùng đường ruột",
+            "E. Viêm thận"
+          ],
+          "correct": "E. Viêm thận",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-15",
+          "text": "Nguyên nhân tăng Porphyrin trong nước tiểu là?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Heme_degradation_to_bilirubin.png",
+          "explain": "Khi có nhiễm độc (ví dụ ngộ độc chì) ức chế các enzym trong con đường tổng hợp Hem, các tiền chất Porphyrin bị ứ đọng và tăng đào thải qua nước tiểu — đây là cơ sở của bệnh Porphyrin niệu (Porphyria).",
+          "tip": "Chặn đường tổng hợp Hem (nhiễm độc) → tiền chất Porphyrin ứ lại → thải nhiều qua nước tiểu.",
+          "options": [
+            "A. Rối loạn chuyển hóa Glucid",
+            "B. Nhiễm độc ức chế tổng hợp Hem",
+            "C. Teo cơ, viêm cơ",
+            "D. Ký sinh trùng đường ruột",
+            "E. Viêm thận"
+          ],
+          "correct": "B. Nhiễm độc ức chế tổng hợp Hem",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-16",
+          "text": "Nguyên nhân tăng hồng cầu trong nước tiểu là?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Nephron-urine.svg",
+          "explain": "Viêm thận (viêm cầu thận) làm tổn thương thành mạch máu cầu thận, khiến hồng cầu lọt qua màng lọc và xuất hiện trong nước tiểu, gây tiểu máu (hematuria) — một dấu hiệu thường gặp của bệnh lý thận.",
+          "tip": "Tiểu ra máu (hồng cầu niệu) thường gợi ý tổn thương viêm tại thận.",
+          "options": [
+            "A. Rối loạn chuyển hóa Glucid",
+            "B. Viêm thận",
+            "C. Teo cơ, viêm cơ",
+            "D. Ký sinh trùng đường ruột",
+            "E. Gout"
+          ],
+          "correct": "B. Viêm thận",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-17",
+          "text": "Bilirubin tự do kết hợp với Acid Glucuronic ở đâu?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Heme_degradation_to_bilirubin.png",
+          "explain": "Phản ứng liên hợp giữa Bilirubin tự do và Acid Glucuronic (nhờ enzym UDP-glucuronyl transferase) xảy ra tại tế bào gan, tạo thành Bilirubin liên hợp (trực tiếp) tan trong nước, sẵn sàng bài tiết qua mật.",
+          "tip": "Gan là 'nhà máy' liên hợp Bilirubin với Acid Glucuronic.",
+          "options": [
+            "A. Máu",
+            "B. Gan",
+            "C. Thận",
+            "D. Tủy xương",
+            "E. Lách"
+          ],
+          "correct": "B. Gan",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-18",
+          "text": "Thành phần Porphyrin của Hem là yếu tố đông máu thứ mấy?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Heme_b.svg",
+          "explain": "Đây là một chi tiết ít gặp trong các giáo trình đông máu kinh điển (dãy yếu tố đông máu I–XIII chủ yếu là các protein huyết tương và ion Ca2+, không quy về thành phần Porphyrin của Hem một cách trực tiếp). Theo tài liệu giảng dạy của môn học này, đáp án được ghi nhận là yếu tố IX (Christmas factor) — một yếu tố đông máu tổng hợp tại gan.",
+          "tip": "Câu hỏi mang tính chi tiết đặc thù của giáo trình — cần đối chiếu lại với slide bài giảng gốc nếu có bảng yếu tố đông máu chi tiết.",
+          "options": [
+            "A. III",
+            "B. VI",
+            "C. IV",
+            "D. IX",
+            "E. XI"
+          ],
+          "correct": "D. IX",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-19",
+          "text": "Bilirubin tự do kết hợp với Albumin tại đâu?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bilirubin_folded.svg",
+          "explain": "Ngay sau khi được phóng thích từ quá trình thoái hóa Hem tại hệ liên võng nội mô (lách, tủy xương...), Bilirubin tự do đi vào máu và lập tức gắn với Albumin huyết tương để vận chuyển đến gan.",
+          "tip": "Bilirubin tự do gặp Albumin ngay khi vừa vào dòng máu.",
+          "options": [
+            "A. Gan",
+            "B. Lách",
+            "C. Máu",
+            "D. Não",
+            "E. Hồng cầu"
+          ],
+          "correct": "C. Máu",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-20",
+          "text": "Bilirubin tự do kết hợp với Acid Glucuronic tại đâu?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Heme_degradation_to_bilirubin.png",
+          "explain": "Quá trình liên hợp Bilirubin với Acid Glucuronic chỉ xảy ra tại tế bào gan nhờ enzym UDP-glucuronyl transferase, biến Bilirubin tự do (không tan) thành Bilirubin liên hợp (tan trong nước).",
+          "tip": "Gan = nơi 'gắn keo' Acid Glucuronic vào Bilirubin.",
+          "options": [
+            "A. Gan",
+            "B. Lách",
+            "C. Máu",
+            "D. Não",
+            "E. Hồng cầu"
+          ],
+          "correct": "A. Gan",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-21",
+          "text": "Bilirubin tự do tách khỏi Albumin tại đâu?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bilirubin_folded.svg",
+          "explain": "Khi phức hợp Bilirubin-Albumin đến xoang gan, Bilirubin tự do tách khỏi Albumin để đi vào tế bào gan (qua các protein vận chuyển màng), chuẩn bị cho bước liên hợp với Acid Glucuronic.",
+          "tip": "Gan vừa là nơi 'chia tay' Albumin, vừa là nơi liên hợp Bilirubin.",
+          "options": [
+            "A. Gan",
+            "B. Lách",
+            "C. Máu",
+            "D. Não",
+            "E. Hồng cầu"
+          ],
+          "correct": "A. Gan",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-22",
+          "text": "Tại sao hồng cầu trưởng thành không tổng hợp được Hem?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Structures_of_Hemoglobin_forms.png",
+          "explain": "Trong quá trình biệt hóa, hồng cầu trưởng thành mất nhân và các bào quan, trong đó có ty thể — nơi chứa các enzym then chốt của con đường tổng hợp Hem (ALA synthase, Ferrochelatase). Do đó hồng cầu trưởng thành không còn khả năng tổng hợp Hem mới.",
+          "tip": "Mất ty thể = mất 'xưởng sản xuất' enzym tổng hợp Hem.",
+          "options": [
+            "A. Thiếu bào tương",
+            "B. Thiếu ty thể",
+            "C. Thiếu Ribosom",
+            "D. Thiếu Fe2+",
+            "E. Tất cả đều đúng"
+          ],
+          "correct": "B. Thiếu ty thể",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-23",
+          "text": "Tên gọi nào sau đây là đúng khi nói về Biliverdin?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Biliverdin.svg",
+          "explain": "Biliverdin là sản phẩm trung gian màu xanh lục trong quá trình thoái hóa Hem, thuộc nhóm sắc tố mật (cùng với Bilirubin). Mật, muối mật, acid mật, túi mật là các khái niệm khác liên quan đến dịch mật nói chung, không phải tên gọi của Biliverdin.",
+          "tip": "Biliverdin (xanh lục) và Bilirubin (vàng cam) đều là sắc tố mật.",
+          "options": [
+            "A. Mật",
+            "B. Muối mật",
+            "C. Acid mật",
+            "D. Sắc tố mật",
+            "E. Túi mật"
+          ],
+          "correct": "D. Sắc tố mật",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-24",
+          "text": "Gan chuyển hóa Bilirubin liên hợp bằng cách nào?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Heme_degradation_to_bilirubin.png",
+          "explain": "Bilirubin liên hợp đã được gắn Acid Glucuronic từ trước nên gan không lặp lại phản ứng này; gan cũng không chuyển Bilirubin liên hợp ngược lại thành dạng tự do/gián tiếp. Thực tế, gan bài tiết Bilirubin liên hợp theo mật xuống ruột, nơi vi khuẩn ruột mới biến đổi tiếp thành Urobilinogen/Stercobilinogen — nên cả 3 phát biểu A, B, C đều sai khi mô tả vai trò của gan ở bước này.",
+          "tip": "Gan chỉ bài tiết Bilirubin liên hợp ra mật; biến đổi tiếp theo là việc của vi khuẩn ruột.",
+          "options": [
+            "A. Kết hợp Bilirubin liên hợp và Acid Glucuronic",
+            "B. Tạo Bilirubin tự do",
+            "C. Tạo Bilirubin gián tiếp",
+            "D. A, B, C đúng",
+            "E. A, B, C sai"
+          ],
+          "correct": "E. A, B, C sai",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-25",
+          "text": "Gan chuyển hóa Bilirubin liên hợp bằng cách nào?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Heme_degradation_to_bilirubin.png",
+          "explain": "Sau khi được gan bài tiết theo mật xuống ruột, Bilirubin liên hợp được vi khuẩn đường ruột khử thành Urobilinogen, một phần tiếp tục chuyển thành Stercobilinogen (tạo màu phân) — đây là con đường chuyển hóa tiếp theo đúng của Bilirubin liên hợp. Việc kết hợp lại với Acid Glucuronic hay tạo Bilirubin gián tiếp là các chiều phản ứng sai/ngược.",
+          "tip": "Bilirubin liên hợp → (vi khuẩn ruột) → Urobilinogen → Stercobilinogen.",
+          "options": [
+            "A. Kết hợp Bilirubin liên hợp và Acid Glucuronic",
+            "B. Tạo Urobilinogen, Stercobilinogen",
+            "C. Tạo Bilirubin gián tiếp",
+            "D. A, B, C đúng",
+            "E. A, B, C sai"
+          ],
+          "correct": "B. Tạo Urobilinogen, Stercobilinogen",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-26",
+          "text": "Ở bệnh nhân đái tháo đường, chất nào sau đây xuất hiện bất thường trong nước tiểu?",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Nephron-urine.svg",
+          "explain": "Khi đường huyết vượt ngưỡng tái hấp thu của thận (~180 mg/dL), Glucose không được tái hấp thu hết ở ống thận và xuất hiện trong nước tiểu (Glucose niệu) — dấu hiệu đặc trưng của đái tháo đường không kiểm soát.",
+          "tip": "Đái tháo đường = đường huyết cao vượt ngưỡng thận → Glucose niệu.",
+          "options": [
+            "A. Insulin",
+            "B. Glucose",
+            "C. Na+",
+            "D. H2O",
+            "E. Acid amin"
+          ],
+          "correct": "B. Glucose",
+          "flag": null
+        },
+        {
+          "id": "hemoglobin-27",
+          "text": "Điền vào chỗ trống: Cấu tạo của tế bào nephron gồm cầu thận, bao Bowman, ống lượn xa……ống lượn gần, ống góp",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Nephron-urine.svg",
+          "explain": "Nephron (đơn vị chức năng của thận) gồm: cầu thận, bao Bowman, ống lượn gần, Quai Henle, ống lượn xa và ống góp. Thành phần còn thiếu trong chuỗi liệt kê là Quai Henle — đoạn ống hình chữ U nằm giữa ống lượn gần và ống lượn xa.",
+          "tip": "Thứ tự nephron: cầu thận → bao Bowman → ống lượn gần → Quai Henle → ống lượn xa → ống góp.",
+          "options": [
+            "A. Quai Henle",
+            "B. Quai Helen",
+            "C. Quai Kuffer",
+            "D. Tất cả đều đúng",
+            "E. Tất cả đều sai"
+          ],
+          "correct": "A. Quai Henle",
+          "flag": null
+        }
+      ]
     }
   ]
 }

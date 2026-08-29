@@ -1,6 +1,8 @@
 import { useParams } from 'react-router-dom'
 import { BackLink, Button, Container } from '../components/ui.jsx'
-import { LECTURES, lectureById, lectureUrl } from '../lib/lectures.js'
+import { LECTURES, lectureById, lectureUrl, officeViewerUrl } from '../lib/lectures.js'
+
+const IS_LOCALHOST = /^(localhost|127\.0\.0\.1)$/.test(window.location.hostname)
 
 function PdfList() {
   return (
@@ -8,7 +10,7 @@ function PdfList() {
       <BackLink to="/" />
       <h1 className="mb-1 text-[1.25rem] font-extrabold">📕 Giáo trình Hóa Sinh</h1>
       <p className="mb-4 text-[0.85rem] text-text-muted">
-        Chọn một chương để xem trực tiếp file PDF ngay trong web
+        Chọn một mục để xem trực tiếp trong web, hoặc tải file về máy
       </p>
       <div className="flex flex-col gap-2">
         {LECTURES.map((lec) => (
@@ -29,8 +31,30 @@ function PdfList() {
   )
 }
 
+function DocxFrame({ lecture }) {
+  if (IS_LOCALHOST) {
+    return (
+      <div className="flex h-full w-full flex-col items-center justify-center gap-2 p-6 text-center text-text-muted">
+        <p>Xem trực tiếp file Word chỉ hoạt động trên bản đã deploy (cần URL công khai).</p>
+        <p>Bấm <strong>Tải xuống</strong> ở trên để xem file khi chạy ở localhost.</p>
+      </div>
+    )
+  }
+  const viewerUrl = officeViewerUrl(lecture)
+  return (
+    <iframe src={viewerUrl} title={lecture.title} className="h-full w-full border-0">
+      <div className="p-6 text-center text-text-muted">
+        Trình duyệt của bạn không hiển thị được file Word trực tiếp.
+      </div>
+    </iframe>
+  )
+}
+
 function PdfViewer({ lecture }) {
   const url = lectureUrl(lecture)
+  const isDocx = lecture.type === 'docx'
+  const openUrl = isDocx && !IS_LOCALHOST ? officeViewerUrl(lecture) : url
+
   return (
     <Container wide>
       <BackLink to="/pdf" />
@@ -40,7 +64,7 @@ function PdfViewer({ lecture }) {
           {lecture.icon} {lecture.title}
         </h1>
         <div className="flex gap-2">
-          <Button as="a" href={url} target="_blank" rel="noopener" className="px-3.5 py-2 text-[0.85rem]">
+          <Button as="a" href={openUrl} target="_blank" rel="noopener" className="px-3.5 py-2 text-[0.85rem]">
             ↗ Mở tab mới
           </Button>
           <Button
@@ -56,13 +80,17 @@ function PdfViewer({ lecture }) {
       </div>
 
       <div className="h-[calc(100dvh-170px)] min-h-[420px] overflow-hidden rounded-card border border-border bg-surface shadow-soft">
-        <object data={`${url}#view=FitH`} type="application/pdf" className="h-full w-full">
-          <iframe src={`${url}#view=FitH`} title={lecture.title} className="h-full w-full border-0">
-            <div className="p-6 text-center text-text-muted">
-              Trình duyệt của bạn không hiển thị được PDF trực tiếp.
-            </div>
-          </iframe>
-        </object>
+        {isDocx ? (
+          <DocxFrame lecture={lecture} />
+        ) : (
+          <object data={`${url}#view=FitH`} type="application/pdf" className="h-full w-full">
+            <iframe src={`${url}#view=FitH`} title={lecture.title} className="h-full w-full border-0">
+              <div className="p-6 text-center text-text-muted">
+                Trình duyệt của bạn không hiển thị được PDF trực tiếp.
+              </div>
+            </iframe>
+          </object>
+        )}
       </div>
 
       <p className="mt-3 text-center text-[0.8rem] text-text-muted">
