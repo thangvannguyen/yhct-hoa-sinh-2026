@@ -18,7 +18,7 @@ export default function App() {
         <Route path="quiz-setup" element={<QuizSetup />} />
         <Route path="quiz" element={<QuizPlay />} />
         <Route path="quiz-result" element={<QuizResult />} />
-        <Route path="pdf" element={<Pdf />} />
+        <Route path="pdf/:lectureId?" element={<Pdf />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
