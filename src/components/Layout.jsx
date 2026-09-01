@@ -98,12 +98,40 @@ function ScrollTopButton() {
   )
 }
 
+const PAGE_TITLES = [
+  { test: (p) => p === '/', title: 'Trang chủ' },
+  { test: (p) => p.startsWith('/study/'), title: 'Học tập' },
+  { test: (p) => p.startsWith('/review-wrong'), title: 'Ôn tập câu sai' },
+  { test: (p) => p.startsWith('/quiz-setup'), title: 'Thiết lập ôn tập' },
+  { test: (p) => p.startsWith('/quiz-result'), title: 'Kết quả' },
+  { test: (p) => p.startsWith('/quiz'), title: 'Làm bài' },
+  { test: (p) => p.startsWith('/pdf'), title: 'Tài liệu PDF' },
+]
+
+function pageTitleFor(pathname) {
+  return PAGE_TITLES.find((r) => r.test(pathname))?.title || 'Hóa Sinh 07-2026'
+}
+
 export default function Layout() {
   const { pathname } = useLocation()
 
   // Scroll to top on route change so a new page never starts mid-scroll.
   useEffect(() => {
     window.scrollTo(0, 0)
+  }, [pathname])
+
+  // Update the document title and send a page_view to GA4 on every route change
+  // (client-side routing doesn't reload the page, so GA can't detect navigation on its own).
+  useEffect(() => {
+    const title = `${pageTitleFor(pathname)} — Hóa Sinh 07-2026`
+    document.title = title
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'page_view', {
+        page_title: title,
+        page_path: pathname,
+        page_location: window.location.href,
+      })
+    }
   }, [pathname])
 
   return (
