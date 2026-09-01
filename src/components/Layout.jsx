@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import { useApp } from '../lib/store.jsx'
 import { cx } from './ui.jsx'
+import { chapterTitleOf } from '../lib/data.js'
 
 function ModeToggle() {
   const { mode, setMode } = useApp()
@@ -100,7 +101,6 @@ function ScrollTopButton() {
 
 const PAGE_TITLES = [
   { test: (p) => p === '/', title: 'Trang chủ' },
-  { test: (p) => p.startsWith('/study/'), title: 'Học tập' },
   { test: (p) => p.startsWith('/review-wrong'), title: 'Ôn tập câu sai' },
   { test: (p) => p.startsWith('/quiz-setup'), title: 'Thiết lập ôn tập' },
   { test: (p) => p.startsWith('/quiz-result'), title: 'Kết quả' },
@@ -109,6 +109,12 @@ const PAGE_TITLES = [
 ]
 
 function pageTitleFor(pathname) {
+  const studyMatch = pathname.match(/^\/study\/([^/]+)/)
+  if (studyMatch) {
+    const chapterId = decodeURIComponent(studyMatch[1])
+    const chapterName = chapterId === 'all' ? 'Học tuần tự' : chapterTitleOf(chapterId)
+    return chapterName ? `Học tập — ${chapterName}` : 'Học tập'
+  }
   return PAGE_TITLES.find((r) => r.test(pathname))?.title || 'Hóa Sinh 07-2026'
 }
 
