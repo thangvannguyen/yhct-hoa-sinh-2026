@@ -2440,8 +2440,8 @@
           "id": "hemoglobin-3",
           "text": "Nhận định nào sau đây là đúng về CO2?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Structures_of_Hemoglobin_forms.png",
-          "explain": "Các đặc điểm \"ái lực với Hb lớn hơn O2\" và \"ngăn cản vận chuyển, giải phóng O2\" thực chất là tính chất của khí CO (carbon monoxide, gây ngộ độc do cạnh tranh vị trí gắn O2 trên Hem), KHÔNG phải của CO2. CO2 vận chuyển chủ yếu dưới dạng bicarbonat/carbamin-Hb và còn hỗ trợ giải phóng O2 (hiệu ứng Bohr) chứ không ngăn cản. Vì vậy các nhận định trên là sai khi gán cho CO2.",
-          "tip": "Dễ nhầm CO2 với CO: chỉ có CO mới 'giành chỗ' O2 trên Hb và gây ngộ độc.",
+          "explain": "CO2 là sản phẩm của quá trình oxy hóa (\"đốt cháy\") glucid, lipid, protid trong cơ thể để sinh năng lượng, cùng với H2O — đây là kiến thức sinh lý/hóa sinh cơ bản, nên nhận định A đúng. Ngược lại, \"ái lực với Hb lớn hơn O2\" và \"ngăn cản vận chuyển, giải phóng O2\" thực chất là tính chất của khí CO (carbon monoxide, gây ngộ độc do cạnh tranh vị trí gắn O2 trên Hem), KHÔNG phải của CO2 — CO2 còn hỗ trợ giải phóng O2 (hiệu ứng Bohr) chứ không ngăn cản. Vì B, C sai nên D và E đều sai; chỉ A đúng.",
+          "tip": "CO2 = sản phẩm của \"đốt cháy\" (oxy hóa) chất dinh dưỡng. Đừng nhầm với CO — chỉ CO mới 'giành chỗ' O2 trên Hb và gây ngộ độc.",
           "options": [
             "A. Sản phẩm của quá trình đốt cháy",
             "B. Ái lực với Hb lớn hơn O2",
@@ -2449,7 +2449,7 @@
             "D. A, B, C đúng",
             "E. A, B, C sai"
           ],
-          "correct": "E. A, B, C sai",
+          "correct": "A. Sản phẩm của quá trình đốt cháy",
           "flag": null
         },
         {
@@ -2792,8 +2792,8 @@
           "id": "hemoglobin-25",
           "text": "Gan chuyển hóa Bilirubin liên hợp bằng cách nào?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Heme_degradation_to_bilirubin.png",
-          "explain": "Sau khi được gan bài tiết theo mật xuống ruột, Bilirubin liên hợp được vi khuẩn đường ruột khử thành Urobilinogen, một phần tiếp tục chuyển thành Stercobilinogen (tạo màu phân) — đây là con đường chuyển hóa tiếp theo đúng của Bilirubin liên hợp. Việc kết hợp lại với Acid Glucuronic hay tạo Bilirubin gián tiếp là các chiều phản ứng sai/ngược.",
-          "tip": "Bilirubin liên hợp → (vi khuẩn ruột) → Urobilinogen → Stercobilinogen.",
+          "explain": "Câu hỏi này hỏi cụ thể việc GAN chuyển hóa Bilirubin liên hợp, nhưng cả 3 phát biểu đều không mô tả đúng việc gan làm: (A) là chiều phản ứng ngược (đó là cách tạo ra Bilirubin liên hợp, không phải chuyển hóa nó); (B) tạo Urobilinogen/Stercobilinogen là quá trình xảy ra ở RUỘT do vi khuẩn đường ruột thực hiện sau khi gan đã bài tiết Bilirubin liên hợp theo mật xuống ruột, không phải do gan trực tiếp làm; (C) tạo Bilirubin gián tiếp cũng là chiều ngược (khử liên hợp), không phải việc gan làm với Bilirubin liên hợp. Vì cả A, B, C đều sai khi gán cho GAN, đáp án đúng là E.",
+          "tip": "Gan chỉ liên hợp Bilirubin rồi bài tiết theo mật xuống ruột; việc tạo Urobilinogen/Stercobilinogen là do vi khuẩn RUỘT làm tiếp theo, không phải do gan.",
           "options": [
             "A. Kết hợp Bilirubin liên hợp và Acid Glucuronic",
             "B. Tạo Urobilinogen, Stercobilinogen",
@@ -2801,7 +2801,7 @@
             "D. A, B, C đúng",
             "E. A, B, C sai"
           ],
-          "correct": "B. Tạo Urobilinogen, Stercobilinogen",
+          "correct": "E. A, B, C sai",
           "flag": null
         },
         {
