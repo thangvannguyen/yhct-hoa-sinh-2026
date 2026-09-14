@@ -814,8 +814,8 @@
           "id": "lipid-16",
           "text": "Phân giải một Acid béo no mạch chẵn có 16 Carbon sẽ tạo được bao nhiêu ATP?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Beta-Oxidation2.svg",
-          "explain": "Acid Palmitic (C16) trải qua 7 chu kỳ β-oxi hóa tạo 8 Acetyl-CoA, 7 FADH2, 7 NADH. Theo cách tính kinh điển (FADH2=2ATP, NADH=3ATP, Acetyl-CoA qua Krebs=12ATP): 7×2 + 7×3 + 8×12 = 14+21+96 = 131 ATP, trừ 2 ATP hoạt hóa ban đầu, làm tròn theo giáo trình kinh điển là 130 ATP.",
-          "tip": "C16 (Palmitic) → 130 ATP — con số kinh điển hay gặp trong đề thi Hóa Sinh.",
+          "explain": "Acid Palmitic (C16) trải qua 7 chu kỳ β-oxi hóa tạo 8 Acetyl-CoA, 7 FADH2, 7 NADH. Theo cách tính kinh điển (FADH2=2ATP, NADH=3ATP, Acetyl-CoA qua Krebs=12ATP): 7×2 + 7×3 + 8×12 = 14+21+96 = 131 ATP, trừ 2 ATP hoạt hóa ban đầu = 129 ATP về mặt lý thuyết. Con số này không khớp chính xác với bất kỳ lựa chọn nào (gần nhất là 128 hoặc 130 tùy quy ước làm tròn của từng giáo trình); đáp án 130 được giữ theo tài liệu gốc của môn học nhưng cần đối chiếu thêm nếu giáo trình bạn học dùng quy ước khác.",
+          "tip": "C16 (Palmitic), tính theo cách kinh điển ra 129 ATP lý thuyết — đề thường làm tròn thành 130 hoặc 128 tùy tài liệu, cần đối chiếu với giáo trình cụ thể.",
           "options": [
             "A. 108",
             "B. 118",
@@ -996,8 +996,8 @@
           "id": "protid-7",
           "text": "Cấu trúc Protein bậc 2 gồm những loại liên kết nào?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Main_protein_structure_levels_en.svg",
-          "explain": "Cấu trúc bậc 2 (xoắn α, phiến gấp β) được hình thành và ổn định chủ yếu nhờ liên kết hydro giữa nhóm C=O và N-H của các liên kết peptid trong cùng chuỗi. Liên kết peptid thuộc cấu trúc bậc 1, còn liên kết disulfua thuộc cấu trúc bậc 3.",
-          "tip": "Bậc 2 = Hydro (giữ dáng xoắn/gấp); Bậc 1 = Peptid (chuỗi thẳng).",
+          "explain": "Cấu trúc bậc 2 (xoắn α, phiến gấp β) là kiểu gấp cục bộ của chính bộ khung peptid (mạch chính vẫn được nối bằng các liên kết peptid từ bậc 1), được giữ ổn định thêm nhờ liên kết hydro giữa nhóm C=O và N-H của các liên kết peptid trong cùng chuỗi. Vì vậy bậc 2 gồm cả liên kết peptid (bộ khung) lẫn liên kết hydro (yếu tố ổn định đặc trưng) — đáp án D. Liên kết disulfua chỉ xuất hiện ở cấu trúc bậc 3 nên không tính vào bậc 2.",
+          "tip": "Bậc 2 = Peptid (bộ khung, kế thừa từ bậc 1) + Hydro (giữ dáng xoắn/gấp). Disulfua mới thuộc về bậc 3.",
           "options": [
             "A. Liên kết Peptid",
             "B. Liên kết Hydro",
@@ -1005,7 +1005,7 @@
             "D. A và B đúng",
             "E. A, B và C đúng"
           ],
-          "correct": "B. Liên kết Hydro",
+          "correct": "D. A và B đúng",
           "flag": null
         },
         {
@@ -2061,7 +2061,7 @@
             "B. 5-10%",
             "C. 10-15%",
             "D. 0,1-0,2%",
-            "E. 10-15%"
+            "E. 20-25%"
           ],
           "correct": "A. 1-2%",
           "flag": null
@@ -2124,16 +2124,16 @@
           "id": "can-bang-acid-base-4",
           "text": "Giá trị bicarbonat chuẩn bằng bao nhiêu?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Acid-base_nomogram.svg",
-          "explain": "Bicarbonat chuẩn (Standard Bicarbonate - SB) là nồng độ HCO3- huyết tương đo trong điều kiện chuẩn (pCO2 = 40 mmHg, 37°C, bão hòa oxy hoàn toàn), giá trị bình thường xấp xỉ 22-26 mmol/l, tương ứng khoảng 25 ± 5. Các mức 36-44 quá cao so với nồng độ bicarbonat sinh lý bình thường nên không phù hợp.",
-          "tip": "Bicarbonat chuẩn dao động quanh 22-26, lấy mốc tròn 25 ± 5 để nhớ.",
+          "explain": "Bicarbonat chuẩn (Standard Bicarbonate - SB) là nồng độ HCO3- huyết tương đo trong điều kiện chuẩn (pCO2 = 40 mmHg, 37°C, bão hòa oxy hoàn toàn), giá trị bình thường xấp xỉ 22-26 mmol/l, tương ứng khoảng 25 ± 5 mmol/l (đơn vị mmol/l chứ không phải mmHg — mmHg chỉ dùng cho phân áp khí như pCO2). Các mức 36-44 quá cao so với nồng độ bicarbonat sinh lý bình thường nên không phù hợp.",
+          "tip": "Bicarbonat đo bằng mmol/l, dao động quanh 22-26, lấy mốc tròn 25 ± 5 để nhớ. Đừng nhầm đơn vị với pCO2 (mmHg).",
           "options": [
-            "A. 40 ± 4 mmHg",
-            "B. 44 ± 4 mmHg",
-            "C. 36 ± 4 mmHg",
-            "D. 25 ± 5 mmHg",
+            "A. 40 ± 4 mmol/l",
+            "B. 44 ± 4 mmol/l",
+            "C. 36 ± 4 mmol/l",
+            "D. 25 ± 5 mmol/l",
             "E. Tất cả đều sai"
           ],
-          "correct": "D. 25 ± 5 mmHg",
+          "correct": "D. 25 ± 5 mmol/l",
           "flag": null
         },
         {
@@ -2680,8 +2680,8 @@
           "id": "hemoglobin-18",
           "text": "Thành phần Porphyrin của Hem là yếu tố đông máu thứ mấy?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Heme_b.svg",
-          "explain": "Đây là một chi tiết ít gặp trong các giáo trình đông máu kinh điển (dãy yếu tố đông máu I–XIII chủ yếu là các protein huyết tương và ion Ca2+, không quy về thành phần Porphyrin của Hem một cách trực tiếp). Theo tài liệu giảng dạy của môn học này, đáp án được ghi nhận là yếu tố IX (Christmas factor) — một yếu tố đông máu tổng hợp tại gan.",
-          "tip": "Câu hỏi mang tính chi tiết đặc thù của giáo trình — cần đối chiếu lại với slide bài giảng gốc nếu có bảng yếu tố đông máu chi tiết.",
+          "explain": "Câu hỏi này không có cơ sở khoa học rõ ràng: Porphyrin (thành phần của Hem) không phải là tiền chất hay thành phần cấu tạo của bất kỳ yếu tố đông máu nào (các yếu tố đông máu I–XIII là các protein huyết tương/ion Ca2+ tổng hợp chủ yếu tại gan, không liên quan đến Porphyrin). Nhiều khả năng đây là lỗi trích xuất/OCR từ tài liệu gốc (có thể bị ghép nhầm từ 2 câu hỏi khác nhau). Chưa xác nhận được đáp án đúng trong 5 lựa chọn.",
+          "tip": null,
           "options": [
             "A. III",
             "B. VI",
@@ -2689,8 +2689,8 @@
             "D. IX",
             "E. XI"
           ],
-          "correct": "D. IX",
-          "flag": null
+          "correct": null,
+          "flag": "Câu hỏi có vẻ lỗi nguồn (Porphyrin không liên quan yếu tố đông máu) — cần đối chiếu lại data/doc_trac_nghiem/9. Hemoglobin.docx để xác nhận câu hỏi gốc."
         },
         {
           "id": "hemoglobin-19",
