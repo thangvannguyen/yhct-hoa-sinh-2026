@@ -280,8 +280,8 @@
           "id": "glucid-18",
           "text": "Hợp chất nào sau đây có cấu tạo gần giống Amylose?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Glycogen.svg",
-          "explain": "Glycogen là polysaccharid dự trữ ở động vật, cũng được cấu tạo từ các đơn vị Glucose nối bằng liên kết α-1,4 glycosid (giống mạch chính của Amylose), chỉ khác là Glycogen phân nhánh nhiều và dày đặc hơn (có thêm liên kết α-1,6). Cellulose (liên kết β), Pectin, Inulin, Heparin có cấu trúc hóa học khác hẳn.",
-          "tip": "Glycogen giống Amylose ở kiểu liên kết α-1,4 giữa các Glucose.",
+          "explain": "Amylose có cấu trúc mạch thẳng, KHÔNG phân nhánh (chỉ liên kết α-1,4). Cellulose cũng có cấu trúc mạch thẳng, không phân nhánh — điểm giống nhau về kiến trúc phân tử (chỉ khác kiểu liên kết glycosid là β-1,4 thay vì α-1,4, khiến người không tiêu hóa được Cellulose dù cấu trúc mạch khá tương đồng). Ngược lại, Glycogen phân nhánh dày đặc (thêm liên kết α-1,6 mỗi 8-12 gốc), nên về hình dạng/kiến trúc mạch lại khác Amylose nhiều hơn Cellulose.",
+          "tip": "Amylose và Cellulose đều là mạch thẳng không phân nhánh — chỉ khác kiểu liên kết α/β. Glycogen mới là polysaccharid phân nhánh nhiều.",
           "options": [
             "A. Cellulose",
             "B. Pectin",
@@ -289,7 +289,7 @@
             "D. Inulin",
             "E. Heparin"
           ],
-          "correct": "C. Glycogen",
+          "correct": "A. Cellulose",
           "flag": null
         },
         {
@@ -328,8 +328,8 @@
           "id": "glucid-21",
           "text": "Polysaccharid nào sau đây có ở thực vật và động vật?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Cellulose_Struktur_in_Sesselform.svg",
-          "explain": "Cellulose chủ yếu có ở vách tế bào thực vật, nhưng cũng được tìm thấy ở một số động vật (điển hình là các loài hải tiêu - tunicate, nhóm động vật duy nhất tự tổng hợp được cellulose). Inulin chỉ có ở thực vật; Heparin, Glycogen, Hyaluronic acid chỉ có ở động vật.",
-          "tip": "Cellulose: cây có, hải tiêu (động vật) cũng có.",
+          "explain": "Glycogen là polysaccharid dự trữ năng lượng có mặt ở cả động vật (gan, cơ) lẫn nấm/vi sinh vật; Inulin chỉ có ở thực vật, còn Heparin và Hyaluronic acid chỉ có ở động vật — nên trong 5 lựa chọn, Glycogen là đáp án phù hợp nhất cho polysaccharid xuất hiện ở cả hai giới. Cellulose chủ yếu đặc trưng cho vách tế bào thực vật, không phải lựa chọn chuẩn cho câu hỏi này.",
+          "tip": "Glycogen không chỉ có ở động vật mà còn ở nấm/vi sinh vật — nên tính là có ở 'cả hai'.",
           "options": [
             "A. Cellulose",
             "B. Inulin",
@@ -337,7 +337,7 @@
             "D. Glycogen",
             "E. Hyraluronic"
           ],
-          "correct": "A. Cellulose",
+          "correct": "D. Glycogen",
           "flag": null
         },
         {
@@ -376,8 +376,8 @@
           "id": "glucid-24",
           "text": "Điền vào chỗ '...': Giai đoạn oxi hóa của chu trình...(1)..., chuyển đổi...(2)...thành Ribulose-5P. Giải phóng NADPH, là nguyên liệu cần thiết cho sinh tổng hợp acid béo.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
-          "explain": "Giai đoạn oxy hóa của chu trình Pentose phosphat chuyển Glucose-6P thành Ribulose-5P (qua nhiều bước, khử CO2), đồng thời giải phóng NADPH dùng cho sinh tổng hợp acid béo và hormon steroid. Glucose-1P không phải là chất nền của chu trình này.",
-          "tip": "Pentose phosphat: Glucose-6P → Ribulose-5P + NADPH.",
+          "explain": "'Chu trình hexose monophosphat' và 'chu trình pentose phosphat' là hai tên gọi khác nhau của CÙNG một con đường chuyển hóa (slide bài giảng ghi rõ: 'hexose monophosphat (pentose phosphat, chu trình pentose)'). Giai đoạn oxy hóa của chu trình này chuyển Glucose-6P thành Ribulose-5P, giải phóng NADPH dùng cho sinh tổng hợp acid béo. Vì cả 'monophosphat' (A) và 'pentose phosphat' (B) đều là tên đúng của cùng chu trình, nên cả A và B đều đúng — đáp án D. Glucose-1P (trong C) không phải chất nền của chu trình này nên C sai.",
+          "tip": "Hexose monophosphat = Pentose phosphat — hai tên gọi của cùng 1 chu trình, nên cả A và B đều đúng.",
           "options": [
             "A. (1)monophosphat, (2) Glucose-6P",
             "B. (1)pentose phosphat, (2) Glucose-6P",
@@ -385,7 +385,7 @@
             "D. A và B đúng",
             "E. Tất cả đều sai"
           ],
-          "correct": "B. (1)pentose phosphat, (2) Glucose-6P",
+          "correct": "D. A và B đúng",
           "flag": null
         },
         {
@@ -408,8 +408,8 @@
           "id": "glucid-26",
           "text": "Điền vào chỗ '...': Giai đoạn 2 của chu trình hexose monophosphat là quá trình không oxi hóa chuyển đổi...(1)... thành...(2)..., tiếp tục chuyển đổi thành Glucose-6P và lặp lại chu trình từ giai đoạn 1.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pentose_phosphate_pathway_en.svg",
-          "explain": "Ở giai đoạn không oxy hóa, các sản phẩm trung gian được tạo ra từ Ribulose-5P qua các phản ứng của transketolase/transaldolase, trong đó có Glyceraldehyde-3-P; chất này tiếp tục chuyển đổi (qua 1,3-biphosphoglycerat) theo con đường tân tạo đường để tái tạo lại Glucose-6P, khép kín chu trình.",
-          "tip": "Giai đoạn 2: các đường 3-7C tráo đổi cho nhau, cuối cùng quay lại Glucose-6P.",
+          "explain": "Ở giai đoạn không oxy hóa, transketolase/transaldolase tráo đổi các đường 3-7C từ Ribulose-5P, tạo trực tiếp ra Glyceraldehyde-3-P và Fructose-6-P — đây mới là 2 sản phẩm thực sự của giai đoạn này. Để 'tiếp tục chuyển đổi thành Glucose-6P' (khép kín chu trình), Glyceraldehyde-3-P phải đi theo chiều TÂN TẠO ĐƯỜNG (ngưng tụ với Dihydroxyaceton-P nhờ aldolase → Fructose-1,6-BP → Glucose-6P), KHÔNG đi qua 1,3-biphosphoglycerat — vì chiều Glyceraldehyde-3-P → 1,3-biphosphoglycerat lại chính là chiều ĐƯỜNG PHÂN (đi ra xa Glucose-6P, về phía Pyruvat), ngược hướng với yêu cầu đề bài. Do đó cả 4 lựa chọn A-D đều mô tả sai chiều hoặc sai chất trung gian cho việc khép kín chu trình về Glucose-6P — đáp án đúng là E.",
+          "tip": "Muốn quay lại Glucose-6P, Glyceraldehyde-3-P phải ngưng tụ với DHAP (nhờ aldolase) → Fructose-1,6-BP, KHÔNG đi qua 1,3-biphosphoglycerat (đó là chiều đường phân, đi ngược hướng).",
           "options": [
             "A. (1) Dihydroxyaceton-P, (2) Glyceraldehyde-3-P",
             "B. (1) Dihydroxyaceton-P, (2) 1,3 biphosphoglycerate",
@@ -417,7 +417,7 @@
             "D. (1) 3P-glycerate, (2) 1,3 biphosphoglycerate",
             "E. Tất cả đều sai"
           ],
-          "correct": "C. (1) Glyceraldehyde-3-P, (2) 1,3 biphosphoglycerate",
+          "correct": "E. Tất cả đều sai",
           "flag": null
         },
         {
@@ -878,8 +878,8 @@
           "id": "lipid-20",
           "text": "Hormon nào sau đây làm giảm tổng hợp và tăng cường thoái hóa Lipid?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Cortisol2.svg",
-          "explain": "GH (Growth Hormone) có tác dụng huy động mỡ dự trữ: kích thích ly giải lipid (lipolysis) ở mô mỡ, giảm tổng hợp lipid, làm tăng acid béo tự do trong máu để cung cấp năng lượng — đây là tác dụng đối kháng insulin điển hình của GH. Ngược lại, Insulin thúc đẩy tổng hợp và dự trữ lipid.",
-          "tip": "Insulin dự trữ mỡ; GH huy động mỡ (tăng thoái hóa, giảm tổng hợp lipid) — tác dụng đối kháng Insulin.",
+          "explain": "Theo slide bài giảng: Glucocorticoid (Cortisol) 'hoạt hóa lipase VÀ hạn chế tổng hợp lipid' — khớp chính xác cả 2 vế của câu hỏi (giảm tổng hợp + tăng thoái hóa). Thyroxin và GH chỉ có 'tác dụng CHẬM lên sự phân hủy lipid' (chỉ chạm nhẹ đến thoái hóa, không nói rõ về giảm tổng hợp), nên chưa khớp đầy đủ 2 tiêu chí như Cortisol. Insulin và PGE1 lại có tác dụng ngược lại (chống thoái hóa, tăng tổng hợp lipid).",
+          "tip": "Cortisol (Glucocorticoid) = hoạt hóa lipase (tăng thoái hóa) + hạn chế tổng hợp lipid — khớp đủ cả 2 vế câu hỏi.",
           "options": [
             "A. Insulin",
             "B. Thyroxyn",
@@ -887,7 +887,7 @@
             "D. PGE1",
             "E. Cortisol"
           ],
-          "correct": "C. GH",
+          "correct": "E. Cortisol",
           "flag": null
         }
       ]
