@@ -916,8 +916,8 @@
           "id": "protid-2",
           "text": "Trong số Acid amin tham gia cấu trúc Protein trong cơ thể người, có bao nhiêu Acid amin kiềm?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/AminoAcidball.svg",
-          "explain": "Theo phân loại chuẩn, 20 acid amin cấu tạo protein được chia thành nhóm acid (Aspartic, Glutamic = 2), nhóm kiềm (Lysin, Arginin, Histidin = 3) và các nhóm trung tính khác. Đây là câu hỏi có dữ liệu gốc chưa rõ ràng (đáp số 3 acid amin kiềm chuẩn không khớp trực tiếp với các lựa chọn), nên đáp án được chọn theo lựa chọn gần nhất trong đề.",
-          "tip": "3 acid amin kiềm cần nhớ: Lysin, Arginin, Histidin.",
+          "explain": "Theo phân loại chuẩn, 20 acid amin cấu tạo protein có đúng 3 acid amin kiềm: Lysin, Arginin, Histidin. Con số 3 này không khớp với bất kỳ lựa chọn nào trong 5 đáp án (2, 5, 13, 10, 15) — câu hỏi gốc có vẻ bị lỗi số liệu. Chưa xác nhận được đáp án đúng trong 5 lựa chọn.",
+          "tip": "3 acid amin kiềm cần nhớ: Lysin, Arginin, Histidin — không khớp lựa chọn nào trong đề này.",
           "options": [
             "A. 2",
             "B. 5",
@@ -925,8 +925,8 @@
             "D. 10",
             "E. 15"
           ],
-          "correct": "C. 13",
-          "flag": null
+          "correct": null,
+          "flag": "Đáp án đúng thực sự (3 acid amin kiềm) không có trong 5 lựa chọn — câu hỏi gốc có vẻ lỗi số liệu, cần đối chiếu lại data/doc_trac_nghiem/3. Protid.docx."
         },
         {
           "id": "protid-3",
@@ -964,8 +964,8 @@
           "id": "protid-5",
           "text": "Chọn Acid amin có tính kiềm.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/AminoAcidball.svg",
-          "explain": "Trong 5 lựa chọn này không có acid amin kiềm thực sự (3 acid amin kiềm chuẩn là Lysin, Arginin, Histidin); trong nhóm còn lại, Alanin có pI gần trung tính cao nhất nên được xem là lựa chọn gần đúng nhất, trong khi Aspartic mang tính acid rõ rệt.",
-          "tip": "3 acid amin kiềm chuẩn: Lysin, Arginin, Histidin (không xuất hiện trong đáp án ở đây).",
+          "explain": "3 acid amin kiềm chuẩn là Lysin, Arginin, Histidin — không có lựa chọn nào trong 5 đáp án (Asparagin, Serin, Alanin, Glycin, Aspartic) thực sự là acid amin kiềm; Aspartic thậm chí có tính acid. Câu hỏi gốc có vẻ lỗi (thiếu đáp án đúng thật sự). Chưa xác nhận được đáp án đúng trong 5 lựa chọn.",
+          "tip": "3 acid amin kiềm chuẩn: Lysin, Arginin, Histidin — không có mặt trong đề này.",
           "options": [
             "A. Asparagin",
             "B. Serin",
@@ -973,8 +973,8 @@
             "D. Glycin",
             "E. Aspartic"
           ],
-          "correct": "C. Alanin",
-          "flag": null
+          "correct": "A. Asparagin",
+          "flag": "Không có lựa chọn nào là acid amin kiềm thực sự — câu hỏi gốc có vẻ lỗi, cần đối chiếu lại data/doc_trac_nghiem/3. Protid.docx."
         },
         {
           "id": "protid-6",
