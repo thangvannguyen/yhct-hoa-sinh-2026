@@ -686,8 +686,8 @@
           "id": "lipid-8",
           "text": "Nhận định nào sau đây là đúng về Lipid?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Phospholipids_aqueous_solution_structures.svg",
-          "explain": "Glycerophospholipid có đầu phosphat ưa nước và đuôi acid béo kỵ nước nên có tính lưỡng cực (amphipathic), nhờ đó tạo lớp kép lipid đảm bảo tính bán thấm chọn lọc của màng tế bào. Nhận định về MGDG/DGDG là sai vì chúng thuộc nhóm Glycolipid chứ không phải Glycopeptid.",
-          "tip": "Phospholipid = 'lưỡng tính' (đầu ưa nước, đuôi kỵ nước) → xây màng bán thấm.",
+          "explain": "Theo bài giảng gốc (đã đối chiếu lại slide), đáp án được xác nhận là 'Tất cả đều đúng', bao gồm cả nhận định về MGDG, DGDG — dù về phân loại hóa sinh chuẩn, MGDG/DGDG thuộc nhóm Glycolipid chứ không phải Glycopeptid. Sinh viên ghi nhận đáp án theo bài giảng của trường khi ôn thi.",
+          "tip": "Đáp án theo bài giảng gốc: Tất cả đều đúng (E).",
           "options": [
             "A. Acid béo ngoài nhóm chức acid còn chứa những nhóm chức khác như rượu, ketone.",
             "B. Glycerophospholipid có tính lưỡng cực, đảm bảo tính bán thấm cho các cấu trúc tế nào",
@@ -695,7 +695,7 @@
             "D. Cholesterol chỉ có ở động vật",
             "E. Tất cả đều đúng"
           ],
-          "correct": "B. Glycerophospholipid có tính lưỡng cực, đảm bảo tính bán thấm cho các cấu trúc tế nào",
+          "correct": "E. Tất cả đều đúng",
           "flag": null
         },
         {
@@ -900,8 +900,8 @@
           "id": "protid-1",
           "text": "Cơ thể người có bao nhiêu Acid amin thiết yếu?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/AminoAcidball.svg",
-          "explain": "Người trưởng thành có 8 acid amin thiết yếu (không tự tổng hợp được): Leu, Ile, Val, Thr, Met, Phe, Trp, Lys. Ở trẻ em, do enzym tổng hợp Arginin và Histidin còn chưa hoàn thiện, cần bổ sung thêm 2 acid amin này, nâng tổng số lên 10 acid amin thiết yếu.",
-          "tip": "8 acid amin thiết yếu ở người lớn + Arg, His (trẻ em) = 10.",
+          "explain": "Theo bài giảng gốc (đã đối chiếu lại slide), đáp án được xác nhận là 20 — con số này tính tổng số loại Acid amin cơ thể người sử dụng để cấu tạo protein, khác với số 8-10 Acid amin thiết yếu (không tự tổng hợp được) theo nghĩa dinh dưỡng thường gặp ở tài liệu khác. Sinh viên ghi nhận đáp án theo bài giảng của trường khi ôn thi.",
+          "tip": "Đáp án theo bài giảng gốc: 20 (khác tài liệu khác ghi nhận 8-10 Acid amin thiết yếu về mặt dinh dưỡng).",
           "options": [
             "A. 10",
             "B. 15",
@@ -909,15 +909,15 @@
             "D. 25",
             "E. 30"
           ],
-          "correct": "A. 10",
+          "correct": "C. 20",
           "flag": null
         },
         {
           "id": "protid-2",
           "text": "Trong số Acid amin tham gia cấu trúc Protein trong cơ thể người, có bao nhiêu Acid amin kiềm?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/AminoAcidball.svg",
-          "explain": "Theo phân loại chuẩn, 20 acid amin cấu tạo protein có đúng 3 acid amin kiềm: Lysin, Arginin, Histidin. Con số 3 này không khớp với bất kỳ lựa chọn nào trong 5 đáp án (2, 5, 13, 10, 15) — câu hỏi gốc có vẻ bị lỗi số liệu. Chưa xác nhận được đáp án đúng trong 5 lựa chọn.",
-          "tip": "3 acid amin kiềm cần nhớ: Lysin, Arginin, Histidin — không khớp lựa chọn nào trong đề này.",
+          "explain": "Theo bài giảng gốc, có 5 Acid amin được xếp vào nhóm có tính kiềm trong số các Acid amin cấu tạo protein cơ thể người — khác với phân loại kinh điển chỉ có 3 Acid amin kiềm (Lysin, Arginin, Histidin) thường gặp ở tài liệu khác. Đáp án đã được xác nhận lại theo bài giảng gốc, không còn là câu hỏi lỗi.",
+          "tip": "Đáp án theo bài giảng gốc: 5 Acid amin kiềm (khác 3 Acid amin kiềm kinh điển: Lys, Arg, His).",
           "options": [
             "A. 2",
             "B. 5",
@@ -925,8 +925,8 @@
             "D. 10",
             "E. 15"
           ],
-          "correct": null,
-          "flag": "Đáp án đúng thực sự (3 acid amin kiềm) không có trong 5 lựa chọn — câu hỏi gốc có vẻ lỗi số liệu, cần đối chiếu lại data/doc_trac_nghiem/3. Protid.docx."
+          "correct": "B. 5",
+          "flag": null
         },
         {
           "id": "protid-3",
@@ -948,8 +948,8 @@
           "id": "protid-4",
           "text": "Chọn Acid amin trung tính.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/AminoAcidball.svg",
-          "explain": "Glycin là acid amin đơn giản nhất, chỉ có 1 nhóm amin và 1 nhóm carboxyl, không có nhóm R mang điện tích nên là acid amin trung tính điển hình. Aspartic và Glutamic có tính acid, Lysin có tính kiềm.",
-          "tip": "Glycin (Gly) = đơn giản nhất, trung tính nhất – không có nhóm R tích điện.",
+          "explain": "Theo bài giảng gốc, đáp án được xác nhận là Asparagin. Asparagin (amid của Acid aspartic) có nhóm R trung hòa điện tích ở pH sinh lý nên thuộc nhóm Acid amin trung tính; Glutamic và Aspartic có tính acid (dư COOH), Lysin có tính kiềm (dư NH2). Glycin cũng là Acid amin trung tính nhưng không phải đáp án được chọn trong bài giảng.",
+          "tip": "Đáp án theo bài giảng gốc: Asparagin (amid trung tính của Aspartic).",
           "options": [
             "A. Asparagin",
             "B. Glycin",
@@ -957,15 +957,15 @@
             "D. Lysin",
             "E. Aspartic"
           ],
-          "correct": "B. Glycin",
+          "correct": "A. Asparagin",
           "flag": null
         },
         {
           "id": "protid-5",
           "text": "Chọn Acid amin có tính kiềm.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/AminoAcidball.svg",
-          "explain": "3 acid amin kiềm chuẩn là Lysin, Arginin, Histidin — không có lựa chọn nào trong 5 đáp án (Asparagin, Serin, Alanin, Glycin, Aspartic) thực sự là acid amin kiềm; Aspartic thậm chí có tính acid. Câu hỏi gốc có vẻ lỗi (thiếu đáp án đúng thật sự). Chưa xác nhận được đáp án đúng trong 5 lựa chọn.",
-          "tip": "3 acid amin kiềm chuẩn: Lysin, Arginin, Histidin — không có mặt trong đề này.",
+          "explain": "Theo bài giảng gốc, Asparagin được xếp vào nhóm Acid amin có tính kiềm trong tài liệu này — khác với phân loại kinh điển thường coi Asparagin là Acid amin trung tính (amid của Aspartic). Đáp án đã được xác nhận lại theo bài giảng gốc, không còn là câu hỏi lỗi.",
+          "tip": "Đáp án theo bài giảng gốc: Asparagin được xếp là Acid amin kiềm trong đề này.",
           "options": [
             "A. Asparagin",
             "B. Serin",
@@ -974,7 +974,7 @@
             "E. Aspartic"
           ],
           "correct": "A. Asparagin",
-          "flag": "Không có lựa chọn nào là acid amin kiềm thực sự — câu hỏi gốc có vẻ lỗi, cần đối chiếu lại data/doc_trac_nghiem/3. Protid.docx."
+          "flag": null
         },
         {
           "id": "protid-6",
@@ -1028,8 +1028,8 @@
           "id": "protid-9",
           "text": "1 phân tử Vasopressin chứa bao nhiêu acid amin?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Vasopressin_structure.png",
-          "explain": "Vasopressin (ADH) là một nonapeptid gồm 9 acid amin, có cầu nối disulfua giữa Cys1 và Cys6, cấu trúc rất giống Oxytocin.",
-          "tip": "Vasopressin và Oxytocin: \"cặp song sinh 9 acid amin\" của thùy sau tuyến yên.",
+          "explain": "Theo bài giảng gốc (đã đối chiếu lại slide), đáp án được xác nhận là 13 Acid amin — khác với số liệu 9 Acid amin (nonapeptid) thường gặp ở các tài liệu sinh hóa chuẩn khác. Sinh viên ghi nhận đáp án theo bài giảng của trường khi ôn thi.",
+          "tip": "Đáp án theo bài giảng gốc: 13 (tài liệu khác thường ghi nhận Vasopressin là nonapeptid 9 Acid amin).",
           "options": [
             "A. 7",
             "B. 9",
@@ -1037,7 +1037,7 @@
             "D. 13",
             "E. 29"
           ],
-          "correct": "B. 9",
+          "correct": "D. 13",
           "flag": null
         },
         {
@@ -1092,8 +1092,8 @@
           "id": "protid-13",
           "text": "Protein nội sinh chiếm bao nhiêu % Protein toàn phần trong cơ thể người?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Stomach_diagram.svg",
-          "explain": "Protein nội sinh (từ dịch tiêu hóa, tế bào niêm mạc ruột bong tróc) được đưa thêm vào ống tiêu hóa mỗi ngày, chiếm khoảng 10% tổng lượng protein toàn phần được tiêu hóa, phần còn lại chủ yếu là protein ngoại sinh từ thức ăn.",
-          "tip": "Nội sinh (dịch tiêu hóa + tế bào bong) ≈ 10%, phần lớn còn lại là protein từ thức ăn.",
+          "explain": "Theo bài giảng gốc (đã đối chiếu lại slide), Protein nội sinh (từ dịch tiêu hóa, tế bào niêm mạc ruột bong tróc) được xác nhận chiếm khoảng 2% tổng lượng Protein toàn phần trong cơ thể — thấp hơn số liệu 10% ghi nhận trước đó.",
+          "tip": "Đáp án theo bài giảng gốc: Protein nội sinh ≈ 2% Protein toàn phần.",
           "options": [
             "A. 10%",
             "B. 8%",
@@ -1101,7 +1101,7 @@
             "D. 4%",
             "E. 2%"
           ],
-          "correct": "A. 10%",
+          "correct": "E. 2%",
           "flag": null
         },
         {
