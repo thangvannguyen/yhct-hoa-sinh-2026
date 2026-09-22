@@ -49,7 +49,12 @@ export function lectureUrl(lecture) {
 // Word docs can't be embedded natively like PDFs, so route them through
 // Microsoft's Office Online viewer. It needs a publicly reachable absolute
 // URL, which only exists once the site is deployed (not on localhost).
+//
+// The viewer caches the rendered file by URL, so a `?v=<build id>` param is
+// appended to bust that cache whenever the docx content changes and the site
+// is rebuilt — otherwise it keeps showing a stale preview after deploys.
 export function officeViewerUrl(lecture) {
-  const absoluteUrl = new URL(lectureUrl(lecture), window.location.href).href
-  return `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(absoluteUrl)}`
+  const url = new URL(lectureUrl(lecture), window.location.href)
+  url.searchParams.set('v', __BUILD_ID__)
+  return `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(url.href)}`
 }
