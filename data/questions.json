@@ -1316,8 +1316,8 @@
           "id": "protid-27",
           "text": "Quá trình khử amin diễn ra ở đâu?",
           "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Urea_cycle.svg",
-          "explain": "Quá trình khử amin oxy hóa (chủ yếu qua enzym Glutamat dehydrogenase) diễn ra ở ty thể, nơi Glutamat được khử amin giải phóng NH3 và α-cetoglutarat, cung cấp nguyên liệu cho chu trình ure và chu trình Krebs.",
-          "tip": "Khử amin oxy hóa diễn ra ở Ty thể (cùng nơi bắt đầu chu trình ure).",
+          "explain": "Khử amin oxy hóa (chủ yếu qua Glutamat dehydrogenase) diễn ra ở ty thể, nhưng khử amin không oxy hóa (như khử amin thủy phân, khử amin nội phân tử) có thể xảy ra ở bào tương. Vì vậy quá trình khử amin nói chung diễn ra ở cả ty thể lẫn bào tương.",
+          "tip": "Khử amin xảy ra ở cả Ty thể (oxy hóa) và Bào tương (không oxy hóa).",
           "options": [
             "A. Ty thể",
             "B. Bào tương",
@@ -1325,7 +1325,7 @@
             "D. A và B đúng",
             "E. Tất cả đều sai"
           ],
-          "correct": "A. Ty thể",
+          "correct": "D. A và B đúng",
           "flag": null
         },
         {
@@ -1594,8 +1594,8 @@
           "id": "acid-nucleic-9",
           "text": "Nhận định nào sau đây là đúng về Nucleic",
           "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/DNA_molecular_structure%2C_showing_individual_nucleotides_and_bonds.jpg",
-          "explain": "Mọi acid nucleic (cả AND và ARN) đều được cấu tạo từ các nguyên tố C, H, O, N và P - đây là phát biểu đúng và tổng quát nhất. Ý B chưa chính xác vì nhiễm sắc thể chỉ gồm AND và protein histon (không có ARN cấu trúc), nên đáp án 'tất cả đều đúng' không phù hợp.",
-          "tip": "Acid Nucleic luôn có đủ 'bộ ngũ nguyên tố' C-H-O-N-P.",
+          "explain": "Cả 4 ý A, B, C, D đều là phát biểu đúng: AND có khả năng biến tính/hồi tính; nhiễm sắc thể là mức tổ chức cao nhất của AND; mọi acid nucleic đều chứa C, H, O, N, P; và ribosome của mọi tế bào đều gồm một tiểu đơn vị nhỏ và một tiểu đơn vị lớn. Do đó đáp án đúng là 'Tất cả đều đúng'.",
+          "tip": "Khi mọi ý A-D đều đúng riêng lẻ, đáp án chung là 'Tất cả đều đúng'.",
           "options": [
             "A. AND có khả năng biến tính và hồi tính.",
             "B. Nhiễm sắc thể là mức độ tổ chức cao nhất của AND, bao gồm cả AND và ARN",
@@ -1603,7 +1603,7 @@
             "D. Ribosome của mọi tế bào đều gồm một tiểu đơn vị nhỏ và một tiểu đơn vị lớn",
             "E. Tất cả đều đúng"
           ],
-          "correct": "C. Các Nucleic có chứa các nguyên tố C, H, O, N và P",
+          "correct": "E. Tất cả đều đúng",
           "flag": null
         },
         {
